@@ -313,3 +313,14 @@ $('#return-to-top').click(function() {
         })
     }
 }(jQuery);
+
+app.use(express.static('public', {
+    etag: true, // Just being explicit about the default.
+    lastModified: true,  // Just being explicit about the default.
+    setHeaders: (res, path) => {
+      if (path.endsWith('.html')) {
+        // All of the project's HTML files end in .html
+        res.setHeader('Cache-Control', 'no-cache');
+      }
+    },
+  }));
