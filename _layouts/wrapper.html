@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.title }}</title>
-
     {% include meta.html %}
     <meta name="theme-color" content="#c92c2c">
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
@@ -21,10 +19,8 @@
     <link rel="stylesheet" href="/assets/css/responsive.min.css">
     <link rel="stylesheet" href="/assets/css/modal.min.css">
     <link rel="stylesheet" href="/assets/css/jquery.toast.min.css">
-    <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.17.1/build/styles/default.min.css">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.17.1/build/styles/default.min.css">
     <link rel=alternate type=application/rss+xml title="RSS feed" href="/feed.xml">
-
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-79631820-1"></script>
     <script>
@@ -99,7 +95,6 @@
     <section class="modal modal--signuplogin">
         <div class="modal__overlay modal__overlay--toggle"></div>
         <div class="modal__wrapper modal-transition">
-
             <div class="modal__body">
                 <div class="modal__content modal__content--isbank">
                     <div class="modal__form form">
@@ -411,7 +406,6 @@
 -->
 <!-- IS BANKASI POP UP  -->
 
-
 <!-- ADISYO YENILIK POP UP  -->
     <div id="isBankKampanya" class="qrmenu-popup-main">
     <div id="ed_Anasayfa_Bar_bar_text" class="qrmenu-popup-main-text">
@@ -448,7 +442,6 @@
 <script src="/assets/js/main.js"></script>
 <script src="/assets/js/modal-custom.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.17.1/build/highlight.min.js"></script>
-
 <!-- contact js -->
 <script src="/assets/js/jquery.form.js"></script>
 <script src="/assets/js/jquery.validate.min.js"></script>
@@ -478,18 +471,15 @@
             loader: false
         });
     }
-
     function toggleModal() {
         $(".modal__overlay--toggle").click();
     }
 </script>
-
  <!-- Yandex.Metrika counter -->
  <script type="text/javascript" >
     (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
     m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
     (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
- 
     ym(52646800, "init", {
          clickmap:true,
          trackLinks:true,
@@ -497,5 +487,5 @@
          webvisor:true
     });
  </script> 
- 
+
 </html>
