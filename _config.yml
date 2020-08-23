@@ -32,6 +32,15 @@ store_windows: https://adisyo.com/downloads/adisyo-desktop/AdisyoDesktopInstalle
 
 timezone: Turkey
 
+exclude: 
+  - git
+  - notlar.txt
+  - README.md
+  - azure-pipelines.yml
+  - Gemfile
+  - Gemfile.lock
+  - redirects.json
+
 # Build settings
 markdown: kramdown
 theme: minima
