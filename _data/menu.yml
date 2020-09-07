@@ -17,11 +17,6 @@
       icon: ti-mobiluygulama
       isButton: false
 
-    # - id: 12
-    #   title: Offline Çalışma
-    #   url: /ozellikler/offline-calisma/
-    #   icon: ti-offline
-
     - id: 33
       title: Gelişmiş Raporlama
       url: /ozellikler/gelismis-raporlama/
