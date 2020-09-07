@@ -46,7 +46,6 @@
       url: /ozellikler/
       icon: 
       isButton: true
-
 - id: 2
   title: FİYATLAR
   url: /fiyatlar/
