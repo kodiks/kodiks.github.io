@@ -7,42 +7,42 @@
   subitems:
     - id: 31
       title: Dijital Cep Menü
-      url: /ozellikler/dijital-menu
+      url: /ozellikler/dijital-menu/
       icon: ti-dijitalmenu
       isButton: false
 
     - id: 32
       title: Mobil Uygulamalar
-      url: /ozellikler/mobil-uygulamalar
+      url: /ozellikler/mobil-uygulamalar/
       icon: ti-mobiluygulama
       isButton: false
 
     # - id: 12
     #   title: Offline Çalışma
-    #   url: /ozellikler/offline-calisma
+    #   url: /ozellikler/offline-calisma/
     #   icon: ti-offline
 
     - id: 33
       title: Gelişmiş Raporlama
-      url: /ozellikler/gelismis-raporlama
+      url: /ozellikler/gelismis-raporlama/
       icon: ti-reports
       isButton: false
 
     - id: 34
       title: Stok ve Reçete Takibi
-      url: /ozellikler/stok-takibi
+      url: /ozellikler/stok-takibi/
       icon: ti-stok
       isButton: false
 
     - id: 35
       title: Termal Yazıcı
-      url: /ozellikler/termal-yazici-mutfak
+      url: /ozellikler/termal-yazici-mutfak/
       icon: ti-termalyazici
       isButton: false
 
     - id: 36
       title: Entegrasyonlar
-      url: /ozellikler/entegrasyonlar
+      url: /ozellikler/entegrasyonlar/
       icon: ti-control-shuffle
       isButton: false
 
