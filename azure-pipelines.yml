@@ -20,6 +20,11 @@ steps:
   displayName: 'bundle install'
 
 - script: |
+    bundle update jekyll
+  displayName: 'update jekyll'
+  condition: failed()
+
+- script: |
     bundle install
     jekyll build
   displayName: 'jekyll'
