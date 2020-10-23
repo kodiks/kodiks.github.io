@@ -1,3 +1,2 @@
-User-agent: *
-Sitemap: https://adisyo.com/sitemap.xml
-
+User-Agent: *
+Disallow: /
