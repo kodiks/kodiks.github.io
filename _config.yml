@@ -23,7 +23,7 @@ url: "https://adisyo.com" # the base hostname & protocol for your site, e.g. htt
 address: "Business İstanbul - Merdivenköy Mah. Yumurtacı Abdibey Cd. No:10 B-Blok D:138 Kadıköy/İstanbul"
 phone: "+90 (216) 706 06 24"
 email: "destek@adisyo.com"
-working_hours: "Haftaiçi: 09.00-22.00, Haftasonu: 09.00-18.00"
+working_hours: "Haftaiçi: 09:00-22:00, Haftasonu: 09:00-18:00"
 copyright: Copyright © Adisyo 2014-2020. Tüm Hakları Saklıdır.
 
 store_google: https://play.google.com/store/apps/details?id=com.adisyo.mobile
