@@ -12,6 +12,12 @@ permalink: /banka-bilgilerimiz/
 * 2- Saat **18:00**'dan sonra yapılan ödemeler bir sonraki gün dikkate alınacaktır.
 <br /><br />
 
+
+{: .table .table-striped .table-bordered }
+| BANKA ADI      | HESAP ADI          | IBAN NO                         |
+| ---------------|:------------------:|:-------------------------------:|
+| QNB Finansbank | Adisyo Bilişim A.Ş | TR30 0011 1000 0000 0097 6927 42|
+
 {: .table .table-striped .table-bordered }
 | BANKA ADI              | HESAP ADI               | HESAP NO     | ŞUBE KOD   | IBAN NO                                |
 | -----------------------|:-----------------------:|:------------:|:----------:|:--------------------------------------:|
