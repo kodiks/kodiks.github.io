@@ -12442,3 +12442,21 @@ footer {
         display: flex!important
     }
 }
+
+/* Slider */
+
+.carousel-indicators li{
+    width: 10px !important;
+    height: 10px !important;
+    border: 2px solid #c82c2d !important;
+    border-radius: 100% !important;
+}
+
+.carousel-indicators li:hover{
+    background-color: #c82c2d !important
+}
+
+.carousel-indicators .active{
+    background-color: #c82c2d !important;
+}
+
