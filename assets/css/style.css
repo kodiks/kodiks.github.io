@@ -12445,18 +12445,59 @@ footer {
 
 /* Slider */
 
-.carousel-indicators li{
+.carousel-indicators li:not(.prev-li):not(.next-li){
     width: 10px !important;
     height: 10px !important;
     border: 2px solid #c82c2d !important;
     border-radius: 100% !important;
+    
 }
-
-.carousel-indicators li:hover{
-    background-color: #c82c2d !important
+.carousel-indicators li:not(.prev-li):not(.next-li):hover{
+    background-color: #c82c2d !important;
+    border: none !important;
+    
 }
-
 .carousel-indicators .active{
     background-color: #c82c2d !important;
 }
-
+.agency_content h2{
+    font-size: 40px !important;
+}
+.carousel-indicators {
+    position: relative;
+    margin: 0;
+    max-width: 160px;
+    bottom: auto;
+}
+.carousel-control-prev, .carousel-control-next{
+    position: relative;
+    z-index: 99;
+    bottom: auto;
+    width: auto;
+    padding: 0 10px;
+}
+.carouse-indicator-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.prev-li::before, .next-li::before {
+    display: none !important;
+}
+.carousel-control-next-icon{
+    background-image: url("../img/caret-right-fill.svg") !important;
+}
+.carousel-control-prev-icon{
+    background-image: url("../img/caret-left-fill.svg") !important;
+}
+.carousel-indicators-content{
+    position: absolute;
+    bottom: 0;
+    width: 100%;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
