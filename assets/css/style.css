@@ -422,6 +422,8 @@ textarea:-webkit-autofill:hover {
     color: #c82c2d;
 }
 
+
+
 /* QRMENU POP-UP */
 .qrmenu-popup-main {
     z-index: 800;
@@ -1708,6 +1710,13 @@ input:-internal-autofill-selected {
         font: bold 2em Quicksand, sans-serif
     }
 }
+
+@media (max-width: 1663px){
+    .digital-menu-photo{
+        margin: 0px !important;
+    }
+}
+
 
 .header_area {
     position: fixed;
