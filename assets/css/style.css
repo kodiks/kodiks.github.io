@@ -329,7 +329,7 @@ textarea:-webkit-autofill:hover {
     z-index: 800;
     width: 100%;
     height: 70px;
-    background-color: #1b3481;
+    background-color: #444b63;
     position: fixed;
     bottom: 0;
     display: block
@@ -347,9 +347,9 @@ textarea:-webkit-autofill:hover {
 .isbank-link-btn-close {
     font: 500 14px Quicksand, sans-serif;
     padding: 15px 20px;
-    border: 2px solid #1b3481;
-    border-color: #1b3481;
-    color: #1b3481;
+    border: 2px solid #444b63;
+    border-color: #444b63;
+    color: #444b63;
     background-color: #fff;
     border-radius: 50px;
     margin-left: 5px;
@@ -402,7 +402,7 @@ textarea:-webkit-autofill:hover {
     border: 2px solid #fff;
     border-color: #fff;
     background-color: #fff;
-    color: #1b3481
+    color: #444b63
 }
 
 .isbank-text-white {
@@ -414,6 +414,14 @@ textarea:-webkit-autofill:hover {
     top: 0;
     margin-right: 5px
 }
+
+.bh-detail{
+    color: black;
+}
+.bh-detail:hover{
+    color: #c82c2d;
+}
+
 
 
 /* QRMENU POP-UP */
@@ -1702,6 +1710,13 @@ input:-internal-autofill-selected {
         font: bold 2em Quicksand, sans-serif
     }
 }
+
+@media (max-width: 1663px){
+    .digital-menu-photo{
+        margin: 0px !important;
+    }
+}
+
 
 .header_area {
     position: fixed;
