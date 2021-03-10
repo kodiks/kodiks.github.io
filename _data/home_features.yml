@@ -15,7 +15,7 @@
 - id: 3
   title: İstediğiniz Cihazdan Kullanın
   description: Adisyo sizi tek bir cihaz kullanmaya zorlamaz. İnternet olan herhangi bir cihazdan işlerinizi kolayca yönetebilirsiniz. Tabletler, akıllı telefonlar, bilgisayarlar.
-  icon: ti-mobile
+  icon: ti-heart
   color: green
   url: /ozellikler/tum-cihazlarda-erisim
 
