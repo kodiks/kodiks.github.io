@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: feature_detail
 order: 60
 title: Offline Çalışma
@@ -23,4 +23,4 @@ descriptions:
             <li><i class="ti-check"></i>Sınırsız kullanıcı ekleyebilirsiniz</li>
           </ul>
     image: /assets/img/home/features/offline02.png
----
+--- -->
