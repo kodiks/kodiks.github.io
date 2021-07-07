@@ -12516,3 +12516,69 @@ footer {
     align-items: center;
     justify-content: center;
 }
+
+/*Discount Label*/
+.discount-label {
+    padding:0px; 
+    position:absolute;
+    float:left;
+    margin-top:0px;
+    margin-left:-50px;
+    width:65px;
+   -webkit-border-radius:0 4px 0 4px;
+   -moz-border-radius:0 4px 0 4px;
+   border-radius:0 4px 4px 0;
+   }
+   .discount-label:after { 
+    left: 99%; 
+    border: solid transparent; content: " "; 
+    height: 0; 
+    width: 0; 
+    position: absolute;
+    border-color: rgba(136, 183, 213, 0);
+    border-width: 15px; 
+    top: 50%; 
+    margin-top: -15px;
+    } 
+    .discount-label:before {
+    content: '';
+    z-index: 2;
+    position: absolute;
+    top: 40%;
+    left: 99%;
+    width: 7px;
+    height: 7px;
+    opacity: .95;
+    background: #ffffff;
+    border-radius: 7px;
+    -webkit-box-shadow: inset .5px 0 rgba(0, 0, 0, 0.6);
+    box-shadow: inset .5px 0 rgba(0, 0, 0, 0.6);
+    }
+    .discount-label-span {
+      color:#ffffff;
+      font-size:15px;
+      text-align:center;
+      font-family:"Raleway",Helvetica;
+    }
+    .red{ 
+      background-color:#E80707; 
+    }
+
+    .red:after{ 
+      border-left-color: #E80707;
+    }
+    .integration-explanation{
+      font-size: 17px;margin-left: 35px;
+    }
+
+    @media (max-width:992px)  {
+        .discount-label {
+            margin-left:50px;
+        }
+        .integration-explanation{
+            margin-left: 135px;
+        }
+
+    }
+
+    
