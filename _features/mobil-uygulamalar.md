@@ -10,7 +10,7 @@ visible: true
 descriptions: 
   - title: Mobil Uygulamalar
     desc: |
-      <p class="f_p f_400">Google Play Store ve App Store üzerinden Adisyo Mobil uygulamalarımızı indirebilirsiniz. Adisyo ile tablet veya akıllı telefonlarınız ile de siparişlerinizi kolayca girip ödeme alabilir, mutfağınızı yönetebilirsiniz. Minimum sistem gereksimi: Android 6.0 ve iOS 9.0 üzeridir.</p>
+      <p class="f_p f_400">Google Play Store ve App Store üzerinden Adisyo Mobil uygulamalarımızı indirebilirsiniz. Adisyo ile tablet veya akıllı telefonlarınız ile de siparişlerinizi kolayca girip ödeme alabilir, mutfağınızı yönetebilirsiniz. Minimum sistem gereksimi: Android 5.0 ve iOS 9.0 üzeridir.</p>
     image: /assets/img/home/features/mobil-uygulama01.png
 
   - title: Devir Ekonomi Devri
