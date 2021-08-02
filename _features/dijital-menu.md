@@ -18,7 +18,7 @@ descriptions:
   - title: Dijital Cep Menü Özellikleri Nelerdir?
     desc: |
       <p class="f_p f_400">
-            İşletmeler için özel olarak geliştirilmiş, yeni nesil dijital menü sayesinde müşterileriniz,<b> temazsız olarak masalardaki QR kodu okutarak</b> işletmenin menüsüne hızlıca ulaşır ve istediği siparişi kolayca verebilir.
+            İşletmeler için özel olarak geliştirilmiş, yeni nesil dijital menü sayesinde müşterileriniz,<b> temassız olarak masalardaki QR kodu okutarak</b> işletmenin menüsüne hızlıca ulaşır ve istediği siparişi kolayca verebilir.
         </p>
           <ul class="list-unstyled mb-30">
             <li><i class="ti-check"></i>Temassız Kullanım</li>
