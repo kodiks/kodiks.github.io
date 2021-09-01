@@ -1,6 +1,6 @@
 ---
 layout: campaign
-title: BİZİM HESAP KAMPANYASI
-description: 31.12.2021 tarihine kadar geçerlidir.
+title: Adisyo Kampanyaları
+description: 
 permalink: /kampanya/
 ---
