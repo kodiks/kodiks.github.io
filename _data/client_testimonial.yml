@@ -1,3 +1,9 @@
+- id: 28
+  company_name: Pizza Tomato
+  owner:  İbrahim Yazgan
+  comment:  Çeyrek Asırdan bu yana sektörde varlığımızı koruyoruz.Adisyo Restoran Otomasyon Proğramı ve Ekibi ile iyiki Tanışmışız Gayet başarılı bir Ekip aldıklarının karşılığını kat ve kat işletmeye artı olarak geri döndürüyorlar. Tüm işletmelere tereddütsüz tavsiye ediyorum.Sürekli gelişim içerisinde olan Adisyo  ekibinde Yüksek düzeyde gelecek görüyorum Bu kulvarda Zirveyi hak ediyorlar.Allah yollarını açık etsin.
+  logo: /assets/img/home/testimonial/tomato.png
+
 - id: 27
   company_name: Corner Pizza
   owner: Ramazan Gümüş
