@@ -412,7 +412,7 @@ textarea:-webkit-autofill:hover {
 .is-bank-logo {
     position: relative;
     top: 0;
-    margin-right: 5px
+    margin-right: 0px
 }
 
 .bh-detail{
@@ -12581,35 +12581,44 @@ footer {
 
     }
 
-    /* Whatsapp Contact */
-    
-    a{
+      /* Whatsapp Concat */
+
+      .a-style{
         text-decoration:none;
       }
       .floating_btn {
         position: fixed;
-        bottom: 120px;
-        right: 7px;
+        bottom: 75px;
+        right: 112px;
         width: 100px;
-        height: 100px;
         display: flex;
-        flex-direction: column;
         align-items:center;
         justify-content:center;
         z-index: 1000;
+        
       }
+      .div-float{
+        background-color: #fff;
+        border-radius: 20px;
+        text-align: center;
+        line-height: 38px;
+        margin-right: -40px;
+        height: 38px;
+        box-shadow: 1px 1px 1px #a7a7a7
+    }
       
-      @keyframes pulsing {
-        to {
-          box-shadow: 0 0 0 30px rgba(232, 76, 61, 0);
-        }
+      .wp-font{
+        font-size: 17px;
+        margin-right: 15%;
       }
       
       .contact_icon {
         background-color: #42db87;
         color: #fff;
         width: 60px;
+        z-index: 999;
         height: 60px;
+        border: 2px solid;
         font-size:30px;
         border-radius: 50px;
         text-align: center;
@@ -12617,23 +12626,26 @@ footer {
         display: flex;
         align-items: center;
         justify-content: center;
-        transform: translatey(0px);
-        animation: pulse 1.5s infinite;
-        box-shadow: 0 0 0 0 #42db87;
-        -webkit-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
-        -moz-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
-        -ms-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
-        animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
         font-weight: normal;
         font-family: sans-serif;
         text-decoration: none !important;
-        transition: all 300ms ease-in-out;
       }
-        
+      
+      
       .text_icon {
-        color: #1ebea5;
-        font-size: 15px;
-        font-weight: bold;
-        font-family: 'Quicksand';
-        margin-top: 5px;
+        color: #57bbac;
+        width: 170px;
+        margin-right: -9px;
+        z-index: -1;
+        font-weight: bold !important;
       }
+
+      @media (max-width:991px)  {
+        .div-float {
+            display: none;
+        }
+        .floating_btn{
+            bottom: 135px;
+            right: -8px;
+        }
+    }

@@ -1,6 +1,6 @@
 ---
 layout: campaign
-title: Adisyo Kampanyaları
-description: 
+title: ADİSYO KAMPANYALARI
+description:
 permalink: /kampanya/
 ---
