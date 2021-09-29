@@ -12649,3 +12649,13 @@ footer {
             right: -8px;
         }
     }
+
+
+    @media (max-width: 1239px){
+        .btn_try {
+            display: none !important;
+            margin-left: -15px;
+        }
+    }
+
+   

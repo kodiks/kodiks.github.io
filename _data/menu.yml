@@ -101,6 +101,13 @@
   submenu: false  
 
 - id: 8
+  title: Kvkk Metni
+  url: /kişisel-verilerin-korunmasına-İlişkin-aydınlatma-metni/
+  isHeader: false
+  isFooter: true
+  submenu: false 
+  
+- id: 9
   title: Gizlilik Politikası
   url: /gizlilik-politikasi/
   isHeader: false
@@ -127,3 +134,5 @@
   isHeader: false
   isFooter: false
   submenu: false  
+
+  
