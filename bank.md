@@ -21,4 +21,4 @@ permalink: /banka-bilgilerimiz/
 {: .table .table-striped .table-bordered }
 | BANKA ADI              | HESAP ADI               | HESAP NO     | ŞUBE KOD   | IBAN NO                                |
 | -----------------------|:-----------------------:|:------------:|:----------:|:--------------------------------------:|
-| Türkiye İş Bankası     | Adisyo Bilişim A.Ş      | 509047       | 1206       | TR20 0006 4000 0011 3980 0341 97       |
+| Türkiye İş Bankası     | Adisyo Bilişim A.Ş      | 34197       | 1398       | TR20 0006 4000 0011 3980 0341 97       |
