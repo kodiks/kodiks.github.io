@@ -15,19 +15,16 @@ descriptions:
   #     </p>
   #   image: /assets/img/home/features/dijital1.png
 
-  - title: Dijital Cep Menü Nedir? Ne işe yarar?
+  - title: Adisyo Temassız Sipariş Sistemi
     desc: |
       <p class="f_p f_400">
-            İşletmeler için özel olarak geliştirilmiş, yeni nesil dijital menü sayesinde müşterileriniz,<b> temassız olarak masalardaki QR kodu okutarak</b> işletmenin menüsüne hızlıca ulaşır ve istediği siparişi kolayca verebilir. Bu sayede müşteri memnuniyetini ve satışlarınızı arttırabilirsiniz.
-        </p>
-          <ul class="list-unstyled mb-30">
-            <li><i class="ti-check"></i>Temassız Kullanım</li>
-            <li><i class="ti-check"></i>Menü Görüntüleme</li>
-            <li><i class="ti-check"></i>Kolay Sipariş Verebilme</li>
-            <li><i class="ti-check"></i>Hesap İsteme</li>
-            <li><i class="ti-check"></i>Ödeme Yapabilme</li>
-           
-          </ul>
+        
+        Adisyo ile klasik kâğıt menülerdeki baskı maliyetlerini unutun. İhtiyacınız olduğunda yönetim panelinden birkaç dakikada ürünlerinizi dilediğiniz gibi düzenleyebilirsiniz. Böylece maliyetten ve zamandan tasarruf sağlarsınız.<br>
+        Müşterileriniz masadaki QR kodu, telefonlarına okutarak ürünlerinize erişir ve hiçbir fiziksel temasa gerek kalmadan kolaylıkla siparişlerini verir.<br>
+        Adisyo QR menü, ürünlerinizi düzenli, anlaşılır ve etkileyici şekilde müşterilerinize sunmanıza yardımcı olur.<br>
+        <b>Hizmet kalitenizi geliştirin, müşterilerinizi memnun ederek, gelirinizi arttırın.</b>
+
+      </p>
     image: /assets/img/home/features/dijital2.png
 
   - title: Dijital Cep Menü Maliyeti Nedir?
