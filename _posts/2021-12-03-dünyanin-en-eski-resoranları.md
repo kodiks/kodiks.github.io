@@ -3,7 +3,7 @@ layout: post
 title:  Dünyanın En Eski Restoranları   
 summary: Bir turta ne kadar lezzetli olursa olsun, bir işletmeyi asırlarca ayakta tutabilir mi?
 date: 2021-12-02 09:00:00
-image: "/assets/img/blog/blog-15.jpg"
+image: "/assets/img/blog/blog-15.png"
 author: "Adisyo"
 categories: ["Dünya Lezzetleri"]
 tags: [Müdavim, Lezzet, Restoran, Tarihi, Dünya]
