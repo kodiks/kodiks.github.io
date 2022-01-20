@@ -12486,7 +12486,7 @@ footer {
 }
 .carousel-control-prev, .carousel-control-next{
     position: relative;
-    z-index: 99;
+    z-index: 1;
     bottom: auto;
     width: auto;
     padding: 0 10px;
