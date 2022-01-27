@@ -27,4 +27,6 @@ permalink: /banka-bilgilerimiz/
 {: .table .table-striped .table-bordered }
 | BANKA ADI              | HESAP ADI               | HESAP NO     | ŞUBE KOD   | IBAN NO                                |
 | -----------------------|:-----------------------:|:------------:|:----------:|:--------------------------------------:|
+
 | Garanti BBVA     | Adisyo Bilişim A.Ş      | 6297510       | 1396       | TR63 0006 2001 3960 0006 2975 10       |
+
