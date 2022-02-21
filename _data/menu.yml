@@ -1,20 +1,20 @@
 - id: 1
-  title: ÖZELLİKLER
-  url: /ozellikler/
-  isHeader: true
+  title: Pos Çözümleri
+  url: /pos-çözümleri/
+  isHeadermobile: true
   isFooter: false
   submenu: true
   subitems:
     - id: 31
-      title: Dijital Cep Menü
-      url: /ozellikler/dijital-menu/
-      icon: ti-dijitalmenu
+      title: Stok ve Maliyet Yönetimi
+      url: /ozellikler/stok-ve-maliyet-yönetimi/
+      icon: ti-stok
       isButton: false
 
     - id: 32
-      title: Mobil Uygulamalar
-      url: /ozellikler/mobil-uygulamalar/
-      icon: ti-mobiluygulama
+      title: Cari Müşteri Yönetimi
+      url: /ozellikler/cari-müşteri-yönetimi/
+      icon: ti-reduction
       isButton: false
 
     - id: 33
@@ -24,111 +24,244 @@
       isButton: false
 
     - id: 34
-      title: Stok ve Reçete Takibi
-      url: /ozellikler/stok-takibi/
+      title: Perakende Satış Yönetimi
+      url: /ozellikler/parekende-satış-yönetimi/
       icon: ti-stok
       isButton: false
 
     - id: 35
-      title: Termal Yazıcı
-      url: /ozellikler/termal-yazici-mutfak/
-      icon: ti-termalyazici
+      title: Mobil Uygulamalar
+      url: /ozellikler/mobil-uygulamlar/
+      icon: ti-mobiluygulama
       isButton: false
 
     - id: 36
-      title: Entegrasyonlar
-      url: /ozellikler/entegrasyonlar/
-      icon: ti-control-shuffle
+      title: Dövizli Satış
+      url: /ozellikler/dövizli-satış/
+      icon: ti-dolar1
       isButton: false
 
     - id: 37
-      title: Tüm Özellikler
-      url: /ozellikler/
-      icon: 
-      isButton: true
+      title: Mutfak Sipariş Yöntemi
+      url: /ozellikler/mutfak/
+      icon: ti-delivery-man
+      isButton: false
+
+    - id: 38
+      title: Donanım
+      url: /kampanyalar/
+      icon: ti-control-shuffle
+      isButton: false
+
 - id: 2
-  title: FİYATLAR
-  url: /fiyatlar/
+  title: Qr Menü
+  url: /qr-menü/
+  isHeadermobile: true
+  isFooter: false
+
+- id: 3
+  title: Gelişmiş Entegrasyonlar
+  url: /gelişmiş-entegrasyonlar/
+  isHeadermobile: true
+  isFooter: false
+  submenu: false  
+
+- id: 4
+  title: Merkezi Yönetim
+  url: /merkezi-yönetim/
+  isHeadermobile: true
+  isFooter: false
+  submenu: false  
+
+- id: 5
+  title: Kampanyalar
+  url: /kampanya/
+  isHeadermobile: true
+  isFooter: false
+  submenu: false  
+
+- id: 4
+  title: Referanslar
+  url: /referanslar/
+  isHeadermobile: true
+  isFooter: false
+  submenu: false  
+
+- id: 4
+  title: Blog
+  url: /blog/
+  isHeadermobile: true
+  isFooter: false
+  submenu: false  
+
+- id: 5
+  title: Destek
+  url: /destek/
+  isHeadermobile: true
+  isFooter: false
+  submenu: false
+
+- id: 6
+  title: İLETİŞİM
+  url: /iletisim/
+  isHeadermobile: true
+  isFooter: false
+  submenu: false  
+
+
+- id: 1
+  title: Pos Çözümleri
+  url: /pos-çözümleri/
   isHeader: true
   isFooter: false
   submenu: true
   subitems:
-    - id: 21
-      title: Fiyatlarımız
-      url: /fiyatlar/
-      icon: ti-fiyarlarimiz
+    - id: 31
+      title: Stok ve Maliyet Yönetimi
+      url: /ozellikler/stok-ve-maliyet-yönetimi/
+      icon: ti-stok
       isButton: false
 
-    - id: 22
-      title: Kampanyalar
-      url: /kampanyalar/
-      icon: ti-kampanya
+    - id: 32
+      title: Cari Müşteri Yönetimi
+      url: /ozellikler/cari-müşteri-yönetimi/
+      icon:  ti-reduction
       isButton: false
+
+    - id: 33
+      title: Gelişmiş Raporlama
+      url: /ozellikler/gelismis-raporlama/
+      icon: ti-reports
+      isButton: false
+
+    - id: 34
+      title: Perakende Satış Yönetimi
+      url: /ozellikler/parekende-satış-yönetimi/
+      icon: ti-stok
+      isButton: false
+
+    - id: 35
+      title: Mobil Uygulamalar
+      url: /ozellikler/mobil-uygulamlar/
+      icon: ti-mobiluygulama
+      isButton: false
+
+    - id: 36
+      title: Dövizli Satış
+      url: /ozellikler/dövizli-satış/
+      icon: ti-dolar
+      isButton: false
+
+    - id: 37
+      title: Mutfak Sipariş Yöntemi
+      url: /ozellikler/mutfak/
+      icon: ti-delivery-man
+      isButton: false
+
+    - id: 38
+      title: Donanım
+      url: /kampanyalar/
+      icon: ti-control-shuffle
+      isButton: false
+
+- id: 2
+  title: Qr Menü
+  url: /qr-menü/
+  isHeader: true
+  isFooter: false
 
 - id: 3
-  title: DESTEK
-  url: /destek/
+  title: Gelişmiş Entegrasyonlar
+  url: /gelişmiş-entegrasyonlar/
   isHeader: true
   isFooter: false
   submenu: false  
 
 - id: 4
-  title: BLOG
-  url: /blog/
+  title: Merkezi Yönetim
+  url: /merkezi-yönetim/
   isHeader: true
   isFooter: false
   submenu: false  
 
 - id: 5
-  title: İLETİŞİM
-  url: /iletisim/
-  isHeader: true
+  title: Kampanyalar
+  url: /kampanya/
+  isHeaderup: true
   isFooter: false
   submenu: false  
 
+- id: 4
+  title: Referanslar
+  url: /referanslar/
+  isHeaderup: true
+  isFooter: false
+  submenu: false  
+
+- id: 4
+  title: Blog
+  url: /blog/
+  isHeaderup: true
+  isFooter: false
+  submenu: false  
+
+- id: 5
+  title: Destek
+  url: /destek/
+  isHeaderright: true
+  isFooter: false
+  submenu: false
+
 - id: 6
+  title: İLETİŞİM
+  url: /iletisim/
+  isHeaderright: true
+  isFooter: false
+  submenu: false  
+
+- id: 7
   title: Hizmet İptali ve İade
   url: /hizmet-iptali-ve-iade/
   isHeader: false
   isFooter: true
   submenu: false  
 
-- id: 7
+- id: 8
   title: Kullanıcı Sözleşmesi
   url: /kullanici-sozlesmesi/
   isHeader: false
   isFooter: true
   submenu: false  
 
-- id: 8
+- id: 9
   title: Kvkk Metni
   url: /kişisel-verilerin-korunmasına-İlişkin-aydınlatma-metni/
   isHeader: false
   isFooter: true
   submenu: false 
   
-- id: 9
+- id: 10
   title: Gizlilik Politikası
   url: /gizlilik-politikasi/
   isHeader: false
   isFooter: true
   submenu: false  
 
-- id: 10
+- id: 11
   title: Banka Bilgilerimiz
   url: /banka-bilgilerimiz/
   isHeader: false
   isFooter: true
   submenu: false  
 
-- id: 11
+- id: 12
   title: Sürüm Notları
   url: /surum-notlari/
   isHeader: false
   isFooter: true
   submenu: false  
 
-- id: 12
+- id: 13
   title: Yüz Düze Destek
   url: /yuzyuzedestek/
   isHeader: false

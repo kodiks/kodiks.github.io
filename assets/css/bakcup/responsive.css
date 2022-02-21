@@ -1,4 +1,4 @@
-@media (min-width:2000px) {
+/* @media (min-width:2000px) {
     .call_action_area .action_one {
         left: 40px;
     }
@@ -21,8 +21,7 @@
     .top-buttons {
         padding-left: 160px;
         text-align: center;
-    }
-
+    } */
 
     .about_content {
         padding: 100px 30px;
@@ -43,14 +42,14 @@
     .saas_features_item {
         padding: 0px;
     }
-}
+
 
 @media (max-width: 1550px) {
 
-    .top-buttons {
+    /* .top-buttons {
         padding-left: 240px;
         text-align: center;
-    }
+    } */
 
     .s_features_item .s_features_img img {
         max-width: 100%;
@@ -160,10 +159,10 @@
 
 @media (max-width:1450px) {
 
-    .top-buttons {
+    /* .top-buttons {
         padding-left: 40px;
         text-align: center;
-    }
+    } */
 
     .app_banner_area {
         background-size: cover;
@@ -244,10 +243,10 @@
 
 @media (max-width:1350px) {
 
-    .top-buttons {
+    /* .top-buttons {
         padding-left: 80px;
         text-align: center;
-    }
+    } */
 
 
 
@@ -667,8 +666,8 @@
 
 
     .top-buttons {
-        padding-left: 80px;
-        text-align: center;
+        /* padding-left: 80px;
+        text-align: center; */
         background-color: #c82c2c;
     }
 
@@ -2800,8 +2799,8 @@
     }
 
     .top-buttons {
-        padding-left: 10px;
-        text-align: center;
+        /* padding-left: 10px;
+        text-align: center; */
         background-color: #c82c2c;
     }
 
@@ -2950,3 +2949,5 @@
         margin-top: 15px;
     }
 }
+
+
