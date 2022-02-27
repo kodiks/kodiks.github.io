@@ -741,7 +741,7 @@ input:-internal-autofill-selected {
 
 
 .saas_service_img img {
-    max-width: 100%
+    max-width: 90%
 }
 
 .color-white {
@@ -12651,8 +12651,8 @@ footer {
       }
       .floating_btn {
         position: fixed;
-        bottom: 75px;
-        right: 112px;
+        bottom: 9px;
+        right: 54px;
         width: 100px;
         display: flex;
         align-items:center;
@@ -12908,11 +12908,33 @@ footer {
         }
     }
 
+    @media(min-width:992px) {
+
+        .icons:before {
+            background-image: url(/assets/img/icons/down.png);
+            content: "";
+            position: absolute;
+            width: 14px;
+            height: 14px;
+            display: bloc;
+            right: -18px;
+            top: 1;
+            background-size: cover;
+            background-color: transparent;
+            cursor: pointer;
+        }
+    }
+   
+   
+
     
     @media(max-width:992px) {
 
         .landing-web {
            display: none;
+        }
+        .landing-mobil{
+           margin-top: -60px;
         }
     }
     
@@ -12923,6 +12945,40 @@ footer {
         }
     }
     
+    .btn-landing{
+        background: 0 0;
+        color: #c82c2c!important;
+        border-color: #c82c2c!important;
+        padding: 13px 13px;
+        font-size: 13px;
+        position: relative;
+        top: 25px;
+    }
+
+    .btn_landing_get{
+        font: 600 15px/47px Quicksand, sans-serif;
+        color: #fff;
+        border: 2px solid #cb2c2e;
+        border-radius: 50px;
+    }
+
+    .btn_landing_get:hover{
+        background:#c82c2c;
+        color: white !important;
+        
+    }
 
 
+    .iade-img{
+        position: absolute;
+        top: 125px;
+        width: 115px;
+    }
+    
+    @media(max-width:992px) {
+
+        .iade-img {
+           display: none;
+        }
+    }
    
