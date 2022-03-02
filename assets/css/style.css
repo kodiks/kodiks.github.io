@@ -12975,10 +12975,13 @@ footer {
         width: 115px;
     }
     
+
     @media(max-width:992px) {
 
         .iade-img {
-           display: none;
+            position: absolute;
+            top: 69px;
+            width: 90px;
         }
     }
    
