@@ -365,3 +365,6 @@ url('fonts/themify.svg?-fvbane#themify') format('svg');font-weight:normal;font-s
 .ti-rss:before{content:"\e75e";}
 .ti-rss-alt:before{background-image:url(/assets/img/icons/wifi.png);content:"";position:absolute;width:40px;height:40px;top:12px;left:12px;background-size:cover;background-color:transparent;}
 .ti-report:before{background-image:url(/assets/img/icons/report.png);content:"";position:absolute;width:40px;height:40px;top:12px;left:12px;background-size:cover;background-color:transparent;}
+.ti-reduction:before{background-image:url(/assets/img/icons/reduction.png);content:"";position:absolute;width:26px;height:26px;top:8px;left:8px;background-size:cover;background-color:transparent;}
+.ti-dolar:before{background-image:url(/assets/img/icons/dolar.png);content:"";position:absolute;width:26px;height:26px;top:8px;left:8px;background-size:cover;background-color:transparent;}
+.ti-delivery-man:before{background-image:url(/assets/img/icons/delivery-man.png);content:"";position:absolute;width:26px;height:26px;top:8px;left:8px;background-size:cover;background-color:transparent;}
