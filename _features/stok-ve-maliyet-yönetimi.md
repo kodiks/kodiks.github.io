@@ -2,7 +2,7 @@
 layout: feature_detail2
 order: 40
 title: Stok Ve Maliyet Yönetimi
-description: Ürün stoğunuzda kalmadı mı? Adisyo, sizi uyarır!!
+description: Ürün stoğunuzda kalmadı mı? Adisyo, sizi uyarır!
 icon: ti-dijitalmenu-2
 color: red
 visible: false

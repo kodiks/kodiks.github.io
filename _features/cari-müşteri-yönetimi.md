@@ -8,7 +8,7 @@ color: red
 visible: true
 
 descriptions: 
-  - title: Cari Müşteri Yöetimi
+  - title: Cari Müşteri Yönetimi
     desc: |
        <ul class="list-unstyled mb-30">
    
