@@ -96,6 +96,7 @@
                 </button>
     
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                   
                     <ul class="navbar-nav menu pl_80">
                         {% assign header_menu = site.data.menu | where: "isHeadermobile", true %}
                         {% for menu in header_menu %}
@@ -106,6 +107,7 @@
                             <ul class="dropdown-menu">
                                 {% for sub_items in menu.subitems %}
                                 <li class="nav-item">
+                                   
                                     <a href="{{sub_items.url}}" class="{% if sub_items.isButton == true %} btn_properties {% else %} nav-link {% endif %}">
                                         {% if sub_items.isButton == false %}
                                         <div class="icon-menu"><i class="{{sub_items.icon}}"></i></div>
@@ -121,7 +123,7 @@
                     </ul>
     
                     <div class="top-buttons">
-                        <a class="btn_get btn_user btn_tel" href="tel:{{site.phone}}"><i
+                        <a class="btn_get btn_mobil" href="tel:{{site.phone}}"><i
                                 class="ti ti-headphone-alt top-ico-fix" style="font-size: 18px;margin-left: -58px;"></i> <span  style="font-size: 16px;">{{site.phone}}</span></a>
                         <a href="http://pos.adisyo.com/" target="_blank"
                             class="btn_get user btn_user"><i class="lnr lnr-user" aria-hidden="true"></i> Giriş Yap</a>

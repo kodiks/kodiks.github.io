@@ -12890,7 +12890,7 @@ footer {
         }
     }
 
-    @media(max-width:992px) {
+ @media(max-width:992px) {
 
         .icons:before {
             background-image: url(/assets/img/icons/down.png);
@@ -12900,13 +12900,13 @@ footer {
             height: 14px;
             display: block;
             top: 0;
-            right: 40vw;
+            right: -5vw;
             top: 0;
             background-size: cover;
             background-color: transparent;
             cursor: pointer;
         }
-    }
+    } 
 
     @media(min-width:992px) {
 
@@ -12985,3 +12985,9 @@ footer {
         }
     }
    
+    @media (max-width: 992px) {
+        .btn_mobil{
+            display: none;
+        }
+    }
+

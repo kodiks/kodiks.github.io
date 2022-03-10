@@ -74,6 +74,13 @@
   submenu: false  
 
 - id: 5
+  title: Fiyatlar
+  url: /fiyatlar/
+  isHeadermobile: true
+  isFooter: false
+  submenu: false 
+
+- id: 6
   title: Kampanyalar
   url: /kampanya/
   isHeadermobile: true
