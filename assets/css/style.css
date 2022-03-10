@@ -12899,8 +12899,8 @@ footer {
             width: 14px;
             height: 14px;
             display: block;
-            top: 0;
-            right: -5vw;
+            left: calc(50% + 80px);
+            transform: translateX(-50%);
             top: 0;
             background-size: cover;
             background-color: transparent;
