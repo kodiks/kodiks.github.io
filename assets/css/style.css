@@ -12803,9 +12803,6 @@ footer {
             text-align: center;
             background-color: #c82c2c;
         }
-        .btn_tel{
-            display: none;
-        }
     }
 
     @media(max-width:992px) {
