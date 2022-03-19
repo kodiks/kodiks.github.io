@@ -3,5 +3,8 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: no_home
-permalink: /anasayfa/
+redirect_from:
+    - /index.html
+    - /
+permalink: /anasayfa
 ---
