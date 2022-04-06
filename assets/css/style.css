@@ -959,7 +959,7 @@ input:-internal-autofill-selected {
 }
 
 .pl_80 {
-    padding-left: 80px
+    padding-left: 0px
 }
 
 .pl_120 {
@@ -1814,7 +1814,7 @@ input:-internal-autofill-selected {
     font: 500 14px/34px Quicksand, sans-serif;
     color: #434343;
     text-align: left;
-    padding-left: 55px;
+    padding-left: 71px;
     padding-bottom: 3px;
     line-height: 40px;
     -webkit-transition: color .2s linear;
@@ -2661,7 +2661,7 @@ input:-internal-autofill-selected {
 }
 
 .navbar-brand img {
-    width: 85%
+    width: 75%
 }
 
 .header_area {
@@ -12651,13 +12651,19 @@ footer {
     }
 
 
-    @media (max-width: 1239px){
+    @media (max-width: 1306px){
         .btn_try {
             display: none !important;
             margin-left: -15px;
         }
     }
 
+    @media (max-width: 1200px){
+    .top-buttons {
+    padding-left: 13px !important;
+    text-align: center;
+    
+}
    /*comparison*/
 
    table {
@@ -12687,3 +12693,12 @@ footer {
   .fa-remove {
     color: red;
   }
+
+  input[type=checkbox]+label:before, input[type=checkbox]:checked+label:before{
+    background-color: #e0e0e0 !important;
+    color: #c82c2d!important;
+}
+
+.card-footer label{
+    font-size: 13px;
+}

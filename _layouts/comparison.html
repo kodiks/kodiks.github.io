@@ -1,0 +1,132 @@
+---
+layout: wrapper
+---
+
+<!--PAGE CONTENT-->
+{% include header_sub.html %}
+
+<section class="agency_testimonial_area bg_color_lg sec_pad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="card">
+                    <div class="mx-2 card-body">
+                        <h5 style="font-weight: bold;" class="card-title my-2 ">Adisyo</h5>
+                    </div>
+                    <div class="card-footer">
+                        <ol class="list-unstyled mb-0 px-4">
+                            <p class="my-3 fw-bold text-muted text-center">
+                            </p>
+                            <li class="mb-3">
+                                <small>✅ Her bütçeye uygun</small>
+                            </li>
+                            <li class="mb-3">
+                                <small>✅ Yatırım maliyeti yok, kullandıkça ay ay öde</small>
+                            </li>
+                            <li class="mb-3">
+                                <small>✅ Server bakım maliyeti gibi sürpriz ödemeler yok</small>
+                            </li>
+                            <li class="mb-3">
+                                <small>✅ Yenilikçi, sürekli geliştirilebilir</small>
+                            </li>
+                            <li class="mb-3">
+                                <small>✅ Bulut teknolojisi ile verileriniz her zaman güvende</small>
+                            </li>
+                            <li class="mb-3">
+                                <small>✅ Cihaz bağımsız, elinizde bulunan tüm cihazlar ile çalışır</small>
+                            </li>
+                            <li class="mb-3">
+                                <small>✅ Mekan bağımsız, işletmenizi uzaktan kolayca yönetebilirsiniz</small>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="card">
+                    <div class="mx-2 card-body">
+                        <h5 style="font-weight: bold;" class="card-title my-2 ">Diğerleri</h5>
+                    </div>
+                    <div class="card-footer">
+                        <ol class="list-unstyled mb-0 px-4">
+                            <p class="my-3 fw-bold text-muted text-center">
+                            </p>
+                            <li class="mb-3">
+                                <small>❌ Pahalı
+                                </small>
+                            </li>
+                            <li class="mb-3">
+                                <small>❌ Yatırım maliyeti gerekli</small>
+                            </li>
+                            <li class="mb-3">
+                                <small>❌ Server bakım maliyeti gibi ek maliyetler de var</small>
+                            </li>
+                            <li class="mb-3">
+                                <small>❌ Yeniliğe kapalı, güncelleme çok zor
+                                </small>
+                            </li>
+                            <li class="mb-3">
+                                <span style="font-size: 11px;">❌ Verileriniz güvende değil, bilgisayarınızda sorun olursa tüm verileriniz
+                                    kaybedilir
+                                </span>
+                            </li>
+                            <li class="mb-3">
+                                <small>❌ Sadece belli cihazlar ile çalışabilir</small>
+                            </li>
+                            <li class="mb-3">
+                                <small>❌ Sadece işletme içinde kullanılabilir</small>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12">
+                <a href="https://pos.adisyo.com/#/signup" style="background-color: #c82c2d!important;border: none;margin: auto;width: 20%;border-radius: 10px;"
+                            class="btn btn-dark d-block mb-2 mt-3 text-capitalize">Hemen Başla</a>
+            </div>
+        </div>
+        <div class="agency_testimonial_info" style="margin-top: 80px;">
+            <div class="testimonial_slider owl-carousel">
+                {% assign comments=site.data.client_testimonial | sort: "id" | reverse %} {% for item in comments %}
+                <div class="testimonial_item text-center center">
+                    <div class="author_img"><img src="{{item.logo}}" alt=""></div>
+                    <div class="author_description">
+                        <h4 class="f_500 t_color3 f_size_18">{{item.company_name}}</h4>
+                        <h6>{{item.owner}}</h6>
+                    </div>
+                    <p>
+                        {{item.comment}}
+                    </p>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="row software_featured_info" style="margin-top: 80px;">
+            <div class="col-lg-6 col-sm-6">
+                <div class="software_featured_item text-center border-support">
+                    <div class="s_icon">
+                        <img src="../assets/img/home/support/support2.png" alt="">
+                    </div>
+                    <h3 class="f_600 t_color3">Sık Sorulan Sorular</h3>
+                    <p class="f_400 f_size_15 mb-30">Adisyo kullanıcılarının sıkça sorduğu sorulara ait cevaplarımızı
+                        burada bulabilirsiniz.</p>
+                    <a href="https://destek.adisyo.com/portal/kb/adisyo/s%C4%B1k-sorulan-sorular" target="_blank"
+                        class="slider_btn_tr">Sorulara Göz Atın</a>
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-6">
+                <div class="software_featured_item text-center border-support mb_20_mobile">
+                    <div class="s_icon">
+                        <img src="../assets/img/home/support/support1.png" alt="">
+
+                    </div>
+                    <h3 class="f_600 t_color3">Kullanım Kılavuzu</h3>
+                    <p class="f_400 f_size_15 mb-30">Adisyo'yu eğitim gerektirmeden kolayca kullanmanıza olanak sağlacak
+                        kullanım kılavuzumuz sizleri bekliyor.</p>
+                    <a href="https://destek.adisyo.com/portal/kb/adisyo/kullan%C4%B1m-klavuzu" target="_blank"
+                        class="slider_btn_tr">Kılavuzu İnceleyin</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

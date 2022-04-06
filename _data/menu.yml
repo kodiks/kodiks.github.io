@@ -18,14 +18,14 @@
       isButton: false
 
     - id: 33
-      title: Gelişmiş Raporlama
-      url: /ozellikler/gelismis-raporlama/
+      title: Detaylı ve Kolay Anlaşılır Raporlama
+      url: /ozellikler/detayli-ve-kolay-raporlama/
       icon: ti-reports
       isButton: false
 
     - id: 34
-      title: Stok ve Reçete Takibi
-      url: /ozellikler/stok-takibi/
+      title: Tükenen Veya Kritik Stoklar İçin Uyarı Sistemi
+      url: /ozellikler/tukenen-veya-kritik-stoklar-icin-uyari-sistemi/
       icon: ti-stok
       isButton: false
 
@@ -65,70 +65,78 @@
       icon: ti-kampanya
       isButton: false
 
-- id: 3
+- id: 4
+  title: Referanslar
+  url: /referanslar/
+  isHeader: true
+  isFooter: false
+  submenu: false  
+
+
+- id: 5
   title: DESTEK
   url: /destek/
   isHeader: true
   isFooter: false
   submenu: false  
 
-- id: 4
+- id: 6
   title: BLOG
   url: /blog/
   isHeader: true
   isFooter: false
   submenu: false  
 
-- id: 5
+- id: 7
   title: İLETİŞİM
   url: /iletisim/
   isHeader: true
   isFooter: false
   submenu: false  
 
-- id: 6
+- id: 8
   title: Hizmet İptali ve İade
   url: /hizmet-iptali-ve-iade/
   isHeader: false
   isFooter: true
   submenu: false  
 
-- id: 7
+- id: 9
   title: Kullanıcı Sözleşmesi
   url: /kullanici-sozlesmesi/
   isHeader: false
   isFooter: true
   submenu: false  
 
-- id: 8
+- id: 10
   title: Kvkk Metni
   url: /kişisel-verilerin-korunmasına-İlişkin-aydınlatma-metni/
   isHeader: false
   isFooter: true
   submenu: false 
   
-- id: 9
+- id: 11
   title: Gizlilik Politikası
   url: /gizlilik-politikasi/
   isHeader: false
   isFooter: true
   submenu: false  
 
-- id: 10
+- id: 12
   title: Banka Bilgilerimiz
   url: /banka-bilgilerimiz/
   isHeader: false
   isFooter: true
   submenu: false  
 
-- id: 11
+- id: 13
   title: Sürüm Notları
   url: /surum-notlari/
   isHeader: false
   isFooter: true
   submenu: false  
 
-- id: 12
+- id: 14
   title: Yüz Düze Destek
   url: /yuzyuzedestek/
   isHeader: false

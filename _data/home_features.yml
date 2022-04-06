@@ -35,7 +35,7 @@
   url: /ozellikler/stok-takibi
 
 - id: 6
-  title: Üst Seviye Güvenlik
+  title: Anlık Yedekleme Sistemi ile Üst Seviye Güvenlik
   description: Adisyo, verilerinizi yüksek güvenliğe sahip üç farklı sunucuda tutar. Anlık yedeklerinizi alır. İşletmenizdeki cihazlarınızda sorun olsa bile verileriniz güvende kalır.
   icon: ti-lock
   color: yellow

@@ -1,7 +1,7 @@
 ---
 layout: feature_detail
 order: 60
-title: Gelişmiş Raporlama
+title: Detaylı ve Kolay Anlaşılır Raporlama
 description: Adisyo ile yapmış olduğunuz tüm satış, ödeme ve stoklarınız işletmenize özel detaylı ve anlaşılır raporlar halinde sunulmuştur. 
 icon: ti-report
 color: red

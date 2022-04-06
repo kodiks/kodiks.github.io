@@ -1,16 +1,18 @@
 ---
 layout: feature_detail
 order: 120
-title: Yemek Sepeti Entegrasyonu
-description: Adisyo, Yemek Sepeti ile tam senkronizasyon içerisindedir. Yemek Sepeti’nden gelen siparişlerinizi ayrı bir yerden yönetmek zorunda değilsiniz. Yemek Sepeti siparişlerinizi de Adisyo ile yönetebilirsiniz.
+title: Gelişmiş Entegrasyonlar
+description: Adisyo, her türden işletmenin paket servis süreçlerini kolay ve kusursuz bir şekilde yönetebilecekleri entegrasyonlar sunar.
 icon: ti-bag
 color: red
 visible: true
 
 descriptions: 
-  - title: Yemek Sepeti Entegrasyonu
+  - title: Gelişmiş Entegrasyonlar
     desc: |
-      <p class="f_p f_400">Adisyo, Yemek Sepeti ile tam senkronizasyon içerisindedir. Yemek Sepeti’nden gelen siparişlerinizi ayrı bir yerden yönetmek zorunda değilsiniz. Yemek Sepeti siparişlerinizi de Adisyo ile yönetebilirsiniz.</p>
+      <p class="f_p f_400">
+      Adisyo’nun geniş entegrasyon seçenekleri sayesinde Yemek Sepeti, Getir, Trendyol ve daha birçok platformlardan gelen tüm paket siparişlerinizi POS sisteminiz üzerinden yönetebilirsiniz.
+      </p>
     image: /assets/img/home/features/yemek-sepeti01.png
 
   - title: Devir Ekonomi Devri
