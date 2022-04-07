@@ -12702,3 +12702,34 @@ footer {
 .card-footer label{
     font-size: 13px;
 }
+
+}
+
+input+label:before, input:checked+label:before {
+    background-color: #cb2c2e !important;
+    
+}
+
+input+label:before{
+    background: transparent !important;
+    border: 1px solid !important;
+}
+
+.agree-a{
+    color: #cb2c2e;
+}
+
+.agree-a:hover{
+    color: #cb2c2e;
+    text-decoration: none !important;
+}
+
+input+label:before {
+    line-height: 13px !important;
+    height: 16px !important;
+}
+
+.a-agree a:hover{
+    text-decoration: none;
+    color: #cb2c2e;
+}
