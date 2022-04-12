@@ -12906,3 +12906,9 @@ input+label:before {
 #home_page_packages > div:last-child {
     margin-right: auto;
 }
+
+@media (max-width: 1550px) {
+    .price_container {
+        padding: 0 70px;
+    }
+}
