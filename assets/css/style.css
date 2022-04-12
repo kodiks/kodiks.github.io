@@ -6068,6 +6068,7 @@ sub {
     transition: all .2s linear;
     cursor: pointer;
     user-select: none;
+    margin-left: 10px;
 }
 
 .price_content .price_item .tag {

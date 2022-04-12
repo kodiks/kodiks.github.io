@@ -157,7 +157,7 @@ function fillContent(contentId, packages, isHomePage = false) {
                      Adisyo
                  </li>
                  <li class="price-split text-center">
-                     <span>Ek Paketler</span>
+                     <span>Ek Paket Seçiniz</span>
                  </li>`;
 
         externalAppPackages.forEach(ext => {
