@@ -36,30 +36,52 @@ layout: wrapper
     </div>
 </section>
 
+<!--partners logo-->
 
-<!--client testimonial-->
-<section class="agency_testimonial_area bg_color_lg sec_pad">
-    <div class="container" style="margin-top: 70px !important;">
-        <h3 class="f_size_32 f_600 t_color3 l_height30 mb_20 text-center mt_60 wow fadeInDown"
-                data-wow-delay="0.3s">Adisyo Tercih Eden Tüm Markalarımıza Sonsuz Teşekkürler, Birlikte Daha Güçlüyüz!</h3>
+<div class="partner_logo_area_four">
+    <h4 class="f_size_32 f_600 t_color3 l_height30 mb_20 text-center mt_60 wow fadeInDown"
+                data-wow-delay="0.3s">Adisyo Tercih Eden Tüm Markalarımıza Sonsuz Teşekkürler, Birlikte Daha Güçlüyüz!</h4>
         <div class="agency_testimonial_info">
-            <div class="testimonial_slider owl-carousel">
-                {% assign comments=site.data.client_testimonial | sort: "id" | reverse %} {% for item in comments %}
-                <div class="testimonial_item text-center center">
-                    <div class="author_img"><img src="{{item.logo}}" alt=""></div>
-                    <div class="author_description">
-                        <h4 class="f_500 t_color3 f_size_18">{{item.company_name}}</h4>
-                        <h6>{{item.owner}}</h6>
-                    </div>
-                    <p>
-                        {{item.comment}}
-                    </p>
-                </div>
-                {% endfor %}
+    <div class="agency_testimonial_info">
+        <div class="app_testimonial_slider owl-carousel">
+            <div class="logo_item wow fadeInLeft" data-wow-delay="0.5s">
+                <a href="#"><img src="/assets/img/home/logos/tomato-yeni.png" alt="wineport"></a>
+            </div>
+            <div class="logo_item wow fadeInLeft" data-wow-delay="0.9s">
+                <a href="#"><img src="/assets/img/home/logos/tp-yeni.png" alt="wineport"></a>
+            </div>
+            <div class="logo_item wow fadeInLeft" data-wow-delay="0.5s">
+                <a href="#"><img src="/assets/img/home/logos/kingof-yeni.png" alt="wineport"></a>
+            </div>
+            <div class="logo_item wow fadeInLeft" data-wow-delay="0.5s">
+                <a href="#"><img src="/assets/img/home/logos/hizli.png" alt="wineport"></a>
+            </div>
+            <div class="logo_item wow fadeInLeft" data-wow-delay="0.5s">
+                <a href="#"><img src="/assets/img/home/logos/gurme-yeni.png" alt="wineport"></a>
+            </div>
+            <div class="logo_item wow fadeInLeft" data-wow-delay="0.5s">
+                <a href="#"><img src="/assets/img/home/logos/moston-yeni.png" alt="wineport"></a>
+            </div>
+            <div class="logo_item wow fadeInLeft" data-wow-delay="0.5s">
+                <a href="#"><img src="/assets/img/home/logos/cajun-yeni.png"  alt="wineport"></a>
+            </div>
+            <div class="logo_item wow fadeInLeft" data-wow-delay="0.5s">
+                <a href="#"><img src="/assets/img/home/logos/sahangillerkokorec.png"  alt="wineport"></a>
+            </div>
+            <div class="logo_item wow fadeInLeft" data-wow-delay="0.5s">
+                <a href="#"><img src="/assets/img/home/logos/city-yeni.png"  alt="wineport"></a>
+            </div>
+            <div class="logo_item wow fadeInLeft" data-wow-delay="0.5s">
+                <a href="#"><img src="/assets/img/home/logos/nesveyeni.png"  alt="wineport"></a>
+            </div>
+            <div class="logo_item wow fadeInLeft" data-wow-delay="0.5s">
+                <a href="#"><img src="/assets/img/home/logos/quick-yeni.png"  alt="wineport"></a>
             </div>
         </div>
     </div>
-</section>
+</div>
+
+
 
 <!-- <section class="agency_testimonial_area bg_color_lg sec_pad">
     <div class="container">
@@ -319,6 +341,30 @@ layout: wrapper
     </div>
 </section>
 
+<!--client testimonial-->
+<section class="agency_testimonial_area bg_color_lg sec_pad">
+    <div class="container" style="margin-top: 70px !important;">
+        <h4 class="f_size_32 f_600 t_color3 l_height30 mb_20 text-center mt_60 wow fadeInDown"
+                data-wow-delay="0.3s">Adisyo Tercih Eden Tüm Markalarımıza Sonsuz Teşekkürler, Birlikte Daha Güçlüyüz!</h4>
+        <div class="agency_testimonial_info">
+            <div class="testimonial_slider owl-carousel">
+                {% assign comments=site.data.client_testimonial | sort: "id" | reverse %} {% for item in comments %}
+                <div class="testimonial_item text-center center">
+                    <div class="author_img"><img src="{{item.logo}}" alt=""></div>
+                    <div class="author_description">
+                        <h4 class="f_500 t_color3 f_size_18">{{item.company_name}}</h4>
+                        <h6>{{item.owner}}</h6>
+                    </div>
+                    <p>
+                        {{item.comment}}
+                    </p>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+
 <!--mobile banner-->
 <section class="get_started_area">
     <div class="shap one"></div>
@@ -356,47 +402,4 @@ layout: wrapper
 </section>
 
 
-<!--partners logo-->
 
-<div class="partner_logo_area_four">
-    <h4 class="f_size_18 f_400 f_p text-center l_height28 mb-20">
-        Adisyo tercih eden tüm markalarımıza sonsuz teşekkürler, birlikte daha güçlüyüz!
-    </h4>
-    <div class="agency_testimonial_info">
-        <div class="app_testimonial_slider owl-carousel">
-            <div class="logo_item wow fadeInLeft" data-wow-delay="0.5s">
-                <a href="#"><img src="/assets/img/home/logos/tomato-yeni.png" alt="wineport"></a>
-            </div>
-            <div class="logo_item wow fadeInLeft" data-wow-delay="0.9s">
-                <a href="#"><img src="/assets/img/home/logos/tp-yeni.png" alt="wineport"></a>
-            </div>
-            <div class="logo_item wow fadeInLeft" data-wow-delay="0.5s">
-                <a href="#"><img src="/assets/img/home/logos/kingof-yeni.png" alt="wineport"></a>
-            </div>
-            <div class="logo_item wow fadeInLeft" data-wow-delay="0.5s">
-                <a href="#"><img src="/assets/img/home/logos/hizli.png" alt="wineport"></a>
-            </div>
-            <div class="logo_item wow fadeInLeft" data-wow-delay="0.5s">
-                <a href="#"><img src="/assets/img/home/logos/gurme-yeni.png" alt="wineport"></a>
-            </div>
-            <div class="logo_item wow fadeInLeft" data-wow-delay="0.5s">
-                <a href="#"><img src="/assets/img/home/logos/moston-yeni.png" alt="wineport"></a>
-            </div>
-            <div class="logo_item wow fadeInLeft" data-wow-delay="0.5s">
-                <a href="#"><img src="/assets/img/home/logos/cajun-yeni.png"  alt="wineport"></a>
-            </div>
-            <div class="logo_item wow fadeInLeft" data-wow-delay="0.5s">
-                <a href="#"><img src="/assets/img/home/logos/sahangillerkokorec.png"  alt="wineport"></a>
-            </div>
-            <div class="logo_item wow fadeInLeft" data-wow-delay="0.5s">
-                <a href="#"><img src="/assets/img/home/logos/city-yeni.png"  alt="wineport"></a>
-            </div>
-            <div class="logo_item wow fadeInLeft" data-wow-delay="0.5s">
-                <a href="#"><img src="/assets/img/home/logos/nesveyeni.png"  alt="wineport"></a>
-            </div>
-            <div class="logo_item wow fadeInLeft" data-wow-delay="0.5s">
-                <a href="#"><img src="/assets/img/home/logos/quick-yeni.png"  alt="wineport"></a>
-            </div>
-        </div>
-    </div>
-</div>
