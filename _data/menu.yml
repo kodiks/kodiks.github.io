@@ -46,24 +46,7 @@
       url: /ozellikler/
       icon: 
       isButton: true
-- id: 2
-  title: FİYATLAR
-  url: /fiyatlar/
-  isHeader: true
-  isFooter: false
-  submenu: true
-  subitems:
-    - id: 21
-      title: Fiyatlarımız
-      url: /fiyatlar/
-      icon: ti-fiyarlarimiz
-      isButton: false
 
-    - id: 22
-      title: Kampanyalar
-      url: /kampanyalar/
-      icon: ti-kampanya
-      isButton: false
 
 - id: 4
   title: Referanslar
@@ -86,6 +69,26 @@
   isHeader: true
   isFooter: false
   submenu: false  
+
+- id: 2
+  title: FİYATLAR
+  url: /fiyatlar/
+  isHeader: true
+  isFooter: false
+  submenu: true
+  subitems:
+    - id: 21
+      title: Fiyatlarımız
+      url: /fiyatlar/
+      icon: ti-fiyarlarimiz
+      isButton: false
+
+    - id: 22
+      title: Kampanyalar
+      url: /kampanyalar/
+      icon: ti-kampanya
+      isButton: false
+
 
 - id: 7
   title: İLETİŞİM

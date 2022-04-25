@@ -1943,7 +1943,7 @@ input:-internal-autofill-selected {
 
 .menu>.nav-item:nth-last-child(-n+2).submenu .dropdown-menu {
     left: auto;
-    right: 0
+    right: -175px
 }
 
 .menu>.nav-item:nth-last-child(-n+2).submenu .dropdown-menu .nav-item>.dropdown-menu {
@@ -12912,3 +12912,99 @@ input+label:before {
         padding: 0 70px;
     }
 }
+
+/* .testimonial6 {
+    font-family: "Montserrat", sans-serif;
+    color: #8d97ad;
+    font-weight: 300;
+  }
+  
+  .testimonial6 h1,
+  .testimonial6 h2,
+  .testimonial6 h3,
+  .testimonial6 h4,
+  .testimonial6 h5,
+  .testimonial6 h6 {
+    color: #3e4555;
+  }
+  
+  .testimonial6 .font-weight-medium {
+    font-weight: 500;
+  }
+  
+  .testimonial6 h5 {
+      line-height: 22px;
+      font-size: 18px;
+  }
+  
+  .testimonial6 .subtitle {
+    color: #8d97ad;
+    line-height: 24px;
+      font-size: 16px;
+  }
+  
+  .testimonial6 .testi6 {
+    border-right: 1px solid rgba(120, 130, 140, 0.13);
+  }
+  
+  .testimonial6 .testi6 .nav-link {
+    border-radius: 0px;
+    margin: 8px -2px 8px 0;
+  }
+  
+  .testimonial6 .testi6 .nav-link img {
+    max-width: 80%;
+    height: auto;
+    opacity: 0.5;
+  }
+  
+  .testimonial6 .testi6 .nav-link.active {
+    background: transparent;
+    color: #8d97ad;
+    border-right: 3px solid #c82c2d;
+  }
+  
+  .testimonial6 .testi6 .nav-link.active img {
+    opacity: 1;
+  }
+  
+  .testimonial6 .btn-danger {
+      background: #ff4d7e !important;
+      border: 1px solid #ff4d7e !important;
+  }
+  
+  .testimonial6 .btn-md {
+      padding: 18px 0px;
+      width: 60px;
+      height: 60px;
+      font-size: 20px;
+  }
+  
+  @media (max-width: 767px) {
+      .testimonial6 .testi6 .nav-link {
+      margin: 0px 0px -2px 0;
+      padding: 10px;
+      }
+      .testimonial6 .testi6 {
+      -webkit-box-orient: horizontal !important;
+      -webkit-box-direction: normal !important;
+      -webkit-flex-direction: row !important;
+      -ms-flex-direction: row !important;
+      flex-direction: row !important;
+      border-right: 0px solid rgba(120, 130, 140, 0.13);
+      border-bottom: 1px solid rgba(120, 130, 140, 0.13);
+      margin-bottom: 40px;
+      }
+      .testimonial6 .testi6 .nav-link img {
+      width: 40px;
+      }
+      .testimonial6 .testi6 .nav-link.active {
+              border-right: 0px solid #2cdd9b;
+              border-bottom: 3px solid #2cdd9b;
+      }
+  }
+  
+  .rounded-circlee{
+      border-radius: 50%;
+     
+    } */
