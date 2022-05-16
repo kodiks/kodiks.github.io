@@ -33,11 +33,11 @@ descriptions:
             <b>15 Gün ücretsiz</b> kullanmak için 0216 706 06 24 numaralı destek hattımızdan bizlere ulaşabilirsiniz
       </p>
                     <ul style="margin-top:25px">
-                        <li><i style="color: #cc2f2f !important;" class="ti-gift"></i>Yıllık entegrasyon paketinde <b>25%</b> ek indirim.</li>
+                        <li><i style="color: #cc2f2f !important;" class="ti-gift"></i>Yıllık entegrasyon paketinde <b>20%</b> ek indirim.</li>
                     </ul>
                     <ul class="list-unstyled mb-30" style="margin-top:25px">
-                        <li><i class="ti-credit-card"></i><b>390,00 ₺</b>+ KDV / Yıl</li>
-                        <li><i class="ti-credit-card"></i><b>39,00 ₺</b>+ KDV / AY</li>
+                        <li><i class="ti-credit-card"></i><b>490,00 ₺</b>+ KDV / Yıl</li>
+                        <li><i class="ti-credit-card"></i><b>49,00 ₺</b>+ KDV / AY</li>
                     </ul>
           
     image: /assets/img/home/features/dijital1.png
