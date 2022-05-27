@@ -2,29 +2,29 @@ const adisyoPackages = [{
     type: 12,
     title: '12 Aylık',
     discount: '%30',
-    price: 70,
-    totalPrice: 839,
+    price: 104,
+    totalPrice: 1249,
     isShowHomePage: true
 }, {
     type: 6,
     title: '6 Aylık',
     discount: '%10',
-    price: 88,
-    totalPrice: 529,
+    price: 133,
+    totalPrice: 799,
     isShowHomePage: false
 }, {
     type: 3,
     title: '3 Aylık',
     discount: '%5',
-    price: 93,
-    totalPrice: 279,
+    price: 139,
+    totalPrice: 419,
     isShowHomePage: false
 }, {
     type: 1,
     title: 'Aylık',
     discount: '15 Gün Ücretsiz',
-    price: 99,
-    totalPrice: 99,
+    price: 149,
+    totalPrice: 149,
     isShowHomePage: true
 }];
 
@@ -38,24 +38,24 @@ const externalAppPackages = [{
 }, {
     id: 15,
     title: 'Trendyol Yemek',
-    1: { price: 29, isSelected: false },
-    3: { price: 79, isSelected: false },
-    6: { price: 149, isSelected: false },
-    12: { price: 290, isSelected: false }
+    1: { price: 39, isSelected: false },
+    3: { price: 109, isSelected: false },
+    6: { price: 209, isSelected: false },
+    12: { price: 390, isSelected: false }
 }, {
     id: 9,
     title: 'Getir Yemek',
-    1: { price: 29, isSelected: false },
-    3: { price: 79, isSelected: false },
-    6: { price: 149, isSelected: false },
-    12: { price: 290, isSelected: false }
+    1: { price: 39, isSelected: false },
+    3: { price: 109, isSelected: false },
+    6: { price: 209, isSelected: false },
+    12: { price: 390, isSelected: false }
 }, {
     id: 2,
     title: 'Yemek Sepeti',
-    1: { price: 29, isSelected: false },
-    3: { price: 79, isSelected: false },
-    6: { price: 149, isSelected: false },
-    12: { price: 290, isSelected: false }
+    1: { price: 39, isSelected: false },
+    3: { price: 109, isSelected: false },
+    6: { price: 209, isSelected: false },
+    12: { price: 390, isSelected: false }
 }, {
     id: 13,
     title: 'Hotelier 101',
