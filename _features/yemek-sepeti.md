@@ -24,7 +24,7 @@ descriptions:
             <li><i class="ti-check"></i>Yıllık lisans ücreti ödemezsiniz</li>
             <li><i class="ti-check"></i>Sınırsız kullanıcı ekleyebilirsiniz</li>
           </ul>
-    image: /assets/img/home/features/yemek-sepeti02.png
+    image: /assets/img/home/features/web1.png
 
 redirect_from:
     - /yemek-sepeti.html   

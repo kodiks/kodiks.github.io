@@ -89,7 +89,7 @@ url('fonts/themify.svg?-fvbane#themify') format('svg');font-weight:normal;font-s
 .ti-bolt:before{background-image:url(/assets/img/icons/printer.png);content:"";position:absolute;width:40px;height:40px;top:12px;left:12px;background-size:cover;background-color:transparent;}
 .ti-bolt-alt:before{content:"\e653";}
 .ti-blackboard:before{content:"\e654";}
-.ti-bag:before{background-image:url(/assets/img/icons/yemeksepeti.png);content:"";position:absolute;width:40px;height:40px;top:12px;left:12px;background-size:cover;background-color:transparent;}
+.ti-bag:before{background-image:url(/assets/img/icons/scooter.png);content:"";position:absolute;width:40px;height:40px;top:12px;left:12px;background-size:cover;background-color:transparent;}
 .ti-move:before{content:"\e656";}
 .ti-arrows-vertical:before{content:"\e657";}
 .ti-arrows-horizontal:before{content:"\e658";}
