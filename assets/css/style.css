@@ -6147,6 +6147,10 @@ p.populer_text:before {
     box-shadow: 0 5px 20px #0000001a;
 }
 
+.home_page .price_content .price_item.populer::before {
+    height: 915px;
+}
+
 .price_content .price_item .tag span {
     position: relative;
     top: 11px
