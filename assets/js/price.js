@@ -182,7 +182,17 @@ function fillContent(contentId, packages, isHomePage = false) {
 }
 
 $(() => {
-    fillContent('price_page_packages', adisyoPackages);
+    // fillContent('price_page_packages', adisyoPackages);
 
-    fillContent('home_page_packages', adisyoPackages.filter(o => o.isShowHomePage), true);
+    // fillContent('home_page_packages', adisyoPackages.filter(o => o.isShowHomePage), true);
+
+    $("#switch").change((e) => {
+        var checked = e.currentTarget.checked;
+
+        $(".show_params").toggleClass("d-block", checked);
+
+        $(".pricing_area").toggleClass("show_other_package", checked);
+
+        $(".pricing_area .price_container").toggleClass("custom_container", checked);
+    });
 });

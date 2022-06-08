@@ -1215,12 +1215,21 @@ input:-internal-autofill-selected {
     font: 500 15px/53px Quicksand, sans-serif;
     color: #cb2c2e;
     border: 2px solid #cb2c2e;
-    border-radius: 4px;
     padding: 0 25px;
     display: inline-block;
     -webkit-transition: background .2s linear;
     -o-transition: background .2s linear;
-    transition: background .2s linear
+    transition: background .2s linear;
+    border-radius: 45px;
+    color: #cb2c2e;
+    border-color: #cb2c2e;
+    min-width: 165px;
+    max-width: 165px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
 }
 
 .price_btn:hover {
@@ -5969,7 +5978,7 @@ sub {
 }
 
 .pricing_area {
-    background: #f8f8f8
+    padding: 50px 0;
 }
 
 .price_tab {
@@ -6040,6 +6049,26 @@ sub {
     background: #5f2eed
 }
 
+.price_content {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    grid-column-gap: 48px;
+    justify-items: center;
+    align-items: end;
+    margin-bottom: 30px;
+}
+
+.show_other_package .price_content {
+    grid-template-columns: repeat(5, minmax(250px, 1fr)) !important;
+    grid-column-gap: 0 !important;
+}
+
+.discount_text {
+    opacity: 0.8;
+    font-weight: 500 !important;
+    font-size: 12px;
+}
+
 .price_content .fade {
     -webkit-transform: translateY(10px);
     -ms-transform: translateY(10px);
@@ -6055,22 +6084,6 @@ sub {
     transform: translateY(0)
 }
 
-.price_content .price_item {
-    text-align: center;
-    background-color: #fff;
-    -webkit-box-shadow: 0 4px 6px 0 rgba(0, 11, 40, .1);
-    box-shadow: 0 4px 6px 0 rgba(0, 11, 40, .1);
-    padding: 20px;
-    border: 1px solid #fff;
-    position: relative;
-    -webkit-transition: all .2s linear;
-    -o-transition: all .2s linear;
-    transition: all .2s linear;
-    cursor: pointer;
-    user-select: none;
-    margin-left: 10px;
-}
-
 .price_content .price_item .tag {
     position: absolute;
     font: 500 14px Quicksand, sans-serif;
@@ -6082,6 +6095,24 @@ sub {
     -webkit-transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
     transform: rotate(-45deg)
+}
+
+.price_content .price_item.populer {
+    position: relative;
+    z-index: 1;
+}
+
+.price_content .price_item.populer::before {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: -40px;
+    width: 240px;
+    height: 700px;
+    border: 2px solid #cb2c2f;
+    z-index: -1;
+    border-radius: 5px;
+    box-shadow: 0 5px 20px #0000001a;
 }
 
 .price_content .price_item .tag span {
@@ -6154,24 +6185,27 @@ sub {
 }
 
 .price_content .price_item .price_content_value {
-    margin-top: 30px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    margin: 10px 0;
+}
+
+.price_content .price_item .price_content_value_tax {
+    font-size: 11px;
 }
 
 .price_content .price_item .price_content_value_icon {
-    margin-top: -10px;
+    margin-top: -4px;
 }
 
 .price_content .price_item .price_content_value_price {
-    font-size: 60px;
+    font-size: 35px;
 }
 
 .price_content .price_item .price_content_value_price_split {
-    font-size: 25px;
+    font-size: 20px;
     position: relative;
-    top: 7px;
+    top: 12px;
 }
     
 .price_content .price_item .p_list {
@@ -6230,22 +6264,9 @@ sub {
     color: #f0002d
 }
 
-.price_content .price_item .price_btn {
-    border-radius: 45px;
-    color: #cb2c2e;
-    border-color: #cb2c2e;
-    padding: 0 20px
-}
-
-.price_content .price_item .price_btn:hover {
+.price_content .price_item .price_btn_active, .price_content .price_item .price_btn:hover {
     color: #fff;
     background: #cb2c2e
-}
-
-.price_content .price_item:hover {
-    border-color: #c82c2c;
-    -webkit-box-shadow: 0 30px 60px 0 rgba(0, 11, 40, .14);
-    box-shadow: 0 30px 60px 0 rgba(0, 11, 40, .14)
 }
 
 .change_total_price_effect {
@@ -6253,6 +6274,7 @@ sub {
     animation: priceEf 300ms ease-in-out;
     transform: scale(1);
 }
+
 
 @keyframes priceEf {
     0% {
@@ -6266,6 +6288,21 @@ sub {
     100% {
         transform: scale(1);
     }
+}
+
+.package_features .package_feature_item {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    grid-column-gap: 48px;
+    align-items: center;
+    justify-items: center;
+    border-bottom: 1px solid #e7e7e7;
+    min-height: 75px;
+}
+
+.show_other_package .package_features .package_feature_item {
+    grid-template-columns: repeat(5, minmax(250px, 1fr)) !important;
+    grid-column-gap: 0 !important;
 }
 
 .select-price {
@@ -6297,6 +6334,60 @@ sub {
 
 .price_content_two .price_item:hover {
     border-color: #dad1f8
+}
+
+.price_content input[type=checkbox]{
+	height: 0;
+	width: 0;
+	visibility: hidden;
+}
+
+.price_content label {
+	cursor: pointer;
+	text-indent: -9999px;
+	width: 70px;
+    height: 30px;
+	background: #cacaca;
+	display: block;
+	border-radius: 100px;
+	position: relative;
+}
+
+.price_content label:after {
+	content: '';
+	position: absolute;
+	top: 5px;
+	left: 5px;
+    width: 20px;
+    height: 20px;
+	background: #fff;
+	border-radius: 90px;
+	transition: 0.3s;
+}
+
+.show_params {
+    display: none;
+}
+
+.price_content input:checked + label {
+	background: #cb2c2f;
+}
+
+.price_content input:checked + label:after {
+	left: calc(100% - 5px);
+	transform: translateX(-100%);
+}
+
+.price_content label:active:after {
+	width: 30px;
+}
+
+.package_features .fs-12 {
+    font-size: 12px;
+}
+
+input:checked ~ span ~ .price_item{
+    visibility: hidden !important;
 }
 
 .call_action_area {
@@ -13008,3 +13099,154 @@ input+label:before {
       border-radius: 50%;
      
     } */
+
+.switch_text {
+    margin-left: 10px;
+}
+
+.show_other_package .switch_text {
+    margin-left: 0 !important;
+}
+
+.pricing_area .mobile_prices {
+    display: none !important;
+}
+
+.mobile_prices .package_features .package_feature_item {
+    min-height: 60px;
+    justify-items: flex-end;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+@media (max-width:1300px) {
+    .show_other_package .price_content, 
+    .show_other_package .package_features .package_feature_item {
+        grid-template-columns: repeat(5, minmax(235px, 1fr)) !important;
+    }
+
+    .show_other_package .price_content .price_item.populer::before {
+        left: -20px;
+        width: 207px;
+    }
+}
+
+@media (max-width:1220px) {
+    .show_other_package .price_content, 
+    .show_other_package .package_features .package_feature_item {
+        grid-template-columns: repeat(5, minmax(220px, 1fr)) !important;
+    }
+
+    .container:first-child {
+        max-width: 1140px !important;
+    }
+}
+
+@media (max-width:1095px) {
+    .show_other_package .price_content, 
+    .show_other_package .package_features .package_feature_item {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+
+    .pricing_area .container:first-child {
+        display: none !important;
+    }
+   
+    .pricing_area .mobile_prices {
+        display: block !important;
+    }
+
+    .pricing_area svg {
+        position: relative !important;
+        width: auto;
+    }
+}
+
+@media (max-width: 750px) {
+    .tabs .tab label {
+        width: 22vw !important;
+    }
+}
+
+@media (max-width: 560px) {
+    .tabs {
+        min-height: 1300px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .package_feature_item.pt-3.mt-3 {
+        grid-template-columns: auto;
+    }
+
+    .package_feature_item > p {
+        white-space: nowrap;
+    }
+
+    .tabs {
+        min-height: 1450px !important;
+    }
+}
+
+@media (max-width: 370px) {
+    .tabs {
+        min-height: 1550px !important;
+    }
+}
+
+.tabs {
+    position: relative;
+    min-height: 1200px; /* This part sucks */
+    clear: both;
+    margin: 25px 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .tabs .tab {
+    float: left;
+    display: flex;
+  }
+  .tabs .tab label {
+    background: #eee;
+    padding: 10px;
+    border-radius: 50px;
+    width: calc(660px / 4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+  }
+
+  .tabs .tab [type="radio"] {
+    opacity: 0;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+    z-index: -999999;
+  }
+  .tabs .content {
+    position: absolute;
+    top: 90px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+  }
+  .tabs .content > * {
+    opacity: 0;
+    transition: 200ms all;
+  }
+  
+  .tabs [type="radio"]:checked ~ label {
+    background-color: #cb2c2f;
+    color: white;
+    z-index: 2;
+  }
+
+  .tabs [type="radio"]:checked ~ label ~ .content {
+    z-index: 1;
+  }
+
+  .tabs [type="radio"]:checked ~ label ~ .content > * {
+    opacity: 1;
+  }
