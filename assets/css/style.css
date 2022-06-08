@@ -893,7 +893,7 @@ input:-internal-autofill-selected {
 .mb_0 {
     margin-bottom: 0px;
 }
-}
+
 .mb_10 {
     margin-bottom: 10px
 }
@@ -6140,7 +6140,7 @@ p.populer_text:before {
     top: -20px;
     left: -62px;
     width: 290px;
-    height: 850px;
+    height: 770px;
     border: 2px solid #cb2c2f;
     z-index: -1;
     border-radius: 5px;
@@ -6148,7 +6148,7 @@ p.populer_text:before {
 }
 
 .home_page .price_content .price_item.populer::before {
-    height: 915px;
+    height: 770px;
 }
 
 .price_content .price_item .tag span {
@@ -9566,7 +9566,7 @@ label {
     margin-top: 40px
 }
 
-. .login-form .alter-login {
+.login-form .alter-login {
     font: 400 15px/26px Quicksand, sans-serif;
     color: #9ca3b9
 }
@@ -13193,8 +13193,7 @@ input+label:before {
         grid-template-columns: 1fr 60px !important;
     }
 
-    .show_other_package .mobile_prices .package_feature_item.pt-3.mt-3, 
-    .show_other_package .mobile_prices .package_feature_item.pb-3.mb-3 {
+    .show_other_package .mobile_prices .package_feature_item.pt-3.mt-3 {
         grid-template-columns: 1fr 200px !important;
     }
 
@@ -13216,41 +13215,54 @@ input+label:before {
     .tabs .tab label {
         width: 22vw !important;
     }
+
+    .home_page .tabs .tab label {
+        width: 30vw !important;
+    }
 }
 
 @media (max-width: 560px) {
     .tabs {
-        min-height: 1300px !important;
+        min-height: 1200px !important;
     }
 }
 
 @media (max-width: 480px) {
-    .package_feature_item.pt-3.mt-3 {
+    .package_feature_item.pt-3.mt-3,
+    .show_other_package .mobile_prices .package_feature_item.pt-3.mt-3 {
         grid-template-columns: auto !important;
         text-align: center;
         justify-items: center;
     }
 
     .tabs {
-        min-height: 1600px !important;
+        min-height: 1700px !important;
+    }
+
+    .home_page .tabs {
+        min-height: 1550px !important;
     }
 }
 
 @media (max-width: 370px) {
     .tabs {
-        min-height: 1750px !important;
+        min-height: 1650px !important;
+    }
+
+    .home_page .tabs {
+        min-height: 1620px !important;
     }
 }
 
 @media (max-width: 330px) {
-    .tabs {
-        min-height: 2000px !important;
+    .home_page .tabs {
+        min-height: 1700px !important;
     }
 }
 
 .tabs {
     position: relative;
-    min-height: 1200px; /* This part sucks */
+    min-height: 1125px; /* This part sucks */
     clear: both;
     margin: 25px 0;
     display: flex;
