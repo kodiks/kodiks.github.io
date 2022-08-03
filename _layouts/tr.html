@@ -1,0 +1,567 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Adisyo API</title>
+
+    <style>
+        .highlight .span1 {
+            color: #ec7263;
+        }
+
+        .highlight .spaninteger {
+            color: #f70776;
+        }
+
+        .highlight .span3 {
+            color: #a8e6cf;
+        }
+    </style>
+    <link href="/assets/css/main.css" rel="stylesheet" media="screen" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.3.0/mdb.min.css" rel="stylesheet" />
+    <script src="/assets/js/functions.tr.js"></script>
+</head>
+
+<body class="index" data-languages="[&quot;shell&quot;]">
+    <a href="#" id="nav-button">
+        <span>
+            NAV
+            <img src="images/navbar.png" alt="Navbar" />
+        </span>
+    </a>
+    <div class="doc-wrapper">
+        <a href="/en.html"><i class="flag flag-uk" style="margin: 5px 5px;"></i>English</a>
+        <img src="/assets/img/api-img/adisyo.png" class="logo" alt="Adisyo" />
+        <div class="shell">
+            <a href="#" data-language-name="shell">shell</a>
+        </div>
+        <div class="search">
+            <input type="text" class="search" id="input-search" placeholder="Arama Yap">
+        </div>
+        <ul class="searchResults"></ul>
+        <div id="doc" class="doc-list-h1">
+
+            <li>
+                <a href="#gettingStarted" class="doc-h1 doc-link" data-title="Web & Mobil Entegrasyon">Web & Mobil
+                    Entegrasyon</a>
+                <ul class="doc-list-h2">
+                    <li>
+                        <a href="#gettingStarted" class="doc-h1 doc-link" data-title="Başlarken">Başlarken</a>
+                    </li>
+                    <li>
+                        <a href="#apiKey-and-secretKey" class="doc-h1 doc-link" data-title="Api Key ve Secret Key">Api
+                            Key ve
+                            Secret Key</a>
+                    </li>
+                    <li>
+                        <a href="#getExternalProducts" class="doc-h1 doc-link"
+                            data-title="Ürün Listesini Görüntüleme">Ürün
+                            Listesini Görüntüleme</a>
+                    </li>
+                    <li>
+                        <a href="#orderObject" class="doc-h1 doc-link" data-title="Sipariş Objesi Oluşturmak">Sipariş
+                            Objesi
+                            Oluşturmak</a>
+                    </li>
+                    <li>
+                        <a href="#setPaymentMethod" class="doc-h1 doc-link" data-title="Ödeme Yöntemini Belirleme">Ödeme
+                            Yöntemini Belirleme</a>
+                    </li>
+                    <li>
+                        <a href="#postOrder" class="doc-h1 doc-link"
+                            data-title="Hazırlanan Requesti Gönderme">Hazırlanan
+                            Requesti Gönderme</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#hemenYolda" class="doc-h1 doc-link" data-title="Hemen Yolda">Hemen Yolda</a>
+                <ul class="doc-list-h2">
+                    <li>
+                        <a href="#hemenYolda" class="doc-h1 doc-link" data-title="Açık Siparişleri Görüntüleme">Açık Siparişleri Görüntüleme</a>
+                    </li>
+                </ul>
+            </li>
+
+
+            <!-- <li>
+                <a href="#gettingStarted" class="doc-h1 doc-link" data-title="Başlarken">Başlarken</a>
+
+            </li>
+            <li>
+                <a href="#apiKey-and-secretKey" class="doc-h1 doc-link" data-title="Api Key ve Secret Key">Api Key ve
+                    Secret Key</a>
+            </li>
+            <li>
+                <a href="#getExternalProducts" class="doc-h1 doc-link" data-title="Ürün Listesini Görüntüleme">Ürün
+                    Listesini Görüntüleme</a>
+            </li>
+            <li>
+                <a href="#orderObject" class="doc-h1 doc-link" data-title="Sipariş Objesi Oluşturmak">Sipariş Objesi
+                    Oluşturmak</a>
+            </li>
+            <li>
+                <a href="#setPaymentMethod" class="doc-h1 doc-link" data-title="Ödeme Yöntemini Belirleme">Ödeme
+                    Yöntemini Belirleme</a>
+            </li>
+            <li>
+                <a href="#postOrder" class="doc-h1 doc-link" data-title="Hazırlanan Requesti Gönderme">Hazırlanan
+                    Requesti Gönderme</a>
+            </li> -->
+
+        </div>
+
+    </div>
+    <div class="page-content">
+        <div class="shell-box"></div>
+        <div class="content">
+            <h1 id='gettingStarted'>Başlarken</h1>
+            <h2>Genel Bakış</h2>
+            <p>Adisyo Cafe Restoran uygulamasına kayıtlı restoranınıza dilerseniz ilgili endpoint ve birkaç
+                konfigürasyon ile sipariş giriş işlemini yapabilirsiniz. Aşağıda belirtilen birkaç basit adım ile ilk
+                siparişinizi hemen girebilirsiniz;</p>
+            <p>1- İlgili restorantın adisyo uygulamasında yer alan ürün listesini x-api-key ve x-api-secret
+                bilgileri ile <span
+                    style="color:green; font-weight:bold">’https://ext.adisyo.com/api/external/GetExternalProducts’</span>
+                adresinden
+                çekmek. GET metodu ile istek gönderilmelidir.</p>
+            <p>2- Adisyo uygulamasından alınan <span style="color:orangered; font-weight:bold">‘x-api-key’ ve
+                    ‘x-api-secret’</span> bilgilerini ilgili http request
+                header’ına eklemek.</p>
+            <p>3- Sipariş objesini oluşturmak (JSON).</p>
+            <p>4- Sipariş objesi ve adisyo yetkililerinden alınan x-api-key ve x-api-secret bilgileri ile
+                <span
+                    style="color:green; font-weight:bold;">’https://ext.adisyo.com/api/external/SaveExternalOrder’</span>
+                adresine request
+                gönderilebilir. <span style="color:green; font-weight:bold; text-decoration: underline">POST</span>
+                metodu kullanılmalıdır.
+            </p>
+
+            <h1 id='apiKey-and-secretKey'>Api Key ve Secret Key Bilgilerini Alma</h1>
+            <p>Entegrasyon sağlanacak her bir restoran için adisyo yetkilileri tarafından paylaşılan x-api-key
+                ve x-api-secret bilgileridir. Bu bilgiler gönderilecek Http request’inin header alanında yer
+                almalıdır ve belirtilen formatta olmalıdır, aksi halde işlem gerçekleşmeyecektir. x-api-key ve
+                x-api-secret bilgileri için lütfen adisyo ile iletişime geçiniz.</p>
+
+            <h1 id='getExternalProducts'>Ürün Listesini Görüntüleme</h1>
+            <p>İlgili restorantın adisyo uygulamasında yer alan ürün listesini x-api-key ve x-api-secret
+                bilgileri ile <span
+                    style="color:green; font-weight:bold">’https://ext.adisyo.com/api/external/GetExternalProducts’</span>
+                adresinden
+                çekmek. GET metodu ile istek gönderilmelidir.</p>
+
+            <blockquote>
+                <p>Örnek Request </p>
+            </blockquote>
+            <pre class="highlight shell "><code>curl https://ext.adisyo.com/api/external/GetExternalProducts
+</code></pre>
+            <blockquote>
+                <p>Örnek Response</p>
+            </blockquote>
+            <pre class="highlight json "><code><span class="p">{</span>
+    <span>"<span class="span1">productName</span>": "<span class="span3">Hamburger</span>"</span>
+    <span>"<span class="span1">productCode</span>": <span class="span3">null</span>,</span>
+    <span>"<span class="span1">features</span>": [</span>
+    <span>    <span>{</span></span>
+    <span>    <span>    "<span class="span1">featureName</span>": "</span><span class="span3">Ekstra Peynir</span>",</span>
+    <span>    <span>    "<span class="span1">featureId</span>": </span><span class="spaninteger">968348</span>,</span>
+    <span>    <span>    "<span class="span1">featureCode</span>": </span><span class="span3">null</span>,</span>
+    <span>    <span>    "<span class="span1">productId</span>": </span><span class="spaninteger">2267678</span>,</span>
+    <span>    <span>    "<span class="span1">additionalPrice</span>": </span><span class="spaninteger">3.00</span>",</span>
+    <span>    <span>    "<span class="span1">featureHeaderName</span>": "</span><span class="span3">Hamburger İçerik</span>",</span>
+    <span>    <span>},</span></span>
+    <span>    <span>{</span></span>
+    <span>    <span>    "<span class="span1">featureName</span>": "</span><span class="span3">Ekstra Köfte</span>",</span>
+    <span>    <span>    "<span class="span1">featureId</span>": </span><span class="spaninteger">968351</span>,</span>
+    <span>    <span>    "<span class="span1">featureCode</span>": </span><span class="span3">null</span>,</span>
+    <span>    <span>    "<span class="span1">productId</span>": </span><span class="spaninteger">2267678</span>,</span>
+    <span>    <span>    "<span class="span1">additionalPrice</span>": </span><span class="spaninteger">6.00</span>",</span>
+    <span>    <span>    "<span class="span1">featureHeaderName</span>": "</span><span class="span3">Hamburger İçerik</span>",</span>
+    <span>    <span>},</span></span>
+    <span>    <span>{</span></span>
+    <span>    <span>    "<span class="span1">featureName</span>": "</span><span class="span3">Mantar</span>",</span>
+    <span>    <span>    "<span class="span1">featureId</span>": </span><span class="spaninteger">968359</span>,</span>
+    <span>    <span>    "<span class="span1">featureCode</span>": </span><span class="span3">null</span>,</span>
+    <span>    <span>    "<span class="span1">productId</span>": </span><span class="spaninteger">2267678</span>,</span>
+    <span>    <span>    "<span class="span1">additionalPrice</span>": </span><span class="spaninteger">3.00</span>",</span>
+    <span>    <span>    "<span class="span1">featureHeaderName</span>": "</span><span class="span3">Hamburger İçerik</span>",</span>
+    <span>    <span>},</span></span>
+    <span><span class="span1">           </span> ],</span>
+    <span>"<span class="span1">productUnits</span>": [</span>
+    <span>    <span>{</span></span>
+    <span>    <span>    "<span class="span1">unitName</span>": "</span><span class="span3">Tam</span>",</span>
+    <span>    <span>    "<span class="span1">price</span>": </span><span class="spaninteger">12.00</span>,</span>
+    <span>    <span>    "<span class="span1">productUnitId</span>": </span><span class="spaninteger">2408389</span>,</span>
+    <span>    <span>},</span></span>
+    <span><span class="span1">           </span> ],</span>
+    <span>"<span class="span1">menus</span>": [</span>
+    <span>    <span>{</span></span>
+    <span>    <span>    "<span class="span1">menuName</span>": "</span><span class="span3">Büyük Boy Menü( 1lt İçecek)</span>",</span>
+    <span class="span1"><span>        "</span>subProducts</span>": [
+    <span><span>            {</span></span>
+    <span><span>                "</span><span class="span1">productName</span>": "<span class="span3">Su</span>",</span>
+    <span><span>                "</span><span class="span1">productCode</span>": <span class="span3">null</span>,</span>
+    <span><span>                "</span><span class="span1">productUnitId</span>": <span class="spaninteger">2408366</span></span>
+    <span><span>            },</span></span>
+    <span><span>            {</span></span>
+    <span><span>                "</span><span class="span1">productName</span>": "<span class="span3">Ayran</span>",</span>
+    <span><span>                "</span><span class="span1">productCode</span>": <span class="span3">null</span>,</span>
+    <span><span>                "</span><span class="span1">productUnitId</span>": <span class="spaninteger">2408367</span></span>
+    <span><span>            },</span></span>
+    <span><span>            {</span></span>
+    <span><span>                "</span><span class="span1">productName</span>": "<span class="span3">Coca Cola</span>",</span>
+    <span><span>                "</span><span class="span1">productCode</span>": <span class="span3">null</span>,</span>
+    <span><span>                "</span><span class="span1">productUnitId</span>": <span class="spaninteger">2408368</span></span>
+    <span><span>            },</span></span>   <span><span>            {</span></span>
+    <span><span>                "</span><span class="span1">productName</span>": "<span class="span3">Soda</span>",</span>
+    <span><span>                "</span><span class="span1">productCode</span>": <span class="span3">null</span>,</span>
+    <span><span>                "</span><span class="span1">productUnitId</span>": <span class="spaninteger">2408369</span></span>
+    <span><span>            },</span></span>   <span><span>            {</span></span>
+    <span><span>                "</span><span class="span1">productName</span>": "<span class="span3">Ice Tea</span>",</span>
+    <span><span>                "</span><span class="span1">productCode</span>": <span class="span3">null</span>,</span>
+    <span><span>                "</span><span class="span1">productUnitId</span>": <span class="spaninteger">2408370</span></span>
+    <span><span>            },</span></span>
+    <span class="span1"><span>       </span></span>  ]
+    <span>      <span>}</span></span>
+    <span>  <span></span>],</span>
+    <span>"<span class="span1">excludedFeatures</span>": [</span>
+    <span>    <span>{</span></span>
+    <span><span>                "</span><span class="span1">featureName</span>": "<span class="span3">Tiramisu</span>",</span>
+    <span><span>                "</span><span class="span1">featureId</span>": <span class="spaninteger">2408376</span>,</span>
+    <span><span>                "</span><span class="span1">featureCode</span>": <span class="span3">null</span>,</span>
+    <span><span>                "</span><span class="span1">productId</span>": <span class="spaninteger">2267678</span></span>
+    <span><span>            }</span></span><span>
+    <span>    {</span></span>
+    <span><span>                "</span><span class="span1">featureName</span>": "<span class="span3">Türk Kahvesi</span>",</span>
+    <span><span>                "</span><span class="span1">featureId</span>": <span class="spaninteger">2408362</span>,</span>
+    <span><span>                "</span><span class="span1">featureCode</span>": <span class="span3">null</span>,</span>
+    <span><span>                "</span><span class="span1">productId</span>": <span class="spaninteger">2267678</span></span>
+    <span><span>     }</span></span>
+    <span class="span1"><span></span></span>  ]
+<span class="p">}</span>
+</code>
+
+</pre>
+            <h3>Endpoint</h3>
+            <p>GET /api/external/GetExternalProducts</p>
+            <h3>Gerekli Parametreler</h3>
+            <ul>
+                <li> <code>x-api-key</code> - Hesabınızın API keyi</li>
+                <li> <code>x-api-secret</code> - Hesabınızın API Secret keyi</li>
+
+            </ul>
+            <h1 id='orderObject'>Sipariş Objesini Oluşturmak</h1>
+
+            <blockquote>
+                <p>Örnek Sipariş Objesi</p>
+            </blockquote>
+            <pre class="highlight json ">
+            <code>
+<span>{</span>
+    <span>"<span class="span1">CustomerName</span>": "<span class="span3">Christian</span>",</span>
+    <span>"<span class="span1">CustomerSurname</span>": "<span class="span3">Luyindama</span>",</span>
+    <span>"<span class="span1">CustomerId</span>": "<span class="spaninteger">44545</span>",</span>
+    <span>"<span class="span1">CustomerPhone</span>": "<span class="spaninteger">5554443444</span>",</span>
+    <span>"<span class="span1">CustomerPhone2</span>": "<span class="spaninteger">5554443441</span>",</span>
+    <span>"<span class="span1">Address</span>": "<span class="span3">adres bilgisi...</span>",</span>
+    <span>"<span class="span1">AddressDescription</span>": "<span class="span3">adres tarif</span>",</span>
+    <span>"<span class="span1">Region</span>": "<span class="span3">Ataşehir</span>",</span>
+    <span>"<span class="span1">City</span>": "<span class="span3">İstanbul</span>",</span>
+    <span>"<span class="span1">PaymentMethodId</span>": "<span class="spaninteger">3</span>",</span>
+    <span>"<span class="span1">PaymentNote</span>": "<span class="span3">temassız çalışmıyorr</span>",</span>
+    <span>"<span class="span1">Discount</span>": "<span class="spaninteger">20</span>",</span>
+    <span>"<span class="span1">OrderNote</span>": "<span class="span3">ıslak mendil getirin</span>",</span>
+    <span>"<span class="span1">WebOrderId</span>": "<span class="spaninteger">746364</span>",</span>
+    <span>"<span class="span1">OrderTotal</span>": "<span class="spaninteger">20.00</span>",</span>
+    <span>"<span class="span1">OrderDetails</span>":
+    <span>      [</span>
+    <span>          {</span>
+    <span>          "<span class="span1">Quantity</span>": <span class="spaninteger">4</span>,</span>
+    <span>          "<span class="span1">ProductUnitId</span>": <span class="spaninteger">43455</span>,</span>
+    <span>          "<span class="span1">OrderDetailNote</span>": "<span class="span1">çıtır olsun</span>",</span>
+    <span>          "<span class="span1">Features</span>":
+    <span>              [</span>
+    <span>                 {</span>
+    <span>                  "<span class="span1">Name</span>": "<span class="span3">Soğansız</span>",</span>
+    <span>                  "<span class="span1">FeatureId</span>": "<span class="spaninteger">322343</span>"</span>
+    <span>                 <span>}</span><span class="span1"> ,{...},{...}</span>
+    <span>              ],</span>
+    <span>          "<span class="span1">IsMenu</span>": "<span class="span1">true/false</span>",</span>
+    <span>          "<span class="span1">MenuId</span>": "<span class="spaninteger">1</span>",</span>
+    <span>          "<span class="span1">ParentId</span>": "<span class="spaninteger">1</span>"</span>
+    <span>        }</span>
+    <span>      ]</span>
+<span>}</span>
+            </code></pre>
+            <p>Sipariş objesi JSON formatında olmalı. Sipariş içinde temel bilgiler, siparişte yer alan ürünler
+                ve bu ürünlere ait bazı bilgiler bulunur. Aşağıda her bir parametre ayrı ayrı açıklanmıştır ;</p>
+
+            <ul>
+                <li> <code>CustomerName</code> - Siparişi veren kullanıcının adı</li>
+                <li> <code>CustomerSurname</code> - Siparişi veren kullanıcının soyadı</li>
+                <li> <code>CustomerId</code> - Kendi sisteminize kayıtlı kullanıcının ID’si, yoksa boş bırakın</li>
+                <li> <code>CustomerPhone</code> - Siparişi veren kullanıcının telefon numarası</li>
+                <li> <code>CustomerPhone2</code> - Siparişi veren kullanıcının 2. telefon numarası</li>
+                <li> <code>Address</code> - Siparişi veren kullanıcnın adresi</li>
+                <li> <code>AddressDescription</code> - Siparişi veren kullanıcnın adres tarifi</li>
+                <li> <code>Region</code> - Siparişi veren kullanıcnın semt-ilçe bilgisi</li>
+                <li> <code>City</code> - Siparişi veren kullanıcının şehir bilgisi</li>
+                <li> <code>PaymentMethodId</code> - Ödeme tipi bilgisi, ödeme tipleri listesi aşağıda vardır</li>
+                <li> <code>PaymentNote</code> - Ödeme notu</li>
+                <li> <code>Discount</code> - Siparişteki toplam indirim tutarı</li>
+                <li> <code>OrderNote</code> - Sipariş notu</li>
+                <li> <code>WebOrderId</code> - Kendi sisteminizde yer alan sipariş ID’si</li>
+                <li> <code>OrderTotal</code> - Sipariş Toplam Tutarı</li>
+
+            </ul>
+
+            <h1 id='setPaymentMethod'>Ödeme Yöntemini Belirleme</h1>
+
+            <p>Sipariş objesi bu şekilde hazır hale getirilir. Ödeme tipi alanına gelebilecek seçenekler yine
+                adisyo sisteminde kullanılan değerlerden biri ile doldurulmalıdır. Ödeme tipi listesi aşağıdaki
+                gibidir ; </p>
+
+            <br>
+            <ul>
+                <li> <code>Nakit</code> : 1</li>
+                <li> <code>Kredi Kartı</code> : 2</li>
+                <li> <code>Multinet</code> : 3</li>
+                <li> <code>SmartTicket</code> : 4</li>
+                <li> <code>Setcard</code> : 5</li>
+                <li> <code>Sodexo</code> : 6</li>
+                <li> <code>Diğer</code> : 7</li>
+                <li> <code>Basit Otel</code> : 22</li>
+                <li> <code>BizimHesap</code> : 24</li>
+                <li> <code>Metropol</code> : 26</li>
+                <li> <code>Açık Hesap</code> : 27</li>
+                <li> <code>HMS Otel</code> : 28</li>
+                <li> <code>YS Online</code> : 29</li>
+                <li> <code>Glovo</code> : 30</li>
+                <li> <code>Cüzdan</code> : 31</li>
+                <li> <code>Getir</code> : 33</li>
+                <li> <code>Sedna</code> : 34</li>
+                <li> <code>Sodexo Online</code> : 41</li>
+                <li> <code>Paye</code> : 52</li>
+                <li> <code>Web Online</code> : 53</li>
+                <li> <code>Chippin</code> : 63</li>
+                <li> <code>Zomato</code> : 65</li>
+                <li> <code>Maximum Mobile</code> : 88</li>
+                <li> <code>Paycell</code> : 89</li>
+                <li> <code>Trendyol</code> : 90</li>
+                <li> <code>Sodexo Pass Mobil</code> : 91</li>
+                <li> <code>FastPay</code> : 92</li>
+                <li> <code>Fuudy</code> : 93</li>
+                <li> <code>Sodexo Cep Pos</code> : 97</li>
+                <li> <code>CIO Kart</code> : 98</li>
+            </ul>
+            <h1 id='postOrder'>Hazırlanan Request’i Göndermek</h1>
+            <blockquote>
+                <p>Örnek Request</p>
+            </blockquote>
+            <pre class="highlight shell"><code>curl -X POST https://ext.adisyo.com/api/external/SaveExternalOrder
+                </code></pre>
+            <blockquote>
+                <p>Örnek Success Response </p>
+            </blockquote>
+            <pre class="highlight json ">
+                <code>
+<span>{</span>
+    "<span class="span1">orderId</span>": <span class="spaninteger">66297940</span>,
+    "<span class="span1">orderTotal</span>": <span class="spaninteger">20.00</span>,
+    "<span class="span1">discount</span>": <span class="spaninteger">-4.00</span>,
+    "<span class="span1">insertedDate</span>": "<span class="span3">2022-06-12T19:33:12.033</span>",
+    "<span class="span1">errorMessage</span>": <span class="span3">null</span>,
+    "<span class="span1">status</span>": <span class="spaninteger">1</span>
+<span>}</span>
+                </code></pre>
+            <blockquote>
+                <p>Örnek Fail Response </p>
+            </blockquote>
+            <pre class="highlight json ">
+                    <code>
+<span>{</span>
+    "<span class="span1">orderId</span>": <span class="spaninteger">0</span>,
+    "<span class="span1">orderTotal</span>": <span class="spaninteger">0.0</span>,
+    "<span class="span1">discount</span>": <span class="spaninteger">0.0</span>,
+    "<span class="span1">insertedDate</span>": "<span class="span3">0001-01-01T00:00:00</span>",
+    "<span class="span1">errorMessage</span>": "<span class="span3">Sipariş kaydedilirken bir hata oluştu, lütfen tekrar deneyin veya Adisyo destek ile iletişime
+     geçiniz.</span>",
+    "<span class="span1">status</span>": <span class="spaninteger">0</span>
+<span>}</span>
+                    </code></pre>
+            <p>Http requestinin header alanına ilgili restorana ait x-api-key ve x-api-secret bilgileri girilmiş,
+                sipariş objesi de örnekteki haliyle hazırlanmış şekilde son aşamaya gelinir. Buradan itibaren
+                yapılması gereken ise sadece hazırlanan request’i post metodu ile belirtilen endpoint adresine göndermek.
+            </p>
+            <h3>Endpoint</h3>
+            <p>GET /api/external/SaveExternalOrder</p>
+            <h3>Gerekli Parametreler</h3>
+            <ul>
+                <li> <code>x-api-key</code> - Hesabınızın API keyi</li>
+                <li> <code>x-api-secret</code> - Hesabınızın API Secret keyi</li>
+            </ul>
+            <h3 id="responseTypes">Response Tipleri</h3>
+            <ul>
+                <li> <code>Success (1)</code> - İşlem başarılı olduysa sipariş adisyo sistemine aktarılmış demektir.
+                    Response olarak siparişe
+                    ait genel bilgiler, ‘Status’ bilgisi (başarılı işlemlerde <span
+                        style="color: green; font-weight: bold;">1</span> olarak döner) ve siparişin Adisyo
+                    sistemine kaydedildiği tarih/saat bilgisi döner.</li>
+                <li> <code>Fail (0)</code> - Siparişi kaydetme esnasında yaşanan bir hata var ise işlem başarısız olarak
+                    kabul edilir ve
+                    adisyo sistemine herhangi bir kayıt düşmez. Response olarak ‘Status’ bilgisi ( başarısız
+                    işlemlerde <span style="color: red; font-weight: bold;"> 0</span> olarak döner) , hataya sebep olan
+                    işlemin açıklaması ‘ErrorMessage’ döner. </li>
+            </ul>
+
+
+
+            <h1 id='hemenYolda'>Açık Siparişleri Görüntüleme</h1>
+
+            <blockquote>
+                <p>Örnek Request </p>
+            </blockquote>
+            <pre class="highlight shell"><code>curl https://ext.adisyo.com/api/external/HemenYoldaOrders
+            </code></pre>
+
+            <blockquote>
+                <p>Örnek Response</p>
+            </blockquote>
+            <pre class="highlight json "><code>
+<span>{</span>
+    <span>"<span class="span1">orders</span>": [</span>
+    <span>{</span>
+                <span>"<span class="span1">id</span>": <span class="spaninteger">66473932</span></span>,
+                <span>"<span class="span1">waiterName</span>": "<span class="span3">hemenyolda</span>"</span>,
+                <span>"<span class="span1">deliveryUserName</span>": <span class="span3">null</span></span>,
+                <span>"<span class="span1">externalAppName</span>": "<span class="span3">Adisyo</span>"</span>,
+                <span>"<span class="span1">restaurantName</span>": <span class="span3">null</span></span>,
+                <span>"<span class="span1">orderTotal</span>": <span class="spaninteger">6</span></span>,
+                <span>"<span class="span1">paymentMethodName</span>": "<span class="span3">SetCard</span>"</span>,
+                <span>"<span class="span1">paymentMethodId</span>": <span class="spaninteger">5</span></span>,
+                <span>"<span class="span1">deliveryTime</span>": <span class="span3">null</span></span>,
+                <span>"<span class="span1">discountAmount</span>": <span class="spaninteger">0.00</span></span>,
+                <span>"<span class="span1">currency</span>": "<span class="span3">TRY</span>"</span>,
+                <span>"<span class="span1">orderNote</span>": <span class="span3">null</span></span>,
+                <span>"<span class="span1">externalAppId</span>": <span class="spaninteger">null</span></span>,
+                <span>"<span class="span1">statusId</span>": <span class="spaninteger">1</span></span>,
+                <span>"<span class="span1">status</span>": "<span class="span3">Sipariş Alındı</span>"</span>,
+                <span>"<span class="span1">orderCancelReason</span>": <span class="span3">null</span></span>,
+                <span>"<span class="span1">tableName</span>": <span class="span3">null</span></span>,
+                <span>"<span class="span1">orderNumber</span>": <span class="spaninteger">100</span></span>,
+                <span>"<span class="span1">taxAmount</span>": <span class="spaninteger">0.44</span></span>,
+                <span>"<span class="span1">insertDate</span>": "<span class="span3">2022-06-14T10:19:30.317</span>"</span>,
+                <span>"<span class="span1">updateDate</span>": "<span class="span3">2022-06-14T10:19:30.317</span>"</span>,
+                <span>"<span class="span1">customerId</span>": <span class="spaninteger">1767682</span></span>,
+                <span>"<span class="span1">customerLatitude</span>": <span class="spaninteger">null</span></span>,
+                <span>"<span class="span1">customerLongitude</span>": <span class="spaninteger">null</span></span>,
+                <span>"<span class="span1">confirmationCode</span>": <span class="spaninteger">null</span></span>,
+                <span>"<span class="span1">integrationRestaurantName</span>": <span class="span3">null</span></span>,
+                <span>"<span class="span1">addressId</span>": <span class="spaninteger">1766443</span></span>,
+                <span>"<span class="span1">customer</span>": {</span>
+                    <span>"<span class="span1">customerName</span>": "<span class="span3">Baver Bölüm</span>"</span>,
+                    <span>"<span class="span1">customerSurname</span>": <span class="span3">null</span></span>,
+                    <span>"<span class="span1">customerEmail</span>": <span class="span3">null</span></span>,
+                    <span>"<span class="span1">customerId</span>": "<span class="spaninteger">1767682</span>"</span>,
+                    <span>"<span class="span1">customerPhone</span>": "<span class="span3">5453454545</span>"</span>,
+                    <span>"<span class="span1">customerPhone2</span>": <span class="span3">null</span></span>,
+                    <span>"<span class="span1">address</span>": "<span class="span3">asd</span>"</span>,
+                    <span>"<span class="span1">addressDescription</span>": <span class="span3">null</span></span>,
+                    <span>"<span class="span1">region</span>": <span class="span3">null</span></span>,
+                    <span>"<span class="span1">addressHeader</span>": <span class="span3">null</span></span>,
+                    <span>"<span class="span1">city</span>": <span class="span3">null</span></span>,
+                    <span>"<span class="span1">company</span>": <span class="span3">null</span></span>,
+                    <span>"<span class="span1">phoneCode</span>": <span class="span3">null</span></span>,
+                    <span>"<span class="span1">addressId</span>": <span class="spaninteger">0</span></span>,
+                    <span>"<span class="span1">isDefault</span>": <span class="span3">null</span></span>,
+                </span>},</span>
+                <span>"<span class="span1">products</span>": [</span>
+                <span>{</span>
+                    <span>"<span class="span1">id</span>": <span class="spaninteger">213829215</span>,
+                    <span>"<span class="span1">orderId</span>": <span class="spaninteger">66473932</span>,
+                    <span>"<span class="span1">quantity</span>": <span class="spaninteger">1.00</span>,
+                    <span>"<span class="span1">unitPrice</span>": <span class="spaninteger">6.00</span>,
+                    <span>"<span class="span1">productName</span>": "<span class="span3">Türk Kahvesi</span>",
+                    <span>"<span class="span1">productNote</span>": <span class="spaninteger">66473932</span>,
+                    <span>"<span class="span1">isMenu</span>": <span class="spaninteger">false</span>,
+                    <span>"<span class="span1">parentId</span>": <span class="spaninteger">null</span>,
+                    <span>"<span class="span1">cost</span>": <span class="spaninteger">0.0</span>,
+                    <span>"<span class="span1">totalAmount</span>": <span class="spaninteger">6.00</span>,
+                    <span>"<span class="span1">groupName</span>": <span class="spaninteger">null</span>,
+                    <span>"<span class="span1">groupId</span>": <span class="spaninteger">0</span>,
+                    <span>"<span class="span1">discountAmount</span>": <span class="spaninteger">0.00</span>,
+                    <span>"<span class="span1">insertDate</span>": "<span class="span3">2022-06-14T10:19:30.333</span>",
+                    <span>"<span class="span1">description</span>": <span class="span3">null</span>,
+                    <span>"<span class="span1">cancelReason</span>": <span class="span3">null</span>,
+                    <span>"<span class="span1">excludedComposites</span>": <span class="span3">null</span>,
+                    <span>"<span class="span1">excludedItems</span>": <span class="span3">[]</span>,
+                    <span>"<span class="span1">features</span>": <span class="span3">[</span>
+                    <span>{</span>
+                        <span>"<span class="span1">featureName</span>": "<span class="span3">Brownie</span>"</span>,
+                        <span>"<span class="span1">AdditionalPrice</span>": <span class="spaninteger">4.00</span></span>,
+                        <span>"<span class="span1">featureId</span>": <span class="spaninteger">2408384</span></span>,
+                        <span>"<span class="span1">OrderDetailId</span>": <span class="spaninteger">53455</span></span>
+                    <span>},</span>
+                    <span>{</span>
+                        <span>"<span class="span1">featureName</span>": "<span class="span3">Tiramisu</span>"</span>,
+                        <span>"<span class="span1">AdditionalPrice</span>": <span class="spaninteger">4.00</span></span>,
+                        <span>"<span class="span1">featureId</span>": <span class="spaninteger">2408376</span></span>,
+                        <span>"<span class="span1">OrderDetailId</span>": <span class="spaninteger">53455</span></span>
+                    <span>}</span>
+                    <span><span class="span1"></span><span>],</span>
+                </span>}</span>
+            </span>],</span>
+            <span>"<span class="span1">payments</span>": []</span>
+         <span>}</span>
+        <span>],</span>
+        <span>"<span class="span1">result</span>": <span class="spaninteger">1</span></span>,
+        <span>"<span class="span1">errorMessage</span>": <span class="span3">null</span></span>,
+        <span>"<span class="span1">totalOrderCount</span>": <span class="spaninteger">1</span></span>,
+        <span>"<span class="span1">pageCount</span>": <span class="spaninteger">1</span></span>
+<span>}</span></code></pre>
+
+            <p>İlgili restorantın adisyo uygulamasında yer alan ürün listesini x-api-key ve x-api-secret
+                bilgileri ile <span
+                    style="color:green; font-weight:bold">’https://ext.adisyo.com/api/external/HemenYoldaOrders’</span>
+                adresinden
+                çekmek. GET metodu ile istek gönderilmelidir.</p>
+
+
+            <h3>Endpoint</h3>
+            <p>GET /api/external/HemenYoldaOrders</p>
+            <h3>Gerekli Parametreler</h3>
+            <ul>
+                <li> <code>x-api-key</code> - Hesabınızın API keyi</li>
+                <li> <code>x-api-secret</code> - Hesabınızın API Secret keyi</li>
+            </ul>
+            <h3>Opsiyonel Parametreler</h3>
+            <ul>
+                <li> <code>pageIndex</code> - Sipariş sayısı 50'den yüksek olduğunda veriler sayfalanır. Index ile verilere erişilebilir. Default olarak ilk sayfayı getirir.
+                Diğer sayfalara erişmek için bu alanı doldurmanız gerekmektedir.</li>
+                <li> <code>minimumOrderId</code> - Sipariş numarası minimumOrderId değişkeninden büyük olan siparişleri döndürür.</li>
+                <li> <code>updatedOrdersAfter</code> - Güncellenen siparişlere erişmek için kullanılabilir. Güncelleme tarihi bu parametreden gönderilen tarihten sonra
+                    olan siparişleri getirir. (Örn. yyyy-mm-dd hh:mm:ss - 2022-06-13 15:15:19)</li>
+            </ul>
+
+              <h3 id="responseTypes">Response Tipleri</h3>
+            <ul>
+                <li> <code>Success (1)</code> - Response olarak siparişe
+                    ait genel bilgiler, ‘Result’ bilgisi (başarılı işlemlerde <span
+                        style="color: green; font-weight: bold;">1</span> olarak döner) ve Adisyo sisteminde kayıtlı güncel sipariş sayısı ve sayfa sayısı bilgisi döner.</li>
+                <li> <code>Fail (0)</code> - Parametreler formata uygun gönderilmediğinde response olarak ‘Result’ bilgisi ( başarısız
+                    işlemlerde <span style="color: red; font-weight: bold;"> 0</span> olarak döner) ve hataya sebep olan ‘ErrorMessage’ döner. </li>
+            </ul>
+
+        </div>
+        <div class="shell-box">
+            <div class="shell">
+                <a href="#" data-language-name="Shell">Shell (cmd)</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
