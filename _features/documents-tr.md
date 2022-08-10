@@ -1,6 +1,6 @@
 ---
-layout: tr
+layout: documents-tr
 title: Api Dökümantasyonu
 description: 
-permalink: /tr/
+permalink: /documents-tr/
 ---

@@ -1,6 +1,6 @@
 ---
-layout: en
+layout: documents-en
 title: Api Dökümantasyonu
 description: 
-permalink: /en/
+permalink: /documents-en/
 ---

@@ -22,58 +22,63 @@
     </style>
     <link href="/assets/css/main.css" rel="stylesheet" media="screen" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.3.0/mdb.min.css" rel="stylesheet" />
-    <script src="/assets/js/functions.tr.js"></script>
+    <script src="/assets/js/functions.en.js"></script>
+    <link rel="shortcut icon" href="/assets/img/favicon.png" type="image/x-icon">
 </head>
 
 <body class="index" data-languages="[&quot;shell&quot;]">
     <a href="#" id="nav-button">
         <span>
             NAV
-            <img src="images/navbar.png" alt="Navbar" />
         </span>
     </a>
     <div class="doc-wrapper">
-        <a href="/en/"><i class="flag flag-uk" style="margin: 5px 5px;"></i>English</a>
+        <a href="/documents-tr/"><i class="flag flag-tr" style="margin: 5px 5px;"></i>Türkçe</a>
         <img src="/assets/img/api-img/adisyo.png" class="logo" alt="Adisyo" />
         <div class="shell">
             <a href="#" data-language-name="shell">shell</a>
         </div>
         <div class="search">
-            <input type="text" class="search" id="input-search" placeholder="Arama Yap">
+            <input type="text" class="search" id="input-search" placeholder="Search"><span><i
+                    class="fa fa-search"></i></span>
+
+
         </div>
         <ul class="searchResults"></ul>
         <div id="doc" class="doc-list-h1">
 
             <li>
-                <a href="#gettingStarted" class="doc-h1 doc-link" data-title="Web & Mobil Entegrasyon">Web & Mobil
-                    Entegrasyon</a>
+                <a href="#gettingStarted" class="doc-h1 doc-link" data-title="Web & Mobile Integration">Web & Mobile
+                    Integration</a>
                 <ul class="doc-list-h2">
                     <li>
-                        <a href="#gettingStarted" class="doc-h1 doc-link" data-title="Başlarken">Başlarken</a>
+                        <a href="#gettingStarted" class="doc-h1 doc-link" data-title="Getting Started">Getting
+                            Started</a>
                     </li>
                     <li>
-                        <a href="#apiKey-and-secretKey" class="doc-h1 doc-link" data-title="Api Key ve Secret Key">Api
-                            Key ve
+                        <a href="#apiKey-and-secretKey" class="doc-h1 doc-link" data-title="Api Key and Secret Key">Api
+                            Key and
                             Secret Key</a>
                     </li>
                     <li>
-                        <a href="#getExternalProducts" class="doc-h1 doc-link"
-                            data-title="Ürün Listesini Görüntüleme">Ürün
-                            Listesini Görüntüleme</a>
+                        <a href="#getExternalProducts" class="doc-h1 doc-link" data-title="View the Product List">View
+                            the Product List
+                        </a>
                     </li>
                     <li>
-                        <a href="#orderObject" class="doc-h1 doc-link" data-title="Sipariş Objesi Oluşturmak">Sipariş
-                            Objesi
-                            Oluşturmak</a>
+                        <a href="#orderObject" class="doc-h1 doc-link" data-title="Creating an Order Object">Creating an
+                            Order Object
+                        </a>
                     </li>
                     <li>
-                        <a href="#setPaymentMethod" class="doc-h1 doc-link" data-title="Ödeme Yöntemini Belirleme">Ödeme
-                            Yöntemini Belirleme</a>
+                        <a href="#setPaymentMethod" class="doc-h1 doc-link"
+                            data-title="Determining the Pay Method">Determining the Pay Method
+                        </a>
                     </li>
                     <li>
-                        <a href="#postOrder" class="doc-h1 doc-link"
-                            data-title="Hazırlanan Requesti Gönderme">Hazırlanan
-                            Requesti Gönderme</a>
+                        <a href="#postOrder" class="doc-h1 doc-link" data-title="Sending the Prepared Request">Sending
+                            the Prepared Request
+                        </a>
                     </li>
                 </ul>
             </li>
@@ -81,36 +86,11 @@
                 <a href="#hemenYolda" class="doc-h1 doc-link" data-title="Hemen Yolda">Hemen Yolda</a>
                 <ul class="doc-list-h2">
                     <li>
-                        <a href="#hemenYolda" class="doc-h1 doc-link" data-title="Açık Siparişleri Görüntüleme">Açık Siparişleri Görüntüleme</a>
+                        <a href="#hemenYolda" class="doc-h1 doc-link" data-title="View Open Orders">View Open Orders
+                        </a>
                     </li>
                 </ul>
             </li>
-
-
-            <!-- <li>
-                <a href="#gettingStarted" class="doc-h1 doc-link" data-title="Başlarken">Başlarken</a>
-
-            </li>
-            <li>
-                <a href="#apiKey-and-secretKey" class="doc-h1 doc-link" data-title="Api Key ve Secret Key">Api Key ve
-                    Secret Key</a>
-            </li>
-            <li>
-                <a href="#getExternalProducts" class="doc-h1 doc-link" data-title="Ürün Listesini Görüntüleme">Ürün
-                    Listesini Görüntüleme</a>
-            </li>
-            <li>
-                <a href="#orderObject" class="doc-h1 doc-link" data-title="Sipariş Objesi Oluşturmak">Sipariş Objesi
-                    Oluşturmak</a>
-            </li>
-            <li>
-                <a href="#setPaymentMethod" class="doc-h1 doc-link" data-title="Ödeme Yöntemini Belirleme">Ödeme
-                    Yöntemini Belirleme</a>
-            </li>
-            <li>
-                <a href="#postOrder" class="doc-h1 doc-link" data-title="Hazırlanan Requesti Gönderme">Hazırlanan
-                    Requesti Gönderme</a>
-            </li> -->
 
         </div>
 
@@ -118,48 +98,46 @@
     <div class="page-content">
         <div class="shell-box"></div>
         <div class="content">
-            <h1 id='gettingStarted'>Başlarken</h1>
-            <h2>Genel Bakış</h2>
-            <p>Adisyo Cafe Restoran uygulamasına kayıtlı restoranınıza dilerseniz ilgili endpoint ve birkaç
-                konfigürasyon ile sipariş giriş işlemini yapabilirsiniz. Aşağıda belirtilen birkaç basit adım ile ilk
-                siparişinizi hemen girebilirsiniz;</p>
-            <p>1- İlgili restorantın adisyo uygulamasında yer alan ürün listesini x-api-key ve x-api-secret
-                bilgileri ile <span
+            <h1 id='gettingStarted'>Getting Started</h1>
+            <h2>Overview</h2>
+            <p>If you want your restaurant registered in the Adisyo Cafe Restaurant application, you can log in to the
+                order with the corresponding endpoint and several configurations. You can enter your first order
+                immediately with a few simple steps mentioned below;</p>
+            <p>1- The list of products contained in the relevant restaurant's Adisyo application with x-api-key and
+                x-api-secret information <span
                     style="color:green; font-weight:bold">’https://ext.adisyo.com/api/external/GetExternalProducts’</span>
-                adresinden
-                çekmek. GET metodu ile istek gönderilmelidir.</p>
-            <p>2- Adisyo uygulamasından alınan <span style="color:orangered; font-weight:bold">‘x-api-key’ ve
-                    ‘x-api-secret’</span> bilgilerini ilgili http request
-                header’ına eklemek.</p>
-            <p>3- Sipariş objesini oluşturmak (JSON).</p>
-            <p>4- Sipariş objesi ve adisyo yetkililerinden alınan x-api-key ve x-api-secret bilgileri ile
+                withdraw from the address. A request must be sent using the GET method.</p>
+            <p>2- Adding the <span style="color:orangered; font-weight:bold">‘x-api-key’ and
+                    ‘x-api-secret’</span> information received from the Adisyo application to the corresponding http
+                request header.</p>
+            <p>3- Creating the order object (JSON).</p>
+            <p>4- With x-api-key and x-api-secret information received from the order object and Adisyo authorities
                 <span
                     style="color:green; font-weight:bold;">’https://ext.adisyo.com/api/external/SaveExternalOrder’</span>
-                adresine request
-                gönderilebilir. <span style="color:green; font-weight:bold; text-decoration: underline">POST</span>
-                metodu kullanılmalıdır.
+                a request can be sent to the address. The <span
+                    style="color:green; font-weight:bold; text-decoration: underline">POST</span>
+                method should be used.
             </p>
 
-            <h1 id='apiKey-and-secretKey'>Api Key ve Secret Key Bilgilerini Alma</h1>
-            <p>Entegrasyon sağlanacak her bir restoran için adisyo yetkilileri tarafından paylaşılan x-api-key
-                ve x-api-secret bilgileridir. Bu bilgiler gönderilecek Http request’inin header alanında yer
-                almalıdır ve belirtilen formatta olmalıdır, aksi halde işlem gerçekleşmeyecektir. x-api-key ve
-                x-api-secret bilgileri için lütfen adisyo ile iletişime geçiniz.</p>
+            <h1 id='apiKey-and-secretKey'>Retrieving Api Key and Secret Key Information</h1>
+            <p>The x-api-key and x-api-secret information shared by the adisio authorities for each restaurant to be
+                integrated are provided. This information must be located in the header field of the Http request to be
+                sent and must be in the specified format, otherwise the operation will not occur. please contact adisyo
+                for x-api-key and x-api-secret information.</p>
 
-            <h1 id='getExternalProducts'>Ürün Listesini Görüntüleme</h1>
-            <p>İlgili restorantın adisyo uygulamasında yer alan ürün listesini x-api-key ve x-api-secret
-                bilgileri ile <span
+            <h1 id='getExternalProducts'>View the Product List</h1>
+            <p>The product list in the relevant restaurant's adisyo application is provided with x-api-key and
+                x-api-secret information <span
                     style="color:green; font-weight:bold">’https://ext.adisyo.com/api/external/GetExternalProducts’</span>
-                adresinden
-                çekmek. GET metodu ile istek gönderilmelidir.</p>
+                withdraw from the address. A request must be sent using the GET method.</p>
 
             <blockquote>
-                <p>Örnek Request </p>
+                <p>Example Request </p>
             </blockquote>
             <pre class="highlight shell "><code>curl https://ext.adisyo.com/api/external/GetExternalProducts
 </code></pre>
             <blockquote>
-                <p>Örnek Response</p>
+                <p>Example Response</p>
             </blockquote>
             <pre class="highlight json "><code><span class="p">{</span>
     <span>"<span class="span1">productName</span>": "<span class="span3">Hamburger</span>"</span>
@@ -247,16 +225,16 @@
 </pre>
             <h3>Endpoint</h3>
             <p>GET /api/external/GetExternalProducts</p>
-            <h3>Gerekli Parametreler</h3>
+            <h3>Required Parameters</h3>
             <ul>
-                <li> <code>x-api-key</code> - Hesabınızın API keyi</li>
-                <li> <code>x-api-secret</code> - Hesabınızın API Secret keyi</li>
+                <li> <code>x-api-key</code> - The API key for your account</li>
+                <li> <code>x-api-secret</code> - The API Secret key for your account</li>
 
             </ul>
-            <h1 id='orderObject'>Sipariş Objesini Oluşturmak</h1>
+            <h1 id='orderObject'>Creating an Order Object</h1>
 
             <blockquote>
-                <p>Örnek Sipariş Objesi</p>
+                <p>An Example Order Object</p>
             </blockquote>
             <pre class="highlight json ">
             <code>
@@ -296,43 +274,44 @@
     <span>      ]</span>
 <span>}</span>
             </code></pre>
-            <p>Sipariş objesi JSON formatında olmalı. Sipariş içinde temel bilgiler, siparişte yer alan ürünler
-                ve bu ürünlere ait bazı bilgiler bulunur. Aşağıda her bir parametre ayrı ayrı açıklanmıştır ;</p>
+            <p>The order object must be in JSON format. The order contains basic information, the products included in
+                the order, and some information about these products. Each parameter is described separately below;</p>
 
             <ul>
-                <li> <code>CustomerName</code> - Siparişi veren kullanıcının adı</li>
-                <li> <code>CustomerSurname</code> - Siparişi veren kullanıcının soyadı</li>
-                <li> <code>CustomerId</code> - Kendi sisteminize kayıtlı kullanıcının ID’si, yoksa boş bırakın</li>
-                <li> <code>CustomerPhone</code> - Siparişi veren kullanıcının telefon numarası</li>
-                <li> <code>CustomerPhone2</code> - Siparişi veren kullanıcının 2. telefon numarası</li>
-                <li> <code>Address</code> - Siparişi veren kullanıcnın adresi</li>
-                <li> <code>AddressDescription</code> - Siparişi veren kullanıcnın adres tarifi</li>
-                <li> <code>Region</code> - Siparişi veren kullanıcnın semt-ilçe bilgisi</li>
-                <li> <code>City</code> - Siparişi veren kullanıcının şehir bilgisi</li>
-                <li> <code>PaymentMethodId</code> - Ödeme tipi bilgisi, ödeme tipleri listesi aşağıda vardır</li>
-                <li> <code>PaymentNote</code> - Ödeme notu</li>
-                <li> <code>Discount</code> - Siparişteki toplam indirim tutarı</li>
-                <li> <code>OrderNote</code> - Sipariş notu</li>
-                <li> <code>WebOrderId</code> - Kendi sisteminizde yer alan sipariş ID’si</li>
-                <li> <code>OrderTotal</code> - Sipariş Toplam Tutarı</li>
+                <li> <code>CustomerName</code> - The name of the user who placed the order</li>
+                <li> <code>CustomerSurname</code> - Last name of the user who placed the order</li>
+                <li> <code>CustomerId</code> - The ID of the user registered in your own system, if not, leave it blank
+                </li>
+                <li> <code>CustomerPhone</code> - The phone number of the user who placed the order</li>
+                <li> <code>CustomerPhone2</code> - The second phone number of the user who placed the order</li>
+                <li> <code>Address</code> - The address of the user who placed the order</li>
+                <li> <code>AddressDescription</code> - Address description of the user who placed the order</li>
+                <li> <code>Region</code> - District-by-district information of the ordering user</li>
+                <li> <code>City</code> - City information of the ordering user</li>
+                <li> <code>PaymentMethodId</code> - Pay type information, pay types list are below</li>
+                <li> <code>PaymentNote</code> - Pay note</li>
+                <li> <code>Discount</code> - The total amount of discounts on the order</li>
+                <li> <code>OrderNote</code> - Order note</li>
+                <li> <code>WebOrderId</code> - The order ID in your own system</li>
+                <li> <code>OrderTotal</code> - The Total Amount Of The Order</li>
 
             </ul>
 
-            <h1 id='setPaymentMethod'>Ödeme Yöntemini Belirleme</h1>
+            <h1 id='setPaymentMethod'>Determining the Pay Method</h1>
 
-            <p>Sipariş objesi bu şekilde hazır hale getirilir. Ödeme tipi alanına gelebilecek seçenekler yine
-                adisyo sisteminde kullanılan değerlerden biri ile doldurulmalıdır. Ödeme tipi listesi aşağıdaki
-                gibidir ; </p>
+            <p>This is how the order object is made ready. The options that may appear in the Pay type field should
+                again be filled in with one of the values used in the adisio system. The pay type list is as follows;
+            </p>
 
             <br>
             <ul>
-                <li> <code>Nakit</code> : 1</li>
-                <li> <code>Kredi Kartı</code> : 2</li>
+                <li> <code>Cash</code> : 1</li>
+                <li> <code>Credit Card</code> : 2</li>
                 <li> <code>Multinet</code> : 3</li>
                 <li> <code>SmartTicket</code> : 4</li>
                 <li> <code>Setcard</code> : 5</li>
                 <li> <code>Sodexo</code> : 6</li>
-                <li> <code>Diğer</code> : 7</li>
+                <li> <code>Other</code> : 7</li>
                 <li> <code>Basit Otel</code> : 22</li>
                 <li> <code>BizimHesap</code> : 24</li>
                 <li> <code>Metropol</code> : 26</li>
@@ -357,14 +336,14 @@
                 <li> <code>Sodexo Cep Pos</code> : 97</li>
                 <li> <code>CIO Kart</code> : 98</li>
             </ul>
-            <h1 id='postOrder'>Hazırlanan Request’i Göndermek</h1>
+            <h1 id='postOrder'>Sending the Prepared Request</h1>
             <blockquote>
-                <p>Örnek Request</p>
+                <p>Example Request</p>
             </blockquote>
             <pre class="highlight shell"><code>curl -X POST https://ext.adisyo.com/api/external/SaveExternalOrder
                 </code></pre>
             <blockquote>
-                <p>Örnek Success Response </p>
+                <p>Example Success Response </p>
             </blockquote>
             <pre class="highlight json ">
                 <code>
@@ -378,7 +357,7 @@
 <span>}</span>
                 </code></pre>
             <blockquote>
-                <p>Örnek Fail Response </p>
+                <p>Example Fail Response </p>
             </blockquote>
             <pre class="highlight json ">
                     <code>
@@ -392,43 +371,42 @@
     "<span class="span1">status</span>": <span class="spaninteger">0</span>
 <span>}</span>
                     </code></pre>
-            <p>Http requestinin header alanına ilgili restorana ait x-api-key ve x-api-secret bilgileri girilmiş,
-                sipariş objesi de örnekteki haliyle hazırlanmış şekilde son aşamaya gelinir. Buradan itibaren
-                yapılması gereken ise sadece hazırlanan request’i post metodu ile belirtilen endpoint adresine göndermek.
+            <p>In the header field of the http request, the x-api-key and x-api-secret information of the relevant
+                restaurant are entered, and the order object is prepared in the same way as in the example, and the
+                final stage is reached. From here on, all that needs to be done is to send the prepared request to the
+                endpoint address specified by the post method.
             </p>
             <h3>Endpoint</h3>
             <p>GET /api/external/SaveExternalOrder</p>
-            <h3>Gerekli Parametreler</h3>
+            <h3>Required Parameters</h3>
             <ul>
-                <li> <code>x-api-key</code> - Hesabınızın API keyi</li>
-                <li> <code>x-api-secret</code> - Hesabınızın API Secret keyi</li>
+                <li> <code>x-api-key</code> - The API key for your account</li>
+                <li> <code>x-api-secret</code> - The API Secret key for your account</li>
             </ul>
-            <h3 id="responseTypes">Response Tipleri</h3>
+            <h3 id="responseTypes">Response Types</h3>
             <ul>
-                <li> <code>Success (1)</code> - İşlem başarılı olduysa sipariş adisyo sistemine aktarılmış demektir.
-                    Response olarak siparişe
-                    ait genel bilgiler, ‘Status’ bilgisi (başarılı işlemlerde <span
-                        style="color: green; font-weight: bold;">1</span> olarak döner) ve siparişin Adisyo
-                    sistemine kaydedildiği tarih/saat bilgisi döner.</li>
-                <li> <code>Fail (0)</code> - Siparişi kaydetme esnasında yaşanan bir hata var ise işlem başarısız olarak
-                    kabul edilir ve
-                    adisyo sistemine herhangi bir kayıt düşmez. Response olarak ‘Status’ bilgisi ( başarısız
-                    işlemlerde <span style="color: red; font-weight: bold;"> 0</span> olarak döner) , hataya sebep olan
-                    işlemin açıklaması ‘ErrorMessage’ döner. </li>
+                <li> <code>Success (1)</code> - If the transaction was successful, the order has been transferred to the
+                    file system. As a Response, the general information about the order, the ‘Status’ information
+                    (returned as <span style="color: green; font-weight: bold;">1</span> in successful transactions) and
+                    the date/time information when the order was saved in the Adisyo system are returned.</li>
+                <li> <code>Fail (0)</code> - I f there is an error during the registration of the order, the transaction
+                    is considered unsuccessful and no registration will fall into the file system. As a response, the
+                    ‘Status’ information (returns <span style="color: red; font-weight: bold;"> 0</span> for failed
+                    transactions), the description of the process that caused the error, returns ‘ErrorMessage’. </li>
             </ul>
 
 
 
-            <h1 id='hemenYolda'>Açık Siparişleri Görüntüleme</h1>
+            <h1 id='hemenYolda'>View Open Orders</h1>
 
             <blockquote>
-                <p>Örnek Request </p>
+                <p>Example Request </p>
             </blockquote>
             <pre class="highlight shell"><code>curl https://ext.adisyo.com/api/external/HemenYoldaOrders
             </code></pre>
 
             <blockquote>
-                <p>Örnek Response</p>
+                <p>Example Response</p>
             </blockquote>
             <pre class="highlight json "><code>
 <span>{</span>
@@ -523,36 +501,40 @@
         <span>"<span class="span1">pageCount</span>": <span class="spaninteger">1</span></span>
 <span>}</span></code></pre>
 
-            <p>İlgili restorantın adisyo uygulamasında yer alan ürün listesini x-api-key ve x-api-secret
-                bilgileri ile <span
+            <p>The product list in the relevant restaurant's adisyo application is provided with x-api-key and
+                x-api-secret information <span
                     style="color:green; font-weight:bold">’https://ext.adisyo.com/api/external/HemenYoldaOrders’</span>
-                adresinden
-                çekmek. GET metodu ile istek gönderilmelidir.</p>
+                withdraw from the address. A request must be sent using the GET method.</p>
 
 
             <h3>Endpoint</h3>
             <p>GET /api/external/HemenYoldaOrders</p>
-            <h3>Gerekli Parametreler</h3>
+            <h3>Required Parameters</h3>
             <ul>
-                <li> <code>x-api-key</code> - Hesabınızın API keyi</li>
-                <li> <code>x-api-secret</code> - Hesabınızın API Secret keyi</li>
+                <li> <code>x-api-key</code> - The API key for your account</li>
+                <li> <code>x-api-secret</code> - The API Secret key for your account</li>
             </ul>
-            <h3>Opsiyonel Parametreler</h3>
+            <h3>Optional Parameters</h3>
             <ul>
-                <li> <code>pageIndex</code> - Sipariş sayısı 50'den yüksek olduğunda veriler sayfalanır. Index ile verilere erişilebilir. Default olarak ilk sayfayı getirir.
-                Diğer sayfalara erişmek için bu alanı doldurmanız gerekmektedir.</li>
-                <li> <code>minimumOrderId</code> - Sipariş numarası minimumOrderId değişkeninden büyük olan siparişleri döndürür.</li>
-                <li> <code>updatedOrdersAfter</code> - Güncellenen siparişlere erişmek için kullanılabilir. Güncelleme tarihi bu parametreden gönderilen tarihten sonra
-                    olan siparişleri getirir. (Örn. yyyy-mm-dd hh:mm:ss - 2022-06-13 15:15:19)</li>
+                <li> <code>pageIndex</code> - When the number of orders is higher than 50, the data is paged. Data can
+                    be accessed with Index. By default, it fetches the first page. To access other pages, you must fill
+                    in this field.</li>
+                <li> <code>minimumOrderId</code> - Returns orders with an order number greater than the minimumOrderId
+                    variable.</li>
+                <li> <code>updatedOrdersAfter</code> - It can be used to access updated orders. The update date fetches
+                    orders that are after the date sent from this parameter. (Eg. yyyy-mm-dd hh:mm:ss - 2022-06-13
+                    15:15:19)</li>
             </ul>
 
-              <h3 id="responseTypes">Response Tipleri</h3>
+            <h3 id="responseTypes">Response Types</h3>
             <ul>
-                <li> <code>Success (1)</code> - Response olarak siparişe
-                    ait genel bilgiler, ‘Result’ bilgisi (başarılı işlemlerde <span
-                        style="color: green; font-weight: bold;">1</span> olarak döner) ve Adisyo sisteminde kayıtlı güncel sipariş sayısı ve sayfa sayısı bilgisi döner.</li>
-                <li> <code>Fail (0)</code> - Parametreler formata uygun gönderilmediğinde response olarak ‘Result’ bilgisi ( başarısız
-                    işlemlerde <span style="color: red; font-weight: bold;"> 0</span> olarak döner) ve hataya sebep olan ‘ErrorMessage’ döner. </li>
+                <li> <code>Success (1)</code> - As a Response, the general information about the order, the ‘Result’
+                    information (returns <span style="color: green; font-weight: bold;">1</span> for successful
+                    transactions) and the current number of orders and the number of pages registered in the Adisyo
+                    system are returned.</li>
+                <li> <code>Fail (0)</code> - If the parameters are not sent in accordance with the format, the ‘Result’
+                    information is returned as a response (returns <span style="color: red; font-weight: bold;">
+                        0</span> for failed operations) and the ‘ErrorMessage’ that caused the error is returned. </li>
             </ul>
 
         </div>
