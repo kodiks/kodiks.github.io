@@ -1,0 +1,18 @@
+{{- if .Values.svc.enabled }}
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app.kubernetes.io/name: {{ .Values.svc.name }}
+  annotations:
+    cloud.google.com/neg: '{"ingress":false}'
+  name: {{ .Values.svc.name }}
+spec:
+  selector:
+    app: {{ .Values.deploy.name }}
+  ports:
+    - protocol: TCP
+      port: 80
+      name: http
+      targetPort: {{ .Values.deploy.port }}
+{{- end }}

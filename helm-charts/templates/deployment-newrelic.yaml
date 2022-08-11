@@ -1,0 +1,73 @@
+{{ $deploy := .Values.deploy | default dict }}
+{{ $newrelic := $deploy.newrelic | default dict }}
+{{- if $newrelic.enabled }}
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Values.deploy.name }}-newrelic
+  labels:
+    app: {{ .Values.deploy.name }}
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: {{ .Values.deploy.name }}
+  strategy:
+    rollingUpdate:
+      maxSurge: 50%
+      maxUnavailable: 50%
+    type: RollingUpdate
+  template:
+    metadata:
+      labels:
+        app: {{ .Values.deploy.name }}
+    spec:
+{{- if .Values.deploy.nodeselector }}
+      affinity:
+        nodeAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            nodeSelectorTerms:
+            - matchExpressions:
+              - key: beta.kubernetes.io/instance-type
+                operator: {{ .Values.deploy.InOrNotIn }}
+                values:
+                - {{ .Values.deploy.nodeselectorvalue }}
+{{- end }}
+      containers:
+      - name: {{ .Values.deploy.name }}
+{{- if .Values.configmap.enabled }}
+        envFrom:
+        - configMapRef:
+            name: {{ .Values.configmap.name }}
+{{- end }}
+        image: {{ .Values.deploy.registry }}{{ .Values.deploy.image }}:{{ .Values.deploy.tag }}-newrelic
+        imagePullPolicy: IfNotPresent
+{{- if .Values.deploy.resources.enabled }}
+        resources:
+          requests:
+            cpu: {{ .Values.deploy.resources.requestCpu }}
+            memory: {{ .Values.deploy.resources.requestMemory }}
+          limits:
+            cpu: {{ .Values.deploy.resources.limitCpu }}
+            memory: {{ .Values.deploy.resources.limitMemory }}
+{{- end }}
+{{- if .Values.probe.enabled }}
+        readinessProbe:
+          httpGet:
+            path: {{ .Values.probe.pathreadiness }}
+            port: {{ .Values.probe.port }}  
+          initialDelaySeconds: {{ .Values.probe.initialDelaySeconds }}
+          timeoutSeconds: {{ .Values.probe.timeoutSeconds }}
+        livenessProbe:
+          httpGet:
+            path: {{ .Values.probe.pathliveness }}
+            port: {{ .Values.probe.port }} 
+          failureThreshold: {{ .Values.probe.failureThreshold }}
+          periodSeconds: {{ .Values.probe.periodSeconds }}
+          initialDelaySeconds: {{ .Values.probe.initialDelaySeconds }}
+          timeoutSeconds: {{ .Values.probe.timeoutSeconds }}
+{{- end }}
+        ports:
+        - containerPort: {{ .Values.deploy.port }} 
+      restartPolicy: Always
+{{- end }}

@@ -1,0 +1,74 @@
+trigger:
+- aks
+
+resources:
+- repo: self
+
+variables:
+  # Container registry service connection established during pipeline creation
+  dockerRegistryServiceConnection: '86dd1a77-b704-45b4-8bca-b813a42f9505'
+  buildContextBasePath: '$(Build.SourcesDirectory)'
+  containerRegistry: 'adisyoacr.azurecr.io'
+  tag: '$(Build.SourceBranchName)-$(Build.BuildNumber)'
+
+  # Agent VM image name
+  vmImageName: 'ubuntu-latest'
+
+stages:
+- stage: Build
+  displayName: Build and push stage
+  jobs:
+  - job: Build
+    displayName: Build
+    pool:
+      vmImage: $(vmImageName)
+    steps:
+    - task: Docker@2
+      displayName: Build Adisyo
+      inputs:
+        command: build
+        repository: adisyo/adisyo-landing
+        dockerfile: $(buildContextBasePath)/Dockerfile
+        buildContext: $(buildContextBasePath)
+        containerRegistry: $(dockerRegistryServiceConnection)
+        tags: |
+          $(tag)
+    # PUSH
+    - task: Docker@2
+      displayName: Push Adisyo Api
+      inputs:
+        command: push
+        repository: adisyo/adisyo-landing
+        containerRegistry: $(dockerRegistryServiceConnection)
+        tags: |
+          $(tag)
+
+    - bash: |
+        mkdir -p $(buildContextBasePath)/versions
+
+        APP_LIST=(
+          "adisyo-landing"
+        )
+
+        ENV_LIST=(
+          "test/test"
+          "prod/qa"
+          "prod/prod-a"
+          "prod/prod-b"
+        )
+
+        for environ in "${ENV_LIST[@]}"
+        do
+          for appName in "${APP_LIST[@]}"
+          do
+            echo "Replacing tag for env: ${environ} and app: ${appName}"
+
+            sed -i 's/tag: latest/tag: $(tag)/g' $(buildContextBasePath)/helm-charts/values/${environ}/${appName}-values.yaml
+          done
+        done
+
+    - task: PublishPipelineArtifact@1
+      inputs:
+        targetPath: '$(buildContextBasePath)/helm-charts'
+        artifact: helm
+        publishLocation: pipeline

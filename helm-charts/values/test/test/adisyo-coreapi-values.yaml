@@ -1,0 +1,51 @@
+deploy:
+  name: adisyo-coreapi
+  replicas: 1
+  port: 5000
+  image: adisyo/adisyo-coreapi
+  tag: latest
+  registry: adisyoacr.azurecr.io/
+  resources:
+    enabled: false
+    requestCpu: 200m
+    requestMemory: 300Mi
+    limitCpu: 600m
+    limitMemory: 500Mi
+  nodeSelector:
+    enabled: true
+    InorNotIn: NotIn
+  newrelic:
+    enabled: false
+svc:
+  enabled: true
+  name: adisyo-coreapi
+  port: 80
+svcMonitor:
+  enabled: false
+hpa:
+  autoscaling:
+    enabled: false
+    minReplicas: 2
+    maxReplicas: 15
+    targetCPUUtilizationPercentage: 80
+    # targetMemoryUtilizationPercentage: 85
+probe:
+  enabled: true
+  failureThreshold: 1
+  periodSeconds: 10
+  timeoutSeconds: 20
+  initialDelaySeconds: 70
+  pathreadiness: /health
+  pathliveness: /health
+  port: 5000
+ingress:
+  enabled: true
+  className: nginx
+  hosts:
+    - coreapi-test.adisyo.com
+  request:
+    size: 100m
+env:
+  ConnectionStrings__lokantapp: "Server=tcp:adisyo.database.windows.net,1433;Initial Catalog=adisyo_test;Persist Security Info=False;User ID=produser;Password=2PXcGZY_SO7CxaCi;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=True;Connection Timeout=15;Min Pool Size=15; Max Pool Size=40;"
+  ConnectionStrings__lokantappro: "Server=tcp:adisyo.database.windows.net,1433;ApplicationIntent=ReadOnly;Initial Catalog=adisyo_test;Persist Security Info=False;User ID=produser;Password=2PXcGZY_SO7CxaCi;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=True;Connection Timeout=15;"
+  AppSettings__HubUrl: "http://adisyo-hub.test.svc.cluster.local./"

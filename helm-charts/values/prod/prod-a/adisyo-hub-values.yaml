@@ -1,0 +1,51 @@
+deploy:
+  name: adisyo-hub
+  replicas: 1
+  port: 5000
+  image: adisyo/adisyo-hub
+  tag: latest
+  registry: adisyoacr.azurecr.io/
+  resources:
+    enabled: true
+    requestCpu: 600m
+    requestMemory: 900Mi
+    limitCpu: 2000m
+    limitMemory: 2000Mi
+  nodeSelector:
+    enabled: true
+    InorNotIn: NotIn
+  newrelic:
+    enabled: false
+svc:
+  enabled: true
+  name: adisyo-hub
+  port: 80
+svcMonitor:
+  enabled: false
+hpa:
+  autoscaling:
+    enabled: false
+    minReplicas: 1
+    maxReplicas: 1
+    targetCPUUtilizationPercentage: 80
+    # targetMemoryUtilizationPercentage: 80
+probe:
+  renabled: true
+  lenabled: false
+  failureThreshold: 20
+  periodSeconds: 20
+  timeoutSeconds: 30
+  initialDelaySeconds: 20
+  pathreadiness: /api/config/ping
+  pathliveness: /api/config/ping
+  port: 5000
+ingress:
+  enabled: true
+  className: nginx
+  hosts:
+    - hub-a.adisyo.com
+    - hub.adisyo.com
+    - awshub.adisyo.com
+  request:
+    size: 100m
+env: {}

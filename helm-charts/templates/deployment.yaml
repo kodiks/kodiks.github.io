@@ -1,0 +1,70 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Values.deploy.name }}
+  labels:
+    app: {{ .Values.deploy.name }}
+spec:
+{{- if not .Values.hpa.autoscaling.enabled }}
+  replicas: {{ .Values.deploy.replicas }}
+{{- end }}
+  minReadySeconds: {{ .Values.deploy.minReadySeconds }}
+  selector:
+    matchLabels:
+      app: {{ .Values.deploy.name }}
+  strategy:
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 0
+    type: RollingUpdate
+  template:
+    metadata:
+      labels:
+        app: {{ .Values.deploy.name }}
+    spec:
+      containers:
+      - name: {{ .Values.deploy.name }}
+        image: {{ .Values.deploy.registry }}{{ .Values.deploy.image }}:{{ .Values.deploy.tag }}
+        imagePullPolicy: IfNotPresent
+        env:
+        {{- if .Values.env }}
+        {{- range $key, $value := .Values.env }}
+          - name: "{{ $key }}"
+            value: "{{ $value }}"
+        {{- end }}
+        {{- end }}
+{{- if .Values.probe.renabled }}
+        startupProbe:
+          httpGet:
+            path: {{ .Values.probe.pathreadiness }}
+            port: {{ .Values.deploy.port }}
+          initialDelaySeconds: {{ .Values.probe.initialDelaySeconds }}
+          timeoutSeconds: {{ .Values.probe.timeoutSeconds }}
+{{- end }}
+{{- if .Values.probe.lenabled }}
+        livenessProbe:
+          httpGet:
+            path: {{ .Values.probe.pathliveness }}
+            port: {{ .Values.deploy.port }}
+          failureThreshold: {{ .Values.probe.failureThreshold }}
+          periodSeconds: {{ .Values.probe.periodSeconds }}
+          initialDelaySeconds: {{ .Values.probe.initialDelaySeconds }}
+          timeoutSeconds: {{ .Values.probe.timeoutSeconds }}
+{{- end }}
+{{- if .Values.deploy.resources.enabled }}
+        resources:
+          requests:
+            cpu: {{ .Values.deploy.resources.requestCpu }}
+            memory: {{ .Values.deploy.resources.requestMemory }}
+          limits:
+            cpu: {{ .Values.deploy.resources.limitCpu }}
+            memory: {{ .Values.deploy.resources.limitMemory }}
+{{- end }}
+        lifecycle:
+          preStop:
+            exec:
+              command: ["sleep", "45"]
+        ports:
+        - containerPort: {{ .Values.deploy.port }}
+      restartPolicy: Always
+      
