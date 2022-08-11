@@ -1,0 +1,50 @@
+deploy:
+  name: adisyo-landing
+  replicas: 1
+  port: 5000
+  image: adisyo/adisyo-landing
+  tag: latest
+  registry: adisyoacr.azurecr.io/
+  minReadySeconds: 60
+  resources:
+    enabled: true
+    requestCpu: 100m
+    requestMemory: 200Mi
+    limitCpu: 200m
+    limitMemory: 300Mi
+  nodeSelector:
+    enabled: true
+    InorNotIn: NotIn
+  newrelic:
+    enabled: false
+svc:
+  enabled: true
+  name: adisyo-landing
+  port: 80
+svcMonitor:
+  enabled: false
+hpa:
+  autoscaling:
+    enabled: true
+    minReplicas: 4
+    maxReplicas: 10
+    targetCPUUtilizationPercentage: 60
+    # targetMemoryUtilizationPercentage: 90
+probe:
+  enabled: true
+  failureThreshold: 1
+  periodSeconds: 10
+  timeoutSeconds: 20
+  initialDelaySeconds: 70
+  pathreadiness: /health
+  pathliveness: /health
+  port: 5000
+ingress:
+  enabled: true
+  className: nginx
+  hosts:
+    - landing.adisyo.com
+  request:
+    size: 100m
+env:
+  
