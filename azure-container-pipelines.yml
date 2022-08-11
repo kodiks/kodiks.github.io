@@ -52,9 +52,7 @@ stages:
 
         ENV_LIST=(
           "test/test"
-          "prod/qa"
-          "prod/prod-a"
-          "prod/prod-b"
+          "prod/prod"
         )
 
         for environ in "${ENV_LIST[@]}"
