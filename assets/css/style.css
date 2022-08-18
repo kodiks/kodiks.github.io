@@ -1823,7 +1823,7 @@ input:-internal-autofill-selected {
     font: 500 14px/34px Quicksand, sans-serif;
     color: #434343;
     text-align: left;
-    padding-left: 71px;
+    padding-left: 55px;
     padding-bottom: 3px;
     line-height: 40px;
     -webkit-transition: color .2s linear;
@@ -2104,7 +2104,7 @@ input:-internal-autofill-selected {
     text-align: center;
     position: relative;
     top: 10px;
-    margin-left: 35px
+    margin-left: 23px
 }
 
 .btn_properties:hover {
