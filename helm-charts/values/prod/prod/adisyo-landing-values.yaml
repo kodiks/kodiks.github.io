@@ -5,7 +5,7 @@ deploy:
   image: adisyo/adisyo-landing
   tag: latest
   registry: adisyoacr.azurecr.io/
-  minReadySeconds: 60
+  minReadySeconds: 10
   resources:
     enabled: true
     requestCpu: 50m
@@ -25,9 +25,9 @@ svcMonitor:
   enabled: false
 hpa:
   autoscaling:
-    enabled: true
-    minReplicas: 4
-    maxReplicas: 10
+    enabled: false
+    minReplicas: 1
+    maxReplicas: 1
     targetCPUUtilizationPercentage: 60
     # targetMemoryUtilizationPercentage: 90
 probe:
