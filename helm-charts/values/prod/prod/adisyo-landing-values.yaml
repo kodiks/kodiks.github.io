@@ -8,8 +8,8 @@ deploy:
   minReadySeconds: 60
   resources:
     enabled: true
-    requestCpu: 100m
-    requestMemory: 200Mi
+    requestCpu: 50m
+    requestMemory: 100Mi
     limitCpu: 200m
     limitMemory: 300Mi
   nodeSelector:
