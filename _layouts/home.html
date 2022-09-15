@@ -30,14 +30,30 @@ layout: wrapper
                 </div>
             </div>
             <div class="col-lg-6 text-right">
-                <div class="slider_img">
-                    <img class="app_screen mb_20 two wow fadeInDown animated" src="/assets/img/home/ipad-adisyo3.png"
-                        alt="adisyo-banner" style="visibility: visible; animation-name: animateUpDown;">
+                <div class="slider_img w-100">
+                    <video id="tanitim_video" style="border-radius: 10px;" class="h-100 w-100 mt-5 mt-lg-0"
+                        preload="auto" poster="/assets/img/home/tanitim.png">
+                        <source src="https://cdn.adisyo.com/files/tanitim.mp4" type="video/mp4" />
+                    </video>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+<script>
+    var video = document.getElementById('tanitim_video');
+    if (video)
+        video.addEventListener('click', (v) => {
+            if (!video.hasAttribute('controls')) {
+                video.setAttribute('controls', 'controls');
+
+                setTimeout(() => {
+                    video.play();
+                }, 500);
+            }
+        });
+</script>
 
 <!--partners logo-->
 
@@ -615,12 +631,13 @@ layout: wrapper
                 <div class="package_feature_item mt-3 pt-3 border-0">
                     <div>
                         <p class="font-weight-bold">Kurye Takip Entegrasyonu</p>
-    
+
                         <p class="f_size_14">
-                            Hemen Yolda entegrasyonu ile kuryelerinizi harita üzerinden anlık takip edin, siparişlerinizin teslimatını en verimli şekilde yönetin.
+                            Hemen Yolda entegrasyonu ile kuryelerinizi harita üzerinden anlık takip edin,
+                            siparişlerinizin teslimatını en verimli şekilde yönetin.
                         </p>
                     </div>
-    
+
                     <span class="text-center">
                         <p class="f_size_18 font-weight-bold mb-0">₺490,00</p>
                         <p class="fs-12">+ KDV / Entegrasyon</p>
