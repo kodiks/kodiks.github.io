@@ -5,7 +5,7 @@ summary: Lezzet tutkunları bir yemekten keyif alabilmek için sadece menünün 
 date: 2022-09-08 09:00:00
 image: "/assets/img/blog/blog-41.jpg"
 author: "Menü"
-categories: ["Mwnü"]
+categories: ["Menü"]
 tags: [Restoran Menü,Mühendis,Adisyo]
 ---
 Lezzet tutkunları bir yemekten keyif alabilmek için sadece menünün kalitesine değil ortamın ambiyansına ve yemeğin servisine de büyük önem verir. Yemek sektöründe sunumu eğlenceli, hizmeti de daha profesyonel hale getiren çok sayıda teknik vardır. Ülke mutfağına, menüye, mekân düzenine ve personelin tecrübesine göre bu teknikler arasından seçim yapılabilir. Fransız servisi de bu hizmet türlerinden biridir. Gelin, Fransız servisin ne olduğuna ve inceliklerine yakından göz atalım.
