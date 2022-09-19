@@ -13318,3 +13318,16 @@ input+label:before {
     opacity: 1;
   }
 
+#tanitim_video {
+    height: 370px;
+}
+
+@media (max-width: 770px) {   
+    #tanitim_video {
+        height: 42vw;
+    }
+
+    .partner_logo_area_four {
+        padding-top: 40px !important;
+    }
+}
