@@ -13341,7 +13341,7 @@ input+label:before {
     position: absolute;
     width: 100px;
     top: -68px;
-    right: -95px;
+    left: -95px;
 }
 
 .price_campaign_title img {
@@ -13377,6 +13377,7 @@ input+label:before {
     position: relative;
     top: 0;
     right: 0;
+    left: 0;
 }
 
 .mobile_prices .price_campaign_title .title_text {
@@ -13384,5 +13385,10 @@ input+label:before {
 }
 
 .show_other_package .price_campaign_title {
-    right: -68px;
+    left: -68px;
+}
+
+.show_other_package .mobile_prices .price_campaign_title {
+    left: 0;
+    right: 0;
 }
