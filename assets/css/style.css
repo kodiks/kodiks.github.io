@@ -411,8 +411,8 @@ textarea:-webkit-autofill:hover {
 
 .is-bank-logo {
     position: relative;
-    top: 0;
-    margin-right: 0px
+    top: 5px;
+    margin-right: 35px
 }
 
 .bh-detail{
@@ -503,7 +503,10 @@ textarea:-webkit-autofill:hover {
     display: inline-block;
     -webkit-transition: all .3s ease;
     -o-transition: all .3s ease;
-    transition: all .3s ease
+    transition: all .3s ease;
+    position: relative;
+    top: 6px;
+    
 }
 
 .qrmenu-link-btn:hover {
