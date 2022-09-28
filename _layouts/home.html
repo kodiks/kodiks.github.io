@@ -18,6 +18,19 @@ layout: wrapper
                         başlarsınız.<br>
                         <b>Üstelik ilk 15 gün ücretsiz</b>
                     </p>
+
+                    <div class="slider_img w-100 tanitim_container_mobile">
+                        <div class="mt-lg-0 mt-5">
+                            <img id="tanitim_img" src="/assets/img/home/tanitim.png"
+                                style="width: 100%;object-fit: contain;" />
+
+                            <iframe id="tanitim_video"
+                                src="https://player.vimeo.com/video/751171857?h=c24498339c&amp;title=0&amp;byline=0&amp;portrait=0&amp;speed=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                                class="w-100 d-none" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"
+                                allowfullscreen title="Adisyo&amp;#039; ya Hızlı Bakış"></iframe>
+                        </div>
+                    </div>
+
                     <div class="action_btn align-items-center mt_30">
                         <a href="#" class="modal-toggle slider_btn_tr wow fadeInLeft mr_10" data-openpopup="signuplogin"
                             data-popup="call" data-wow-delay="1s"> <i class="ti ti-headphone-alt top-ico-fix"></i> Sizi
@@ -29,13 +42,8 @@ layout: wrapper
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 text-right">
+            <div class="col-lg-6 text-right tanitim_container">
                 <div class="slider_img w-100">
-                    <!-- <video id="tanitim_video" style="border-radius: 10px;" class="h-100 w-100 mt-5 mt-lg-0"
-                        preload="auto" poster="/assets/img/home/tanitim.png">
-                        <source src="https://cdn.adisyo.com/files/tanitim.mp4" type="video/mp4" />
-                    </video> -->
-
                     <div class="mt-lg-0 mt-5">
                         <img id="tanitim_img" src="/assets/img/home/tanitim.png"
                             style="width: 100%;object-fit: contain;" />
@@ -54,30 +62,49 @@ layout: wrapper
 <script src="https://player.vimeo.com/api/player.js"></script>
 
 <script>
-    const iframe = document.querySelector('iframe');
-    const player = new Vimeo.Player(iframe);
 
-    var img = document.getElementById('tanitim_img');
-    if (img)
-        img.addEventListener('click', () => {
-            if (!img.classList.contains('d-none'))
-                img.classList.add('d-none');
-
-            if (iframe)
-                iframe.classList.remove('d-none');
-
-            setTimeout(() => {
-                player.play();
-            }, 10);
-        });
-
-    player.on('ended', () => {
-        if (img)
-            img.classList.remove('d-none');
-
-        if (iframe)
-            iframe.classList.add('d-none');
+    window.addEventListener('resize', () => {
+        setTanitim();
     });
+
+    setTanitim();
+
+    function setTanitim() {
+        const screenWidth = document.body.clientWidth;
+
+        let container;
+        if (screenWidth > 575)
+            container = document.querySelector('.tanitim_container');
+        else
+            container = document.querySelector('.tanitim_container_mobile');
+
+        if (container) {
+            const iframe = container.querySelector('iframe');
+            const player = new Vimeo.Player(iframe);
+
+            var img = container.querySelector('#tanitim_img');
+            if (img)
+                img.addEventListener('click', () => {
+                    if (!img.classList.contains('d-none'))
+                        img.classList.add('d-none');
+
+                    if (iframe)
+                        iframe.classList.remove('d-none');
+
+                    setTimeout(() => {
+                        player.play();
+                    }, 10);
+                });
+
+            player.on('ended', () => {
+                if (img)
+                    img.classList.remove('d-none');
+
+                if (iframe)
+                    iframe.classList.add('d-none');
+            });
+        }
+    }
 
     // var video = document.getElementById('tanitim_video');
     // if (video)

@@ -13395,3 +13395,19 @@ input+label:before {
     left: 0;
     right: 0;
 }
+
+@media (min-width: 575px) {
+    .tanitim_container_mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 575px) {
+    .tanitim_container_mobile {
+        display: block;
+    }
+
+    .tanitim_container {
+        display: none;
+    }
+}
