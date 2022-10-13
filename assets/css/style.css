@@ -7296,8 +7296,10 @@ input:checked ~ span ~ .price_item{
 }
 
 .partner_logo_area_four {
-    padding-top: 100px;
-    margin-bottom: 35px
+    padding-top: 190px;
+    margin-bottom: 35px;
+    z-index: 9;
+    position: relative;
 }
 
 .partner_logo_area_four h4 {
