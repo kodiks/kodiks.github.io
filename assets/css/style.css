@@ -1774,6 +1774,10 @@ input:-internal-autofill-selected {
         visibility: visible!important;
         display: inline-block!important
     }
+
+    .btn_mobile_block {
+        display: block;
+    }
 }
 
 .menu>.nav-item {
