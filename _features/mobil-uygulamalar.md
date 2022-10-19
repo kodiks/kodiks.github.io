@@ -16,7 +16,7 @@ descriptions:
             <li><i class="ti-check"></i>Garsonlar ve kuryelerinizin sipariş operasyonlarını çok daha hızlı ve sistematik şekilde yönetmesini sağlayarak, kayıp kaçakları engelleyebilirsiniz.</li>
           </ul>
           <span style="Font-size:13px;Font-weight:bold">* Minimum sistem gereksimi: Android 5.0 ve iOS 9.0 üzeridir.</span></p>
-          <span style="Font-size:12px;Font-weight:bold">Mobil uygulamamızı ücretsiz denemek için aşağıdaki butonları kullanın</span></p>
+          <span style="Font-size:12px;Font-weight:bold">Mobil uygulamamızı ücretsiz denemek için aşağıdaki butonları kullanabilirsiniz.</span></p>
           <a href="https://play.google.com/store/apps/details?id=com.adisyo.mobile&hl=tr&gl=US" target="_blank"><img src="/assets/img/google-play-badge.svg" class="mobile-store-icons"></a>
           <a href="https://apps.apple.com/tr/app/adisyo-personel/id1419508147?l=tr" target="_blank"><img src="/assets/img/app-store-badge.svg" class="mobile-store-icons"></a>
     image: /assets/img/home/features/mobil-uygulama01.png
@@ -30,7 +30,7 @@ descriptions:
             <li><i class="ti-check"></i>Yıllık lisans ücreti ödemezsiniz</li>
             <li><i class="ti-check"></i>Sınırsız kullanıcı ekleyebilirsiniz</li>
           </ul>
-          <span style="Font-size:12px;Font-weight:bold">Mobil uygulamamızı ücretsiz denemek için aşağıdaki butonları kullanın</span></p>
+          <span style="Font-size:12px;Font-weight:bold">Mobil uygulamamızı ücretsiz denemek için aşağıdaki butonları kullanabilirsiniz.</span></p>
           <a href="https://play.google.com/store/apps/details?id=com.adisyo.mobile&hl=tr&gl=US" target="_blank"><img src="/assets/img/google-play-badge.svg" class="mobile-store-icons"></a>
           <a href="https://apps.apple.com/tr/app/adisyo-personel/id1419508147?l=tr" target="_blank"><img src="/assets/img/app-store-badge.svg" class="mobile-store-icons"></a><br><br>
     image: /assets/img/home/features/musteri-yonetimi02.png
