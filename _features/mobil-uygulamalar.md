@@ -1,36 +1,31 @@
 ---
 layout: feature_detail_mobile
 order: 60
-title: Tablet veya Akıllı Telefonlarınız ile Siparişlerinizi Kolayca Yönetin
+title: Mobil Uygulamamız ile İşletmenizi Her an, Her Yerden Kolayca Takip Edin!
 
 
 
 descriptions: 
-  - title: Tablet veya Akıllı Telefonlarınız ile Siparişlerinizi Kolayca Yönetin
+  - title: Mobil Uygulamamız ile İşletmenizi Her an, Her Yerden Kolayca Takip Edin!
     desc: |
-      <p class="f_p f_400">Google Play Store ve App Store üzerinden Adisyo Mobil uygulamalarımızı indirebilirsiniz. Adisyo ile tablet veya akıllı telefonlarınız ile de siparişlerinizi kolayca girip ödeme alabilir, mutfağınızı yönetebilirsiniz. Minimum sistem gereksimi: Android 5.0 ve iOS 9.0 üzeridir.</p>
-      <a href="#" class="modal-toggle slider_btn_tr wow fadeInLeft mr_10" data-openpopup="signuplogin"
-                            data-popup="call" data-wow-delay="1s">App Store'dan İndirin 
-                        </a>
-                        <a href="#" class="modal-toggle slider_btn_tr wow fadeInLeft mr_10" data-openpopup="signuplogin"
-                            data-popup="call" data-wow-delay="1s">Google Play'den İndirin 
-                        </a>
+      <p class="f_p f_400">Google Play Store ve App Store üzerinden Adisyo Mobil uygulamalarımızı indirebilirsiniz. Adisyo ile tablet veya akıllı telefonlarınız ile de siparişlerinizi kolayca girip ödeme alabilir, mutfağınızı yönetebilirsiniz.<br>
+      <span style="Font-size:13px;Font-weight:bold">Minimum sistem gereksimi: Android 5.0 ve iOS 9.0 üzeridir.</span></p>
+      <span style="Font-size:12px;Font-weight:bold">Mobil uygulamamızı ücretsiz denemek için aşağıdaki butonları kullanın</span></p>
+      <a href="https://play.google.com/store/apps/details?id=com.adisyo.mobile&hl=tr&gl=US" target="_blank"><img src="/assets/img/google-play-badge.svg" class="mobile-store-icons"></a>
+      <a href="https://apps.apple.com/tr/app/adisyo-personel/id1419508147?l=tr" target="_blank"><img src="/assets/img/app-store-badge.svg" class="mobile-store-icons"></a>
     image: /assets/img/home/features/mobil-uygulama01.png
 
   - title: Neden Mobil Uygulama Kullanmalıyım?
     desc: |
           <ul class="list-unstyled mb-30">
-            <li><i class="ti-check"></i>Çalışanlarınız kolayca sipariş takibi yapabilir</li>
-            <li><i class="ti-check"></i>İşletmenizi anlık olarak takip edip, satış durumunuzu görüntüleyebilirsiniz</li>
-            <li><i class="ti-check"></i>Tüm akıllı cihazlardan kolayca erişim sağlayabilirsiniz</li>
-            <li><i class="ti-check"></i>Extra cihaz masrafından kurtulun</li>
+            <li><i class="ti-check"></i>Her an her yerden işletme raporlarına ulaşabilir, işletmenizi gerçek zamanlı takip edebilirsiniz</li>
+            <li><i class="ti-check"></i>İşletmenizde gün içerisinde en çok satılan ürünlerinizi özet olarak görüntüleyebilir, böylece satışlarınızı artırabilirsiniz</li>
+            <li><i class="ti-check"></i>Gün sonu satış ve ciro bilgilerinizin özetine, kasanızda nakit, döviz, kredi kartı, yemek çeki vb türlerde ödeme bilgilerinize ulaşabilirsiniz</li>
+            <li><i class="ti-check"></i>Garsonlar ve kuryelerinizin sipariş operasyonlarını çok daha hızlı ve sistematik şekilde almasını sağlayarak, kayıp kaçakları engelleyebilirsiniz</li>
           </ul>
-          <a href="#" class="modal-toggle slider_btn_tr wow fadeInLeft mr_10" data-openpopup="signuplogin"
-                            data-popup="call" data-wow-delay="1s">App Store'dan İndirin 
-                        </a>
-                        <a href="#" class="modal-toggle slider_btn_tr wow fadeInLeft mr_10" data-openpopup="signuplogin"
-                            data-popup="call" data-wow-delay="1s">Google Play'den İndirin 
-                        </a>
+          <span style="Font-size:12px;Font-weight:bold">Mobil uygulamamızı ücretsiz denemek için aşağıdaki butonları kullanın</span></p>
+          <a href="https://play.google.com/store/apps/details?id=com.adisyo.mobile&hl=tr&gl=US" target="_blank"><img src="/assets/img/google-play-badge.svg" class="mobile-store-icons"></a>
+          <a href="https://apps.apple.com/tr/app/adisyo-personel/id1419508147?l=tr" target="_blank"><img src="/assets/img/app-store-badge.svg" class="mobile-store-icons"></a>
     image: /assets/img/home/features/mobil-uygulama02.png
 
   - title: Devir Ekonomi Devri
@@ -42,12 +37,9 @@ descriptions:
             <li><i class="ti-check"></i>Yıllık lisans ücreti ödemezsiniz</li>
             <li><i class="ti-check"></i>Sınırsız kullanıcı ekleyebilirsiniz</li>
           </ul>
-          <a href="#" class="modal-toggle slider_btn_tr wow fadeInLeft mr_10" data-openpopup="signuplogin"
-                            data-popup="call" data-wow-delay="1s">App Store'dan İndirin 
-                        </a>
-                        <a href="#" class="modal-toggle slider_btn_tr wow fadeInLeft mr_10" data-openpopup="signuplogin"
-                            data-popup="call" data-wow-delay="1s">Google Play'den İndirin 
-                        </a><br><br>
+          <span style="Font-size:12px;Font-weight:bold">Mobil uygulamamızı ücretsiz denemek için aşağıdaki butonları kullanın</span></p>
+          <a href="https://play.google.com/store/apps/details?id=com.adisyo.mobile&hl=tr&gl=US" target="_blank"><img src="/assets/img/google-play-badge.svg" class="mobile-store-icons"></a>
+          <a href="https://apps.apple.com/tr/app/adisyo-personel/id1419508147?l=tr" target="_blank"><img src="/assets/img/app-store-badge.svg" class="mobile-store-icons"></a><br><br>
     image: /assets/img/home/features/musteri-yonetimi02.png
 
 redirect_from:
