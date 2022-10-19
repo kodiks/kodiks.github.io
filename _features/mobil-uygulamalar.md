@@ -6,27 +6,20 @@ title: Mobil Uygulamamız ile İşletmenizi Her an, Her Yerden Kolayca Takip Edi
 
 
 descriptions: 
-  - title: Mobil Uygulamamız ile İşletmenizi Her an, Her Yerden Kolayca Takip Edin!
-    desc: |
-      <p class="f_p f_400">Google Play Store ve App Store üzerinden Adisyo Mobil uygulamalarımızı indirebilirsiniz. Adisyo ile tablet veya akıllı telefonlarınız ile de siparişlerinizi kolayca girip ödeme alabilir, mutfağınızı yönetebilirsiniz.<br>
-      <span style="Font-size:13px;Font-weight:bold">Minimum sistem gereksimi: Android 5.0 ve iOS 9.0 üzeridir.</span></p>
-      <span style="Font-size:12px;Font-weight:bold">Mobil uygulamamızı ücretsiz denemek için aşağıdaki butonları kullanın</span></p>
-      <a href="https://play.google.com/store/apps/details?id=com.adisyo.mobile&hl=tr&gl=US" target="_blank"><img src="/assets/img/google-play-badge.svg" class="mobile-store-icons"></a>
-      <a href="https://apps.apple.com/tr/app/adisyo-personel/id1419508147?l=tr" target="_blank"><img src="/assets/img/app-store-badge.svg" class="mobile-store-icons"></a>
-    image: /assets/img/home/features/mobil-uygulama01.png
-
+ 
   - title: Neden Mobil Uygulama Kullanmalıyım?
     desc: |
           <ul class="list-unstyled mb-30">
-            <li><i class="ti-check"></i>Her an her yerden işletme raporlarına ulaşabilir, işletmenizi gerçek zamanlı takip edebilirsiniz</li>
-            <li><i class="ti-check"></i>İşletmenizde gün içerisinde en çok satılan ürünlerinizi özet olarak görüntüleyebilir, böylece satışlarınızı artırabilirsiniz</li>
-            <li><i class="ti-check"></i>Gün sonu satış ve ciro bilgilerinizin özetine, kasanızda nakit, döviz, kredi kartı, yemek çeki vb türlerde ödeme bilgilerinize ulaşabilirsiniz</li>
-            <li><i class="ti-check"></i>Garsonlar ve kuryelerinizin sipariş operasyonlarını çok daha hızlı ve sistematik şekilde almasını sağlayarak, kayıp kaçakları engelleyebilirsiniz</li>
+            <li><i class="ti-check"></i>Her an her yerden işletme raporlarına ulaşabilir, işletmenizi gerçek zamanlı takip edebilirsiniz.</li>
+            <li><i class="ti-check"></i>İşletmenizde gün içerisinde en çok satılan ürünlerinizi görüntüleyebilir, böylece satışlarınızı artırabilirsiniz.</li>
+            <li><i class="ti-check"></i>Gün sonu kasanızda nakit, döviz, kredi kartı, yemek çeki vb türlerde ödeme bilgilerinize kolayca ulaşabilirsiniz.</li>
+            <li><i class="ti-check"></i>Garsonlar ve kuryelerinizin sipariş operasyonlarını çok daha hızlı ve sistematik şekilde yönetmesini sağlayarak, kayıp kaçakları engelleyebilirsiniz.</li>
           </ul>
+          <span style="Font-size:13px;Font-weight:bold">* Minimum sistem gereksimi: Android 5.0 ve iOS 9.0 üzeridir.</span></p>
           <span style="Font-size:12px;Font-weight:bold">Mobil uygulamamızı ücretsiz denemek için aşağıdaki butonları kullanın</span></p>
           <a href="https://play.google.com/store/apps/details?id=com.adisyo.mobile&hl=tr&gl=US" target="_blank"><img src="/assets/img/google-play-badge.svg" class="mobile-store-icons"></a>
           <a href="https://apps.apple.com/tr/app/adisyo-personel/id1419508147?l=tr" target="_blank"><img src="/assets/img/app-store-badge.svg" class="mobile-store-icons"></a>
-    image: /assets/img/home/features/mobil-uygulama02.png
+    image: /assets/img/home/features/mobil-uygulama01.png
 
   - title: Devir Ekonomi Devri
     desc: |
