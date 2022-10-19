@@ -1764,6 +1764,22 @@ input:-internal-autofill-selected {
     }
 }
 
+.show-md {
+    visibility: hidden!important;
+    display: none!important;
+}
+
+@media (max-width:991px) {
+    .show-md {
+        visibility: visible!important;
+        display: inline-block!important
+    }
+
+    .btn_mobile_block {
+        display: block;
+    }
+}
+
 .menu>.nav-item {
     position: relative;
     padding-bottom: 35px;
