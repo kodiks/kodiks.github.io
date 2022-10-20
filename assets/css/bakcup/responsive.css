@@ -1913,6 +1913,7 @@
 
     .saas_service_img img {
         max-width: 100%;
+        margin-top: 25px;
     }
 
     .about_img .about_img_slider .about_item .about_text .br {
