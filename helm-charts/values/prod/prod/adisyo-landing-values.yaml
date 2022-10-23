@@ -44,6 +44,7 @@ ingress:
   className: nginx
   hosts:
     - landing.adisyo.com
+    - adisyo.com
   request:
     size: 100m
 env:
