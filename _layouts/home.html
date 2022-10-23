@@ -18,42 +18,115 @@ layout: wrapper
                         başlarsınız.<br>
                         <b>Üstelik ilk 15 gün ücretsiz</b>
                     </p>
+
+                    <div class="slider_img w-100 tanitim_container_mobile">
+                        <div class="mt-lg-0 mt-5">
+                            <img id="tanitim_img" src="/assets/img/home/tanitim.png"
+                                style="width: 100%;object-fit: contain;" />
+
+                            <iframe id="tanitim_video"
+                                src="https://player.vimeo.com/video/751171857?h=c24498339c&amp;title=0&amp;byline=0&amp;portrait=0&amp;speed=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                                class="w-100 d-none" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"
+                                allowfullscreen title="Adisyo&amp;#039; ya Hızlı Bakış"></iframe>
+                        </div>
+                    </div>
+
                     <div class="action_btn align-items-center mt_30">
-                        <a href="#" class="modal-toggle slider_btn_tr wow fadeInLeft mr_10" data-openpopup="signuplogin"
+                        <a href="http://pos.adisyo.com/#/signup" target="_blank"
+                            class="slider_btn white_btn wow fadeInLeft mr_10" data-wow-delay="1s">
+                            15 Gün Ücretsiz Dene
+                        </a>
+
+                        <a class="slider_btn_tr wow fadeInLeft mr_10 show-md mb-3 mb-md-0" data-wow-delay="1s" target="_blank"
+                            href="https://wa.me/905315045053">
+                            <i class="fa fa-whatsapp f_size_18"></i>
+                            Whatsapp
+                        </a>
+
+                        <a href="#" class="modal-toggle slider_btn_tr wow fadeInLeft" data-openpopup="signuplogin"
                             data-popup="call" data-wow-delay="1s"> <i class="ti ti-headphone-alt top-ico-fix"></i> Sizi
                             Arayalım!
                         </a>
-                        <a href="http://pos.adisyo.com/#/signup" target="_blank"
-                            class="slider_btn white_btn wow fadeInLeft" data-wow-delay="1s">15 Gün Ücretsiz
-                            Dene</a>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 text-right">
+            <div class="col-lg-6 text-right tanitim_container">
                 <div class="slider_img w-100">
-                    <video id="tanitim_video" style="border-radius: 10px;" class="h-100 w-100 mt-5 mt-lg-0"
-                        preload="auto" poster="/assets/img/home/tanitim.png">
-                        <source src="https://cdn.adisyo.com/files/tanitim.mp4" type="video/mp4" />
-                    </video>
+                    <div class="mt-lg-0 mt-5">
+                        <img id="tanitim_img" src="/assets/img/home/tanitim.png"
+                            style="width: 100%;object-fit: contain;" />
+
+                        <iframe id="tanitim_video"
+                            src="https://player.vimeo.com/video/751171857?h=c24498339c&amp;title=0&amp;byline=0&amp;portrait=0&amp;speed=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                            class="w-100 d-none" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"
+                            allowfullscreen title="Adisyo&amp;#039; ya Hızlı Bakış"></iframe>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<script>
-    var video = document.getElementById('tanitim_video');
-    if (video)
-        video.addEventListener('click', (v) => {
-            if (!video.hasAttribute('controls')) {
-                video.setAttribute('controls', 'controls');
+<script src="https://player.vimeo.com/api/player.js"></script>
 
-                setTimeout(() => {
-                    video.play();
-                }, 500);
-            }
-        });
+<script>
+
+    window.addEventListener('resize', () => {
+        setTanitim();
+    });
+
+    setTanitim();
+
+    function setTanitim() {
+        const screenWidth = document.body.clientWidth;
+
+        let container;
+        if (screenWidth > 575)
+            container = document.querySelector('.tanitim_container');
+        else
+            container = document.querySelector('.tanitim_container_mobile');
+
+        if (container) {
+            const iframe = container.querySelector('iframe');
+            const player = new Vimeo.Player(iframe);
+
+            var img = container.querySelector('#tanitim_img');
+            if (img)
+                img.addEventListener('click', () => {
+                    if (!img.classList.contains('d-none'))
+                        img.classList.add('d-none');
+
+                    if (iframe)
+                        iframe.classList.remove('d-none');
+
+                    setTimeout(() => {
+                        player.play();
+                    }, 10);
+                });
+
+            player.on('ended', () => {
+                if (img)
+                    img.classList.remove('d-none');
+
+                if (iframe)
+                    iframe.classList.add('d-none');
+            });
+        }
+    }
+
+    // var video = document.getElementById('tanitim_video');
+    // if (video)
+    //     video.addEventListener('click', (v) => {
+    //         if (!video.hasAttribute('controls')) {
+    //             video.setAttribute('controls', 'controls');
+
+    //             setTimeout(() => {
+    //                 video.play();
+    //             }, 500);
+    //         }
+    //     });
 </script>
+
 
 <!--partners logo-->
 
@@ -234,16 +307,24 @@ layout: wrapper
                 </div>
 
                 <div class="price_item populer">
-                    <p class="populer_text">
+                    <div class="price_campaign_title">
+                        <img src="/assets/img/kampanya-icon.png" />
+
+                        <div class="title_text">
+                            <span>Ek %20</span>
+                            <span>İndirim</span>
+                        </div>
+                    </div>
+                    <!-- <p class="populer_text">
                         Popüler
-                    </p>
+                    </p> -->
 
                     <b class="f_size_18">12 Aylık</b>
 
                     <div class="f_p f_size_38 f_600 t_color2 mb_10 price_content_value">
                         <span class="d-flex">
                             <span class="price_content_value_icon f_size_20">₺</span>
-                            <span class="price_content_value_price">104</span>
+                            <span class="price_content_value_price">82</span>
                         </span>
 
                         <span class="d-flex flex-column align-items-start pl-1">
@@ -254,13 +335,13 @@ layout: wrapper
                             </span>
                         </span>
                     </div>
-                    <span style="font-size:12px;font-weight: bold;color: #7d8a7d;">Toplam ₺1249.00 + KDV</span>
+                    <span style="font-size:12px;font-weight: bold;color: #7d8a7d;">Toplam ₺999.00 + KDV</span>
                     <a href="https://pos.adisyo.com/#/signup" target="_blank"
                         class="price_btn btn_hover price_btn_active">
                         Ücretsiz Dene
                     </a>
 
-                    <p class="color-red text-center discount_text">%30 İndirimli</p>
+                    <p class="color-red text-center discount_text">%50 İndirimli</p>
                 </div>
 
                 <div class="price_item show_params">
@@ -735,11 +816,19 @@ layout: wrapper
                     <label for="tab-1" class="m-0">12 Aylık</label>
                     <div class="content package_features">
                         <div class="mb-4 d-flex align-items-center justify-content-between">
+                            <div class="price_campaign_title mr-4">
+                                <img src="/assets/img/kampanya-icon.png" />
+
+                                <div class="title_text">
+                                    <span>Ek %20</span>
+                                    <span>İndirim</span>
+                                </div>
+                            </div>
                             <div>
-                                <p class="color-red m-0">%30 İndirimli</p>
+                                <p class="color-red mb-4">%30 + %20 İndirimli</p>
 
                                 <span class="d-flex flex-wrap">
-                                    <span class="f_size_38 f_600">₺104,00</span>
+                                    <span class="f_size_38 f_600">₺82,00</span>
                                     <span class="ml-2">+ KDV / AY</span>
                                 </span>
                             </div>
@@ -749,7 +838,7 @@ layout: wrapper
                                 Ücretsiz Dene
                             </a>
                         </div>
-                        <span style="font-size:12px;font-weight: bold;color: #7d8a7d;">Toplam ₺1249.00 + KDV</span>
+                        <span style="font-size:12px;font-weight: bold;color: #7d8a7d;">Toplam ₺999.00 + KDV</span>
                         <div class="package_feature_item">
                             <p class="w-100 m-0">Sınırsız Kullanıcı, Tek Fiyat</p>
 
