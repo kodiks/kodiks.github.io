@@ -7,8 +7,8 @@ deploy:
   registry: adisyoacr.azurecr.io/
   resources:
     enabled: false
-    requestCpu: 100m
-    requestMemory: 200Mi
+    requestCpu: 50m
+    requestMemory: 100Mi
     limitCpu: 300m
     limitMemory: 300Mi
   nodeSelector:

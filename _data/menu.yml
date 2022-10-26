@@ -18,13 +18,13 @@
       isButton: false
 
     - id: 33
-      title: Detaylı ve Kolay Anlaşılır Raporlama
+      title: Detaylı Raporlama
       url: /ozellikler/detayli-ve-kolay-raporlama/
       icon: ti-reports
       isButton: false
 
     - id: 34
-      title: Tükenen Veya Kritik Stoklar İçin Uyarı Sistemi
+      title: Stok Takip Sistemi
       url: /ozellikler/tukenen-veya-kritik-stoklar-icin-uyari-sistemi/
       icon: ti-stok
       isButton: false

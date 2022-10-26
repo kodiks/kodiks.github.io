@@ -411,8 +411,8 @@ textarea:-webkit-autofill:hover {
 
 .is-bank-logo {
     position: relative;
-    top: 0;
-    margin-right: 0px
+    top: 5px;
+    margin-right: 35px
 }
 
 .bh-detail{
@@ -503,7 +503,10 @@ textarea:-webkit-autofill:hover {
     display: inline-block;
     -webkit-transition: all .3s ease;
     -o-transition: all .3s ease;
-    transition: all .3s ease
+    transition: all .3s ease;
+    position: relative;
+    top: 6px;
+    
 }
 
 .qrmenu-link-btn:hover {
@@ -741,7 +744,9 @@ input:-internal-autofill-selected {
 
 
 .saas_service_img img {
-    max-width: 100%
+    max-width: 100%;
+    margin-top: 25px;
+
 }
 
 .color-white {
@@ -1761,6 +1766,22 @@ input:-internal-autofill-selected {
     }
 }
 
+.show-md {
+    visibility: hidden!important;
+    display: none!important;
+}
+
+@media (max-width:991px) {
+    .show-md {
+        visibility: visible!important;
+        display: inline-block!important
+    }
+
+    .btn_mobile_block {
+        display: block;
+    }
+}
+
 .menu>.nav-item {
     position: relative;
     padding-bottom: 35px;
@@ -1823,7 +1844,7 @@ input:-internal-autofill-selected {
     font: 500 14px/34px Quicksand, sans-serif;
     color: #434343;
     text-align: left;
-    padding-left: 71px;
+    padding-left: 55px;
     padding-bottom: 3px;
     line-height: 40px;
     -webkit-transition: color .2s linear;
@@ -2104,7 +2125,7 @@ input:-internal-autofill-selected {
     text-align: center;
     position: relative;
     top: 10px;
-    margin-left: 35px
+    margin-left: 23px
 }
 
 .btn_properties:hover {
@@ -3131,7 +3152,7 @@ input:-internal-autofill-selected {
 
 .agency_banner_area .banner_shap {
     position: absolute;
-    top: 0;
+    top: -45px;
     right: 0;
     z-index: -1
 }
@@ -5622,12 +5643,12 @@ input:-internal-autofill-selected {
 }
 
 .service_details ul li {
-    font: 500 16px Quicksand, sans-serif;
+    font: 500 14px Quicksand, sans-serif;
     color: #353535;
     position: relative;
-    line-height: 24px;
-    padding-left: 35px;
-    margin-bottom: 15px
+    line-height: 22px;
+    padding-left: 25px;
+    margin-bottom: 12px
 }
 
 .service_details ul li i {
@@ -5635,7 +5656,7 @@ input:-internal-autofill-selected {
     left: 0;
     top: 0;
     color: #8bc34a;
-    font-size: 20px
+    font-size: 15px
 }
 
 .service_details ul li:last-child {
@@ -6140,7 +6161,7 @@ p.populer_text:before {
     top: -20px;
     left: -62px;
     width: 290px;
-    height: 770px;
+    height: 800px;
     border: 2px solid #cb2c2f;
     z-index: -1;
     border-radius: 5px;
@@ -6148,7 +6169,7 @@ p.populer_text:before {
 }
 
 .home_page .price_content .price_item.populer::before {
-    height: 770px;
+    height: 800px;
 }
 
 .price_content .price_item .tag span {
@@ -7293,8 +7314,10 @@ input:checked ~ span ~ .price_item{
 }
 
 .partner_logo_area_four {
-    padding-top: 100px;
-    margin-bottom: 35px
+    padding-top: 190px;
+    margin-bottom: 35px;
+    z-index: 9;
+    position: relative;
 }
 
 .partner_logo_area_four h4 {
@@ -13299,6 +13322,11 @@ input+label:before {
     bottom: 0;
     overflow: hidden;
   }
+  .tabs .content > div {
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+
   .tabs .content > * {
     opacity: 0;
     transition: 200ms all;
@@ -13318,3 +13346,88 @@ input+label:before {
     opacity: 1;
   }
 
+#tanitim_video {
+    height: 370px;
+}
+
+@media (max-width: 770px) {   
+    #tanitim_video {
+        height: 42vw;
+    }
+
+    .partner_logo_area_four {
+        padding-top: 40px !important;
+    }
+}
+
+.price_campaign_title {
+    position: absolute;
+    width: 100px;
+    top: -68px;
+    left: -95px;
+}
+
+.price_campaign_title img {
+    width: 100px;
+    animation: rotating 45s linear infinite;
+}
+
+.price_campaign_title .title_text {
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+    line-height: 18px;
+}
+
+.price_campaign_title .title_text span {
+    display: block;
+}
+
+@keyframes rotating {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
+
+.mobile_prices .price_campaign_title {
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.mobile_prices .price_campaign_title .title_text {
+    text-align: center;
+}
+
+.show_other_package .price_campaign_title {
+    left: -68px;
+}
+
+.show_other_package .mobile_prices .price_campaign_title {
+    left: 0;
+    right: 0;
+}
+
+@media (min-width: 575px) {
+    .tanitim_container_mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 575px) {
+    .tanitim_container_mobile {
+        display: block;
+    }
+
+    .tanitim_container {
+        display: none;
+    }
+}
