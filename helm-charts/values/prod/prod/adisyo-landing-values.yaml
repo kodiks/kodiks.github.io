@@ -45,6 +45,7 @@ ingress:
   hosts:
     - landing.adisyo.com
     - adisyo.com
+    - www.adisyo.com
   request:
     size: 100m
 env:
