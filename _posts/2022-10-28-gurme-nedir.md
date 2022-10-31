@@ -6,7 +6,7 @@ date: 2022-10-28 09:00:00
 image: "/assets/img/blog/blog-46.jpg"
 author: "Gurme Nedir?"
 categories: ["Gurme Nedir?"]
-tags: [Gurme Nedir?,Yetenek,Adisyo,Gurme]
+tags: [Gurme Nedir,Yetenek,Adisyo,Gurme]
 ---
 Gastronomi, oldukça aşina olduğumuz bir kavram olarak karşımıza çıkıyor ve üniversitelerde buna yönelik açılan bölümler büyük rağbet görüyor. Öte yandan dünya genelinde farklı yemek kültürleri benimseniyor, yiyecek ve içecek çeşitlerinde dikkate değer bir artış göze çarpıyor. Bu gelişmelerle birlikte “gurme” de oldukça sık duyduğumuz ve merak ettiğimiz bir kavram hâline geldi. Peki gurme ne demek, gurme olabilmek için ne gibi gereklilikler mevcut? 
 
