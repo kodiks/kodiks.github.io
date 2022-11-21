@@ -80,6 +80,10 @@
                             the Prepared Request
                         </a>
                     </li>
+                    <li>
+                        <a href="#externalOrders" class="doc-h1 doc-link"
+                            data-title="View Orders">View Orders</a>
+                    </li>
                 </ul>
             </li>
             <li>
@@ -395,7 +399,147 @@
                     transactions), the description of the process that caused the error, returns ‘ErrorMessage’. </li>
             </ul>
 
+            <h1 id='externalOrders'>View Orders</h1>
 
+            <blockquote>
+                <p>Example Request </p>
+            </blockquote>
+            <pre class="highlight shell"><code>curl https://ext.adisyo.com/api/external/GetExternalOrders
+            </code></pre>
+
+            <blockquote>
+                <p>Example Response</p>
+            </blockquote>
+            <pre class="highlight json "><code>
+<span>{</span>
+    <span>"<span class="span1">orders</span>": [</span>
+    <span>{</span>
+                <span>"<span class="span1">id</span>": <span class="spaninteger">66473932</span></span>,
+                <span>"<span class="span1">waiterName</span>": "<span class="span3">Garson1</span>"</span>,
+                <span>"<span class="span1">deliveryUserName</span>": <span class="span3">null</span></span>,
+                <span>"<span class="span1">externalAppName</span>": "<span class="span3">Adisyo</span>"</span>,
+                <span>"<span class="span1">restaurantName</span>": <span class="span3">null</span></span>,
+                <span>"<span class="span1">orderTotal</span>": <span class="spaninteger">6</span></span>,
+                <span>"<span class="span1">paymentMethodName</span>": "<span class="span3">SetCard</span>"</span>,
+                <span>"<span class="span1">paymentMethodId</span>": <span class="spaninteger">5</span></span>,
+                <span>"<span class="span1">deliveryTime</span>": <span class="span3">null</span></span>,
+                <span>"<span class="span1">discountAmount</span>": <span class="spaninteger">0.00</span></span>,
+                <span>"<span class="span1">currency</span>": "<span class="span3">TRY</span>"</span>,
+                <span>"<span class="span1">orderNote</span>": <span class="span3">null</span></span>,
+                <span>"<span class="span1">externalAppId</span>": <span class="spaninteger">null</span></span>,
+                <span>"<span class="span1">statusId</span>": <span class="spaninteger">9</span></span>,
+                <span>"<span class="span1">status</span>": "<span class="span3">İptal</span>"</span>,
+                <span>"<span class="span1">orderCancelReason</span>": "<span class="span3">Müşteri siparişi iptal etti</span>"</span>,
+                <span>"<span class="span1">tableName</span>": <span class="span3">null</span></span>,
+                <span>"<span class="span1">orderNumber</span>": <span class="spaninteger">100</span></span>,
+                <span>"<span class="span1">taxAmount</span>": <span class="spaninteger">0.44</span></span>,
+                <span>"<span class="span1">insertDate</span>": "<span class="span3">2022-06-14T10:19:30.317</span>"</span>,
+                <span>"<span class="span1">updateDate</span>": "<span class="span3">2022-06-14T10:19:30.317</span>"</span>,
+                <span>"<span class="span1">customerId</span>": <span class="spaninteger">1767682</span></span>,
+                <span>"<span class="span1">customerLatitude</span>": <span class="spaninteger">null</span></span>,
+                <span>"<span class="span1">customerLongitude</span>": <span class="spaninteger">null</span></span>,
+                <span>"<span class="span1">confirmationCode</span>": <span class="spaninteger">null</span></span>,
+                <span>"<span class="span1">integrationRestaurantName</span>": <span class="span3">null</span></span>,
+                <span>"<span class="span1">addressId</span>": <span class="spaninteger">1766443</span></span>,
+                <span>"<span class="span1">customer</span>": {</span>
+                    <span>"<span class="span1">customerName</span>": "<span class="span3">Baver Bölüm</span>"</span>,
+                    <span>"<span class="span1">customerSurname</span>": <span class="span3">null</span></span>,
+                    <span>"<span class="span1">customerEmail</span>": <span class="span3">null</span></span>,
+                    <span>"<span class="span1">customerId</span>": "<span class="spaninteger">1767682</span>"</span>,
+                    <span>"<span class="span1">customerPhone</span>": "<span class="span3">5453454545</span>"</span>,
+                    <span>"<span class="span1">customerPhone2</span>": <span class="span3">null</span></span>,
+                    <span>"<span class="span1">address</span>": "<span class="span3">asd</span>"</span>,
+                    <span>"<span class="span1">addressDescription</span>": <span class="span3">null</span></span>,
+                    <span>"<span class="span1">region</span>": <span class="span3">null</span></span>,
+                    <span>"<span class="span1">addressHeader</span>": <span class="span3">null</span></span>,
+                    <span>"<span class="span1">city</span>": <span class="span3">null</span></span>,
+                    <span>"<span class="span1">company</span>": <span class="span3">null</span></span>,
+                    <span>"<span class="span1">phoneCode</span>": <span class="span3">null</span></span>,
+                    <span>"<span class="span1">addressId</span>": <span class="spaninteger">0</span></span>,
+                    <span>"<span class="span1">isDefault</span>": <span class="span3">null</span></span>,
+                </span>},</span>
+                <span>"<span class="span1">products</span>": [</span>
+                <span>{</span>
+                    <span>"<span class="span1">id</span>": <span class="spaninteger">213829215</span>,
+                    <span>"<span class="span1">orderId</span>": <span class="spaninteger">66473932</span>,
+                    <span>"<span class="span1">quantity</span>": <span class="spaninteger">1.00</span>,
+                    <span>"<span class="span1">unitPrice</span>": <span class="spaninteger">6.00</span>,
+                    <span>"<span class="span1">productName</span>": "<span class="span3">Türk Kahvesi</span>",
+                    <span>"<span class="span1">productNote</span>": <span class="spaninteger">66473932</span>,
+                    <span>"<span class="span1">isMenu</span>": <span class="spaninteger">false</span>,
+                    <span>"<span class="span1">parentId</span>": <span class="spaninteger">null</span>,
+                    <span>"<span class="span1">cost</span>": <span class="spaninteger">0.0</span>,
+                    <span>"<span class="span1">totalAmount</span>": <span class="spaninteger">6.00</span>,
+                    <span>"<span class="span1">groupName</span>": <span class="spaninteger">null</span>,
+                    <span>"<span class="span1">groupId</span>": <span class="spaninteger">0</span>,
+                    <span>"<span class="span1">discountAmount</span>": <span class="spaninteger">0.00</span>,
+                    <span>"<span class="span1">insertDate</span>": "<span class="span3">2022-06-14T10:19:30.333</span>",
+                    <span>"<span class="span1">description</span>": <span class="span3">null</span>,
+                    <span>"<span class="span1">cancelReason</span>": <span class="span3">null</span>,
+                    <span>"<span class="span1">excludedComposites</span>": <span class="span3">null</span>,
+                    <span>"<span class="span1">excludedItems</span>": <span class="span3">[]</span>,
+                    <span>"<span class="span1">features</span>": <span class="span3">[</span>
+                    <span>{</span>
+                        <span>"<span class="span1">featureName</span>": "<span class="span3">Brownie</span>"</span>,
+                        <span>"<span class="span1">AdditionalPrice</span>": <span class="spaninteger">4.00</span></span>,
+                        <span>"<span class="span1">featureId</span>": <span class="spaninteger">2408384</span></span>,
+                        <span>"<span class="span1">OrderDetailId</span>": <span class="spaninteger">53455</span></span>
+                    <span>},</span>
+                    <span>{</span>
+                        <span>"<span class="span1">featureName</span>": "<span class="span3">Tiramisu</span>"</span>,
+                        <span>"<span class="span1">AdditionalPrice</span>": <span class="spaninteger">4.00</span></span>,
+                        <span>"<span class="span1">featureId</span>": <span class="spaninteger">2408376</span></span>,
+                        <span>"<span class="span1">OrderDetailId</span>": <span class="spaninteger">53455</span></span>
+                    <span>}</span>
+                    <span><span class="span1"></span><span>],</span>
+                </span>}</span>
+            </span>],</span>
+            <span>"<span class="span1">payments</span>": []</span>
+         <span>}</span>
+        <span>],</span>
+        <span>"<span class="span1">result</span>": <span class="spaninteger">1</span></span>,
+        <span>"<span class="span1">errorMessage</span>": <span class="span3">null</span></span>,
+        <span>"<span class="span1">totalOrderCount</span>": <span class="spaninteger">1</span></span>,
+        <span>"<span class="span1">pageCount</span>": <span class="spaninteger">1</span></span>
+<span>}</span></code></pre>
+
+            <p>The product list in the relevant restaurant's adisyo application is provided with x-api-key and
+                x-api-secret information <span
+                    style="color:green; font-weight:bold">’https://ext.adisyo.com/api/external/GetExternalOrders</span>
+                withdraw from the address. A request must be sent using the GET method.</p>
+
+
+            <h3>Endpoint</h3>
+            <p>GET /api/external/GetExternalOrders</p>
+            <h3>Required Parameters</h3>
+            <ul>
+                <li> <code>x-api-key</code> - The API key for your account</li>
+                <li> <code>x-api-secret</code> - The API Secret key for your account</li>
+            </ul>
+            <h3>Optional Parameters</h3>
+            <ul>
+                <li> <code>pageIndex</code> - When the number of orders is higher than 50, the data is paged. Data can
+                    be accessed with Index. By default, it fetches the first page. To access other pages, you must fill
+                    in this field.</li>
+                <li> <code>minimumOrderId</code> - Returns orders with an order number greater than the minimumOrderId
+                    variable.</li>
+                <li> <code>updatedOrdersAfter</code> - It can be used to access updated orders. The update date fetches
+                    orders that are after the date sent from this parameter. (Eg. yyyy-mm-dd hh:mm:ss - 2022-06-13
+                    15:15:19)</li>
+                <li> <code>includeCancelledOrders</code> - Canceled that meets the order number or date requirement
+                        It also returns orders.</li>
+            </ul>
+
+            <h3 id="responseTypes">Response Types</h3>
+            <ul>
+                <li> <code>Success (1)</code> - As a Response, the general information about the order, the ‘Result’
+                    information (returns <span style="color: green; font-weight: bold;">1</span> for successful
+                    transactions) and the current number of orders and the number of pages registered in the Adisyo
+                    system are returned.</li>
+                <li> <code>Fail (0)</code> - If the parameters are not sent in accordance with the format, the ‘Result’
+                    information is returned as a response (returns <span style="color: red; font-weight: bold;">
+                        0</span> for failed operations) and the ‘ErrorMessage’ that caused the error is returned. </li>
+            </ul>
 
             <h1 id='hemenYolda'>View Open Orders</h1>
 

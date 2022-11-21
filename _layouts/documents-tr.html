@@ -424,7 +424,7 @@
             </ul>
 
            
-<h1 id='externalOrders'>Siparişleri Görüntüleme</h1>
+    <h1 id='externalOrders'>Siparişleri Görüntüleme</h1>
 
             <blockquote>
                 <p>Örnek Request </p>
@@ -436,105 +436,101 @@
                 <p>Örnek Response</p>
             </blockquote>
             <pre class="highlight json "><code>
-<span>{</span>
-    <span>"<span class="span1">orders</span>": [</span>
-    <span>{</span>
-                <span>"<span class="span1">id</span>": <span class="spaninteger">66473932</span></span>,
-                <span>"<span class="span1">waiterName</span>": "<span class="span3">Garson1</span>"</span>,
-                <span>"<span class="span1">deliveryUserName</span>": <span class="span3">null</span></span>,
-                <span>"<span class="span1">externalAppName</span>": "<span class="span3">Adisyo</span>"</span>,
-                <span>"<span class="span1">restaurantName</span>": <span class="span3">null</span></span>,
-                <span>"<span class="span1">orderTotal</span>": <span class="spaninteger">6</span></span>,
-                <span>"<span class="span1">paymentMethodName</span>": "<span class="span3">Kredi Kartı</span>"</span>,
-                <span>"<span class="span1">paymentMethodId</span>": <span class="spaninteger">5</span></span>,
-                <span>"<span class="span1">deliveryTime</span>": <span class="span3">null</span></span>,
-                <span>"<span class="span1">discountAmount</span>": <span class="spaninteger">0.00</span></span>,
-                <span>"<span class="span1">currency</span>": "<span class="span3">TRY</span>"</span>,
-                <span>"<span class="span1">orderNote</span>": <span class="span3">null</span></span>,
-                <span>"<span class="span1">externalAppId</span>": <span class="spaninteger">null</span></span>,
-                <span>"<span class="span1">statusId</span>": <span class="spaninteger">9</span></span>,
-                <span>"<span class="span1">status</span>": "<span class="span3">İptal</span>"</span>,
-                <span>"<span class="span1">orderCancelReason</span>": <span class="span3">Müşteri siparişi iptal etti</span></span>,
-                <span>"<span class="span1">tableName</span>": <span class="span3">null</span></span>,
-                <span>"<span class="span1">orderNumber</span>": <span class="spaninteger">100</span></span>,
-                <span>"<span class="span1">taxAmount</span>": <span class="spaninteger">0.44</span></span>,
-                <span>"<span class="span1">insertDate</span>": "<span class="span3">2022-06-14T10:19:30.317</span>"</span>,
-                <span>"<span class="span1">updateDate</span>": "<span class="span3">2022-06-14T10:19:30.317</span>"</span>,
-                <span>"<span class="span1">customerId</span>": <span class="spaninteger">1767682</span></span>,
-                <span>"<span class="span1">customerLatitude</span>": <span class="spaninteger">null</span></span>,
-                <span>"<span class="span1">customerLongitude</span>": <span class="spaninteger">null</span></span>,
-                <span>"<span class="span1">confirmationCode</span>": <span class="spaninteger">null</span></span>,
-                <span>"<span class="span1">integrationRestaurantName</span>": <span class="span3">null</span></span>,
-                <span>"<span class="span1">addressId</span>": <span class="spaninteger">1766443</span></span>,
-                <span>"<span class="span1">customer</span>": {</span>
-                    <span>"<span class="span1">customerName</span>": "<span class="span3">Baver Bölüm</span>"</span>,
-                    <span>"<span class="span1">customerSurname</span>": <span class="span3">null</span></span>,
-                    <span>"<span class="span1">customerEmail</span>": <span class="span3">null</span></span>,
-                    <span>"<span class="span1">customerId</span>": "<span class="spaninteger">1767682</span>"</span>,
-
-
-<span>"<span class="span1">customerPhone</span>": "<span class="span3">5453454545</span>"</span>,
-                    <span>"<span class="span1">customerPhone2</span>": <span class="span3">null</span></span>,
-                    <span>"<span class="span1">address</span>": "<span class="span3">asd</span>"</span>,
-                    <span>"<span class="span1">addressDescription</span>": <span class="span3">null</span></span>,
-                    <span>"<span class="span1">region</span>": <span class="span3">null</span></span>,
-                    <span>"<span class="span1">addressHeader</span>": <span class="span3">null</span></span>,
-                    <span>"<span class="span1">city</span>": <span class="span3">null</span></span>,
-                    <span>"<span class="span1">company</span>": <span class="span3">null</span></span>,
-                    <span>"<span class="span1">phoneCode</span>": <span class="span3">null</span></span>,
-                    <span>"<span class="span1">addressId</span>": <span class="spaninteger">0</span></span>,
-                    <span>"<span class="span1">isDefault</span>": <span class="span3">null</span></span>,
-                </span>},</span>
-                <span>"<span class="span1">products</span>": [</span>
                 <span>{</span>
-                    <span>"<span class="span1">id</span>": <span class="spaninteger">213829215</span>,
-                    <span>"<span class="span1">orderId</span>": <span class="spaninteger">66473932</span>,
-                    <span>"<span class="span1">quantity</span>": <span class="spaninteger">1.00</span>,
-                    <span>"<span class="span1">unitPrice</span>": <span class="spaninteger">6.00</span>,
-                    <span>"<span class="span1">productName</span>": "<span class="span3">Türk Kahvesi</span>",
-                    <span>"<span class="span1">productNote</span>": <span class="spaninteger">66473932</span>,
-                    <span>"<span class="span1">isMenu</span>": <span class="spaninteger">false</span>,
-                    <span>"<span class="span1">parentId</span>": <span class="spaninteger">null</span>,
-                    <span>"<span class="span1">cost</span>": <span class="spaninteger">0.0</span>,
-                    <span>"<span class="span1">totalAmount</span>": <span class="spaninteger">6.00</span>,
-                    <span>"<span class="span1">groupName</span>": <span class="spaninteger">null</span>,
-                    <span>"<span class="span1">groupId</span>": <span class="spaninteger">0</span>,
-                    <span>"<span class="span1">discountAmount</span>": <span class="spaninteger">0.00</span>,
-                    <span>"<span class="span1">insertDate</span>": "<span class="span3">2022-06-14T10:19:30.333</span>",
-                    <span>"<span class="span1">description</span>": <span class="span3">null</span>,
-                    <span>"<span class="span1">cancelReason</span>": <span class="span3">null</span>,
-                    <span>"<span class="span1">excludedComposites</span>": <span class="span3">null</span>,
-                    <span>"<span class="span1">excludedItems</span>": <span class="span3">[]</span>,
-                    <span>"<span class="span1">features</span>": <span class="span3">[</span>
+                    <span>"<span class="span1">orders</span>": [</span>
                     <span>{</span>
-                        <span>"<span class="span1">featureName</span>": "<span class="span3">Brownie</span>"</span>,
-                        <span>"<span class="span1">AdditionalPrice</span>": <span class="spaninteger">4.00</span></span>,
-                        <span>"<span class="span1">featureId</span>": <span class="spaninteger">2408384</span></span>,
-                        <span>"<span class="span1">OrderDetailId</span>": <span class="spaninteger">53455</span></span>
-                    <span>},</span>
-                    <span>{</span>
-                        <span>"<span class="span1">featureName</span>": "<span class="span3">Tiramisu</span>"</span>,
-
-
-<span>"<span class="span1">AdditionalPrice</span>": <span class="spaninteger">4.00</span></span>,
-                        <span>"<span class="span1">featureId</span>": <span class="spaninteger">2408376</span></span>,
-                        <span>"<span class="span1">OrderDetailId</span>": <span class="spaninteger">53455</span></span>
-                    <span>}</span>
-                    <span><span class="span1"></span><span>],</span>
-                </span>}</span>
-            </span>],</span>
-            <span>"<span class="span1">payments</span>": []</span>
-         <span>}</span>
-        <span>],</span>
-        <span>"<span class="span1">result</span>": <span class="spaninteger">1</span></span>,
-        <span>"<span class="span1">errorMessage</span>": <span class="span3">null</span></span>,
-        <span>"<span class="span1">totalOrderCount</span>": <span class="spaninteger">1</span></span>,
-        <span>"<span class="span1">pageCount</span>": <span class="spaninteger">1</span></span>
-<span>}</span></code></pre>
+                                <span>"<span class="span1">id</span>": <span class="spaninteger">66473932</span></span>,
+                                <span>"<span class="span1">waiterName</span>": "<span class="span3">Garson1</span>"</span>,
+                                <span>"<span class="span1">deliveryUserName</span>": <span class="span3">null</span></span>,
+                                <span>"<span class="span1">externalAppName</span>": "<span class="span3">Adisyo</span>"</span>,
+                                <span>"<span class="span1">restaurantName</span>": <span class="span3">null</span></span>,
+                                <span>"<span class="span1">orderTotal</span>": <span class="spaninteger">6</span></span>,
+                                <span>"<span class="span1">paymentMethodName</span>": "<span class="span3">SetCard</span>"</span>,
+                                <span>"<span class="span1">paymentMethodId</span>": <span class="spaninteger">5</span></span>,
+                                <span>"<span class="span1">deliveryTime</span>": <span class="span3">null</span></span>,
+                                <span>"<span class="span1">discountAmount</span>": <span class="spaninteger">0.00</span></span>,
+                                <span>"<span class="span1">currency</span>": "<span class="span3">TRY</span>"</span>,
+                                <span>"<span class="span1">orderNote</span>": <span class="span3">null</span></span>,
+                                <span>"<span class="span1">externalAppId</span>": <span class="spaninteger">null</span></span>,
+                                <span>"<span class="span1">statusId</span>": <span class="spaninteger">9</span></span>,
+                                <span>"<span class="span1">status</span>": "<span class="span3">İptal</span>"</span>,
+                                <span>"<span class="span1">orderCancelReason</span>": "<span class="span3">Müşteri siparişi iptal etti</span>"</span>,
+                                <span>"<span class="span1">tableName</span>": <span class="span3">null</span></span>,
+                                <span>"<span class="span1">orderNumber</span>": <span class="spaninteger">100</span></span>,
+                                <span>"<span class="span1">taxAmount</span>": <span class="spaninteger">0.44</span></span>,
+                                <span>"<span class="span1">insertDate</span>": "<span class="span3">2022-06-14T10:19:30.317</span>"</span>,
+                                <span>"<span class="span1">updateDate</span>": "<span class="span3">2022-06-14T10:19:30.317</span>"</span>,
+                                <span>"<span class="span1">customerId</span>": <span class="spaninteger">1767682</span></span>,
+                                <span>"<span class="span1">customerLatitude</span>": <span class="spaninteger">null</span></span>,
+                                <span>"<span class="span1">customerLongitude</span>": <span class="spaninteger">null</span></span>,
+                                <span>"<span class="span1">confirmationCode</span>": <span class="spaninteger">null</span></span>,
+                                <span>"<span class="span1">integrationRestaurantName</span>": <span class="span3">null</span></span>,
+                                <span>"<span class="span1">addressId</span>": <span class="spaninteger">1766443</span></span>,
+                                <span>"<span class="span1">customer</span>": {</span>
+                                    <span>"<span class="span1">customerName</span>": "<span class="span3">Baver Bölüm</span>"</span>,
+                                    <span>"<span class="span1">customerSurname</span>": <span class="span3">null</span></span>,
+                                    <span>"<span class="span1">customerEmail</span>": <span class="span3">null</span></span>,
+                                    <span>"<span class="span1">customerId</span>": "<span class="spaninteger">1767682</span>"</span>,
+                                    <span>"<span class="span1">customerPhone</span>": "<span class="span3">5453454545</span>"</span>,
+                                    <span>"<span class="span1">customerPhone2</span>": <span class="span3">null</span></span>,
+                                    <span>"<span class="span1">address</span>": "<span class="span3">asd</span>"</span>,
+                                    <span>"<span class="span1">addressDescription</span>": <span class="span3">null</span></span>,
+                                    <span>"<span class="span1">region</span>": <span class="span3">null</span></span>,
+                                    <span>"<span class="span1">addressHeader</span>": <span class="span3">null</span></span>,
+                                    <span>"<span class="span1">city</span>": <span class="span3">null</span></span>,
+                                    <span>"<span class="span1">company</span>": <span class="span3">null</span></span>,
+                                    <span>"<span class="span1">phoneCode</span>": <span class="span3">null</span></span>,
+                                    <span>"<span class="span1">addressId</span>": <span class="spaninteger">0</span></span>,
+                                    <span>"<span class="span1">isDefault</span>": <span class="span3">null</span></span>,
+                                </span>},</span>
+                                <span>"<span class="span1">products</span>": [</span>
+                                <span>{</span>
+                                    <span>"<span class="span1">id</span>": <span class="spaninteger">213829215</span>,
+                                    <span>"<span class="span1">orderId</span>": <span class="spaninteger">66473932</span>,
+                                    <span>"<span class="span1">quantity</span>": <span class="spaninteger">1.00</span>,
+                                    <span>"<span class="span1">unitPrice</span>": <span class="spaninteger">6.00</span>,
+                                    <span>"<span class="span1">productName</span>": "<span class="span3">Türk Kahvesi</span>",
+                                    <span>"<span class="span1">productNote</span>": <span class="spaninteger">66473932</span>,
+                                    <span>"<span class="span1">isMenu</span>": <span class="spaninteger">false</span>,
+                                    <span>"<span class="span1">parentId</span>": <span class="spaninteger">null</span>,
+                                    <span>"<span class="span1">cost</span>": <span class="spaninteger">0.0</span>,
+                                    <span>"<span class="span1">totalAmount</span>": <span class="spaninteger">6.00</span>,
+                                    <span>"<span class="span1">groupName</span>": <span class="spaninteger">null</span>,
+                                    <span>"<span class="span1">groupId</span>": <span class="spaninteger">0</span>,
+                                    <span>"<span class="span1">discountAmount</span>": <span class="spaninteger">0.00</span>,
+                                    <span>"<span class="span1">insertDate</span>": "<span class="span3">2022-06-14T10:19:30.333</span>",
+                                    <span>"<span class="span1">description</span>": <span class="span3">null</span>,
+                                    <span>"<span class="span1">cancelReason</span>": <span class="span3">null</span>,
+                                    <span>"<span class="span1">excludedComposites</span>": <span class="span3">null</span>,
+                                    <span>"<span class="span1">excludedItems</span>": <span class="span3">[]</span>,
+                                    <span>"<span class="span1">features</span>": <span class="span3">[</span>
+                                    <span>{</span>
+                                        <span>"<span class="span1">featureName</span>": "<span class="span3">Brownie</span>"</span>,
+                                        <span>"<span class="span1">AdditionalPrice</span>": <span class="spaninteger">4.00</span></span>,
+                                        <span>"<span class="span1">featureId</span>": <span class="spaninteger">2408384</span></span>,
+                                        <span>"<span class="span1">OrderDetailId</span>": <span class="spaninteger">53455</span></span>
+                                    <span>},</span>
+                                    <span>{</span>
+                                        <span>"<span class="span1">featureName</span>": "<span class="span3">Tiramisu</span>"</span>,
+                                        <span>"<span class="span1">AdditionalPrice</span>": <span class="spaninteger">4.00</span></span>,
+                                        <span>"<span class="span1">featureId</span>": <span class="spaninteger">2408376</span></span>,
+                                        <span>"<span class="span1">OrderDetailId</span>": <span class="spaninteger">53455</span></span>
+                                    <span>}</span>
+                                    <span><span class="span1"></span><span>],</span>
+                                </span>}</span>
+                            </span>],</span>
+                            <span>"<span class="span1">payments</span>": []</span>
+                         <span>}</span>
+                        <span>],</span>
+                        <span>"<span class="span1">result</span>": <span class="spaninteger">1</span></span>,
+                        <span>"<span class="span1">errorMessage</span>": <span class="span3">null</span></span>,
+                        <span>"<span class="span1">totalOrderCount</span>": <span class="spaninteger">1</span></span>,
+                        <span>"<span class="span1">pageCount</span>": <span class="spaninteger">1</span></span>
+                <span>}</span></code></pre>
 
             <p>İlgili restorantın adisyo uygulamasında yer alan ürün listesini x-api-key ve x-api-secret
                 bilgileri ile <span
-                    style="color:green; font-weight:bold">’https://ext.adisyo.com/api/external/HemenYoldaOrders’</span>
+                    style="color:green; font-weight:bold">’https://ext.adisyo.com/api/external/GetExternalOrders</span>
                 adresinden
                 çekmek. GET metodu ile istek gönderilmelidir.</p>
 
