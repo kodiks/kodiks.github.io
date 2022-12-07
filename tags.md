@@ -1,6 +1,6 @@
 ---
 layout: tag
-title: Blog
+title: Etiketler
 description: Blog yazılarımızı etiketlerine ayrılmış şekilde inceleyebilirsiniz
 permalink: /etiketler/
 ---
