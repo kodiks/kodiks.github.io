@@ -8,7 +8,7 @@ author: "Adisyo"
 categories: ["Sosyal Medya"]
 tags: [Dijital Pazarlama, Sosyal Medya, Restorant, Kafe, Adisyon]
 ---
-### Michelin Yıldızı Nasıl Alınır? Michelin Yıldızlı Şefler Kimlerdir?
+## Michelin Yıldızı Nasıl Alınır? Michelin Yıldızlı Şefler Kimlerdir?
 
 Aylar öncesinden rezervasyon alan, yeme-içme meraklılarıyla dolup taşan 
 restoranlar ve onların Hollywood yıldızları kadar ünlü şefleri… “Michelin 
@@ -26,7 +26,7 @@ tamircilerinden haritalara, lastik satış merkezlerinden benzin istasyonları v
 otellere kadar her şey giriliyor; restoran önerileri dışında! Çünkü hedef belli: 
 Kara yolu seyahatinin cazibesini ve tabii ki lastik satışlarını artırmak.
 
-### En Yüksek Seviye “3 Yıldız”
+## En Yüksek Seviye “3 Yıldız”
 
 Rehber dağıtılmaya başlanıyor, ilk kopya ise 35 bin adet. Kısa bir zaman sonra 
 restoran önerileri de talep ediliyor ve restoranların da rehbere eklenmesine 
@@ -54,7 +54,7 @@ yıldızları alınıyor. Yıldızı kaybetmek de bazı şefler için bir yıkı
 yılında Şef Alain Zick ve 2003’te Bernard Louseau yıldızlarını kaybettikleri 
 için intihar ediyor!
 
-###  Michelin Yıldızını Kim Ya da Kimler Veriyor?
+##  Michelin Yıldızını Kim Ya da Kimler Veriyor?
 
 Bir şef ve restoran için bu denli önemli olan “yıldız”ları kimler veriyor? 
 Değerlendirme nasıl yapılıyor? Michelin tarafından seçilen gurmeler, büyük 
@@ -70,7 +70,7 @@ Japonya, 32 adet 3 yıldız; 61 adet 2 yıldız ve 224 adet 1 Michelin yıldızl
 restoranlarıyla bu alanda en çok yıldıza sahip ülkelerden. Fransa, Almanya ve 
 ABD de bu yarışın içinde.
 
-###  Michelin Yıldızlı Restoranlar ve Ünlü Şefler
+##  Michelin Yıldızlı Restoranlar ve Ünlü Şefler
 
 En dikkat çeken Michelin Yıldızlı restoranları şöyle sıralamak mümkün:
 

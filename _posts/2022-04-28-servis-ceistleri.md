@@ -10,11 +10,11 @@ tags: [Lezzet, Mutfak, Pandemi, Popüler]
 ---
 Bir kafe ve restoranda yemeğin kalitesi ve müşterilerin memnuniyeti için hazırlanma ve pişirme kadar yemeklerin servisi ve sunumu da önemlidir. Restaurant servis çeşitleri ülkeden ülkeye farklılık gösterir. Gastronomi dünyasında temel olarak dört servis çeşidi bulunur. Restoran ve kafelerde en çok kullanılan servis yöntemleri Fransız, Amerikan, İngiliz ve Rus yemek servisleridir. Restaurant servis şekilleri ulusların yemek yeme alışkanlığından doğar. Her servis tipinin kendine özgü kuralları bulunur. Önemli olan kurallar çerçevesinde güzel, titiz ve temiz bir servisin yapılmasıdır.
 
-### Fransız Usulü Restoran Servisi
+## Fransız Usulü Restoran Servisi
 
 Lokanta konseptleri tasarlanırken en önemli kriter mekanın lokasyonu ve hedef kitledir. Hedeflenen kitlenin yaş aralığı, gelir düzeyi ve beklentileri iyi bir şekilde analiz edildiğinde konseptiniz için başarılı adımlar atılabilir. Örneğin, Afrika yemekleri konseptinde bir mekan tasarlamak istiyorsanız bu tür yemekleri tercih eden toplulukların yaşadığı güzergahları tercih edebilirsiniz. Restoranınızı bu lokasyonda açtığınızda kalıcı bir hedef kitleye ulaşmanız mümkün olur. Konsept seçimi yaptıktan sonra rakip restoranların çalışmalarını takip etmeye de özen göstermelisiniz. Müşterilerin sizi öncelikli olarak tercih etmesi için menüdeki ürün çeşitliliğini artırmayı deneyebilirsiniz. Talepler doğrultusunda menü içeriğini güncel tutmak restoran konseptinizi başarılı kılmaya yardımcı olabilir. Bunların yanı sıra mekandaki oturma düzeni, ışıklandırma, dekorasyon, mobilya seçimi ve kullanılan müzik gibi etkenler de başarılı bir konseptin olmazsa olmazları arasındadır.
 
-### Restoran Konseptleri için Farklı Temalar
+## Restoran Konseptleri için Farklı Temalar
 
 Fransız servis yönteminde yemekler masanın yanındaki ‘Geridon’ ismi verilen istasyonda tabaklanır. Fransız tipi yöntemin genel özelliklerini sıralayacak olursak:
 
@@ -26,7 +26,7 @@ Servis araçları önceden masaya yerleştirilir. Şık, dekoratif ve üstüne y
 
 Servis elemanı sol taraftan servis yapar. Misafirler arzu ettiği kadar yemeği maşa ile tabağına alır.
 
-### Amerikan Usulü Restoran Servisi
+## Amerikan Usulü Restoran Servisi
 
 Amerikan usulü, restaurant servis çeşitleri arasında Amerika’dan dünyaya yayılan bir yöntemdir. Ülkemizde en çok benimsenen servis çeşidi Amerikan usulüdür. Amerikan servis çeşidinin özellikleri arasında şunlar bulunur:
 
@@ -40,7 +40,7 @@ Tüm müşterilere garsonlar aynı anda servis yapar ve tüm tabakları aynı an
 
 Garson siparişi alırken konuğun kahve ya da çay isteyip istemediğini sorar.
 
-### İngiliz Usulü Restoran Servisi
+## İngiliz Usulü Restoran Servisi
 
 İngiliz servisi klasik İngiliz aile yapısının yemek yeme alışkanlığından doğmuştur. Bu servis yönteminde masadakiler yemekleri birbirine paslar. Ayrıca bu yöntemde garsonun temel görevi yemekleri bütün olarak kayık tabaklarla masaya bırakmak ve ara sıra masa kontrolü yapmaktır. İngiliz servisin genel özellikleri şu şekildedir:
 
@@ -52,7 +52,7 @@ Garson yiyecekleri tutacaklara sahip bir tepsinin üstüne yerleştirir.
 
 Personel, servisi saatin tersi yönünde yapar. Garson misafirin sol tarafında durur ve tepsiyi konuğun servisini yapabileceği şekilde tutar.
 
-### Rus Usulü Restoran Servisi
+## Rus Usulü Restoran Servisi
 
 Rus Usulü servis resmi yemeklerde ve ziyafetlerde sıklıkla tercih edilir. Bu yöntemin en önemli özelliği bir show servisi olmasıdır. Rus servisin genel özellikleri şu şekildedir:
 

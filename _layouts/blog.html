@@ -18,7 +18,7 @@ layout: wrapper
                             {% assign m = post.date | date: "%-m" | minus: 1 %}
                             {% assign month = site.data.lang_tr.months[m] %}
                                 
-                            <h2>{{ post.date | date: '%d' }} <span>{{ month }} </span></h2>
+                            <p><b>{{ post.date | date: '%d' }} <span>{{ month }} </span></b></p>
                         </div>
                         <div class="entry_post_info">
                             By: <a href="#">{{ post.author }}</a>

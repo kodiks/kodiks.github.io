@@ -13,13 +13,13 @@ Geri dönüşüm var, geri dönüş yok! Yeme-içme sektöründeki “yeşil res
 Cam, kağıt, organik, plastik, elektronik ve tıbbi atıklar gibi pek çok atığın türüne ve özelliklerine göre geri dönüştürülmesini/ geri kazanılmasını amaçlayan bir yöntem: Sıfır Atık. Bireysel olarak da herkesi ilgilendiriyor; atıklardan sorumlu olan belediyeler başta olmak üzere tüm kurumsal platformları da… Amaç belli; azalan doğal kaynakları daha verimli kullanmak, geri dönüşümü hayatın her alanına yaymak. 
 
 
-### “SIFIR ATIK PROJESİ”NİN SAYISIZ KAZANIMLARI 
+## “SIFIR ATIK PROJESİ”NİN SAYISIZ KAZANIMLARI 
 
 Hem Türkiye’de hem de dünyada büyük önem taşıyan “Sıfır Atık Projesi” sayesinde dünyanın daha yaşanabilir bir yer olması hedefleniyor. Çevresel risklerin ve atık miktarının azalması, geri dönüşüm oranının artması, ekonomi için katma değer yaratılması, israfın engellenmesi, üretim maliyetlerinin azalması, üretim performansının artması, bu yaklaşımı benimseyen markaların prestijinin artması, doğayı koruma bilincinin toplumun her kesimine yayılması gibi sayısız artısı var. 
 
 Peki ne yapmalı? Sistemin işleyişi nasıl olmalı? Dünyanın pek çok yerinde uygulamaya geçen “Sıfır Atık Projeleri”, Türkiye’de 2017 yılından itibaren gündemde. Rehberler hazırlandı; yönetmeliklerle de bir yol haritası ortaya çıkartıldı. Belediyeler ve iş yerlerindeki uygulamalarda ise “Atık Yönetimi” konusunda “Kaynağında Doğru Ayırma”, “Verimli Atık Toplama” ve “Uygun Tesislerin Kurulması” gibi üç temel adım izlendi. 
  
-### “DEPOZİTO UYGULAMASI” BAŞLIYOR
+## “DEPOZİTO UYGULAMASI” BAŞLIYOR
 
 Türkiye’de Çevre ve Şehircilik Bakanlığı ile 2017 yılında hayata geçirilen “Sıfır Atık Projesi” ile azımsanmayacak kadar yol katedildi ki söz etmeden geçmek olmaz! 16.5 milyon ton kağıt-karton, 4.1 milyon ton plastik, 1.7 milyon ton cam... Toplanan atıklardan 1.5 milyon ailenin bir aylık kullanımına eşdeğer enerji tasarrufu sağlanırken 116 bin kurum binasına sıfır atık sistemi kuruldu. 
 
@@ -28,7 +28,7 @@ Haziran 2017’den Eylül 2021’e kadar 13.6 milyon kişiye “Sıfır Atık E�
 Ayrıca “Depozito Uygulaması”na da 2022 Ocak ayında start verilecek. Çevre Ajansı, bakanlık tarafından belirlenen çevre strateji ve politikaları doğrultusunda depozito yönetim sistemini kuracak ya da kurduracak; ilgili tarafların depozito yönetim sistemine dahil olmasını sağlayacak. Çevre Ajansı, depozito bedeli, ücret, teminat ve iadeleri alacak.
  
 
-### YEME-İÇME SEKTÖRÜ DE “YEŞİL”LENİYOR  
+## YEME-İÇME SEKTÖRÜ DE “YEŞİL”LENİYOR  
 
 Enerji kaynaklarının; su, bitki ve hayvan çeşitliliğinin azaldığı, doğal kaynakların hızla tükendiği dünyamızda sürdürülebilirlik çalışmalarına katkıda bulunmak herkesin görevi. Dolayısıyla yeme-içme sektörü de lokal ürünlerin kullanılması, atıkların azaltılması, çiftçilerin desteklenmesi gibi pek çok konuya destek veren sektörlerin başında geliyor. Ürünleri mümkün olduğunca üreticiden almak, atıkları azaltmak, mevsiminde yetişen ürünleri kullanmak ve lokal tedarikçileri tercih etmek, su miktarını azaltmak, geri dönüşümlü malzemeleri kullanmak, daha düşük enerji tüketen ekipmanları kullanmak, doğal temizlik kimyasallarını tercih etmek, mutfaktan çıkan organik atıklardan kompost yapmak, enerji tasarrufuna gitmek, daha az hayvansal ürün içeren menüler hazırlamak, iyi tarım uygulamalarına destek vermek gibi sürdürülebilirlik çalışmalarını kapsayan uygulamaları hayata geçiren işletmeler de gün geçtikçe çoğalıyor. Bu da son derece önemli bir gelişme… 
 

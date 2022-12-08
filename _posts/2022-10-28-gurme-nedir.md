@@ -12,7 +12,7 @@ Gastronomi, oldukça aşina olduğumuz bir kavram olarak karşımıza çıkıyor
 
 
 
-### Gurme Nedir?
+## Gurme Nedir?
 
 Fransızcadaki “gourmet” teriminin dilimizdeki karşılığı olan gurme, Türk Dil Kurumu sözlüğüne göre “tatbilir” olarak tanımlanıyor. Daha açık hâliyle; yiyecek ve içeceklere dair uzmanlık boyutuna varan bilgi sahibi olan, yiyecek ve içeceklerin tadına bakan ve tadını değerlendiren kimse şeklinde ifade etmek de mümkün. Diğer bir anlamına göre ise gurme; malzemesinden yapılış yöntemine kadar özenle hazırlanmış yiyecek ya da içecekten anlayan kişi anlamına geliyor. Buna bağlı olarak “gurme” sıfatıyla anılan şef, restoran ve şehirlerin yiyecek ve içecekler konusunda iddialı olduğu çok açık. Halk arasında da kişileri nitelemek için sıklıkla kullanılan gurme kavramı, aslında yetkili bir merci tarafından onaylanmasa da detaylı bilgi ve tecrübeye sahip olmayı gerektiriyor. 
 
@@ -20,7 +20,7 @@ Bir gurmenin yiyecek ve içecekler arasındaki uyumu değerlendirebilmesi, yiyec
 
 
 
-### Gurme Nasıl Olunur?
+## Gurme Nasıl Olunur?
 
 Öncelikle; gurme olmak için okunması gereken herhangi bir üniversite bölümü yok. Yani diploma ile gurme olma şansı bulunmuyor. Gurmelik keyifli bir hobi gibi algılanabilse de başlı başına bir iş ya da meslek olarak kabul görmesi gerekiyor. Nitekim bu işi profesyonel bir şekilde yürüten kişiler var. Ancak bir kişiye “gurme” unvanını kazandıran belirli bir oluşumdan söz etmek mümkün değil. Bu nedenle kişilerin kendini ispat etmesi ayrı bir önem kazanıyor. Elbette bunun için de gayret göstermek gerekiyor. İşin başlangıcında teorik bilgilere sahip olmak hayli önemli. Bunu başarabilmek adına da ilk adımı gastronomi alanında yazılmış çok çeşitli kitapları okuyarak atmak oldukça mantıklı. 
 

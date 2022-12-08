@@ -11,11 +11,11 @@ tags: [Adisyon, Hesaplama, Nedir, Restoran, Önemli]
 Fransızcada “hesap” anlamına gelen adisyon, günlük hayatta sıklıkla karşılaştığımız kelimelerden biridir. Peki adisyon ne demek? Kafe ve restoran benzeri işletmenizde sunulan hizmetin cinsini ve miktarını detaylı olarak göstermek amacıyla oluşturduğunuz belge, adisyon olarak adlandırılır. Adisyon, müşterinizin yapacağı ödemeyi kanıtlayan bir belge niteliği taşımaz ancak adisyon sayesinde işletmenizde tüketilen yiyeceklerin ve içeceklerin kaydını daha rahat tutabilirsiniz.
 
 
-### Adisyon Nedir?
+## Adisyon Nedir?
 
 İşletmenizde sunduğunuz mal ve hizmetlerin cinsini ya da miktarını göstermek için kullandığınız belge kısaca adisyon olarak bilinir. İşletmenizde kullandığınız adisyonların geçerli olabilmesi için adisyonun anlaşmalı matbaalarda basılmış olması, saat ve tarih gibi bilgilerin adisyonunuzun üzerinde yer alması gerekir. Eğer kullanılan adisyonun üzerinde bu bilgiler yer almıyor ise adisyonun kanunen basılmamış sayıldığını da bilmeniz gerekir. İşletmenizin adisyon kullanma zorunluluğunun olması için müşterilerinize masada servis yapmalısınız. Öte yandan selfservis hizmet veren bir işletmeniz varsa, adisyon kullanmak zorunda değilsiniz. Kafe ve benzeri işletmelerin günlük işleyişinde zorunlu olan adisyonu tutmak için birtakım yazılımları da kullanabilirsiniz. Adisyonun dijitalleşmesi, restorandaki işlerinizi önemli oranda kolaylaştırır ve müşterilerinizden daha çok sipariş almanızı sağlayabilir.
 
-### Adisyon Neden Önemlidir?
+## Adisyon Neden Önemlidir?
 
 Restoran ve kafe gibi bir işletmeye sahipseniz, adisyonlar sayesinde gelen siparişlerin takibini kolay bir şekilde yapabilirsiniz.
 
@@ -27,7 +27,7 @@ Adisyon kullanan bir işletmeye sahipseniz, aynı anda birçok farklı sipariş 
 
 İşletmenizde masada servis hizmeti veriyorsanız yasal olarak mutlaka adisyon kullanmalısınız.
 
-### Adisyon Nasıl Hesaplanır?
+## Adisyon Nasıl Hesaplanır?
 
 Anlaşmalı matbaalar aracılığıyla basılan adisyon fişleriniz, ilgili mevzuata uygun olarak düzenlenir. İşletme olarak müşterilerinizden sipariş alırken adisyonu iki kopya halinde hazırlamanız gerekir. Bu kopyalardan birini müşterinizin olduğu masaya bırakmalısınız. Diğer kopyayı ise işletmenizde saklamalısınız. Hizmetin tamamlanmasının ardından müşterilerden alacağınız adisyon yardımıyla ödeme işlemini tamamlayabilirsiniz. Kullandığınız adisyonda yer alması gereken bilgiler ise aşağıdaki gibidir:
 
@@ -39,7 +39,7 @@ Adisyon fişinde, basıldığı matbaaya ilişkin bilgilere belge üzerinde yer 
 
 İşletmeniz tarafından sunulan hizmetin veya malın cinsini ve miktarını detaylı olarak adisyonda belirtmelisiniz.
 
-### E-Adisyon Nedir?
+## E-Adisyon Nedir?
 
 Vergi Usul Kanunu’nda e-adisyon, kâğıda basılı adisyonun tüm niteliklerini taşıyan ve elektronik ortamda kullanılan bir belgedir. Kâğıt adisyonda olduğu gibi e-adisyonda da mükellef adına, soyadına, T.C. kimlik numarasına, vergi numarasına ve siparişe ilişkin bilgilere yer vermelisiniz. E-adisyon sayesinde adisyonları dijital ortamda düzenleyebilir ve muhafaza edebilirsiniz. İşletmenizin bilgilerinin yer aldığı e-adisyonda olması gereken diğer bilgiler ise şu şekildedir:
 

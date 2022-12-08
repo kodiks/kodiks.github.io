@@ -12,23 +12,23 @@ Fransızca kökenli bir kelime olan menü, en genel tanımı ile sofrada servis 
 
 Restoran ve kafelerde ise mevsime uygun olarak güncellenen menüler, işletmenin mutfağını yansıtır ve genellikle belirli bir yemek alışkanlığına uygun olarak hazırlanır. Örneğin fast food restoranın menüsü ile balık restoranının menüsü elbette ki birbirinden farklıdır. Diğer yandan, biçim olarak da müşterilerin yemek seçmesine yardımcı olan, işletmenin mutfağında yer alan tüm yiyecek ve içecekleri bir arada gösteren basılı metaryellere de menü denmektedir. Menü çeşitlerine ve içeriklerine yer verdiğimiz bu yazımızda, hem servis tipine hem de modern ve klasik menülerin farklarına değineceğiz.
 
-### Menü Tipleri Nelerdir?
+## Menü Tipleri Nelerdir?
 
 Restoran ve kafe menülerinde, servis edilecek yemeğin ana içeriği ve eşlikçileri hakkında bilgi veren menülerin bazılarında fiyat da yazmaktadır. El menüsü ve menü board gibi ana materyallerin yanı sıra, destekleyici olarak flayer ve afişler de kullanılabilir. Son dönemde hayatımıza giren ve kullanımı hızla yaygınlaşan bir diğer menü formatı ise, QR kodlarla erişilebilen dijital menülerdir.
 
-### El Menüleri
+## El Menüleri
 
 Sipariş edilecek yemeğin içeriği hakkında bilgi veren el menüleri, restoran ve kafelerin vazgeçilmezidir. İster fine dining, ister alacart servis olsun el menülerinde yer alan detaylar müşterilerin daha sağlıklı ve rahat seçimler yapmasını sağlar. Menüde yer alan bilgiler ne üstünkörü geçilmeli ne de uzun detaylarla müşteriyi boğmalıdır. Fakat, alerjenlere neden olabilecek ürünler mutlaka belirtilmeli ve fiyat bilgisine yer verilmelidir.
 
 Tasarım olarak da dikkat edilmesi gereken el menüleri, işletmelerin karakterini yansıtır. Bu tasarımlar hedef kitlenin kim olduğu, işletmelerin bakış açısı ve şeflerin yetenekleri hakkında bilgi verir.
 
-### Dijital (QR Kod) Menüler
+## Dijital (QR Kod) Menüler
 
 QR kod ile ulaşılabilen dijital menüler, el menüleri ile aynı özelliklere sahiptir. Bakım maliyetinin olmaması, hızlı ve kolay güncellenmesi, yıpranmaması ve sürekli el değiştirmediği için steril olması dijital menülerin avantajlarından bazılarıdır. 
 
 Güncelleme işlemlerinin hızlı ve maliyetsiz olarak yapılabileceği QR menüler, zamandan da tasarruf etmenizi sağlar. Müşterilerin akıllı telefonlarına okutarak ulaşabileceği bu sistem, işletmelerin hem modern hem de doğaya saygılı bir imaj sergilemesine de imkan sağlamaktadır.
 
-### Menü Board
+## Menü Board
 
 Kısaca menü tahtası diyebileceğimiz menü boardlar özellikle fast food kafe - restoranlarında ve tek bir yemeğin farklı çeşitlerini sunan konsept işletmelerde kullanılır. Örneğin bir dönem revaçta olan salata ya da çorba restoranları, servis edebilecekleri tüm seçenekleri menü board’a yazarlar.
 
@@ -48,7 +48,7 @@ Operasyon maliyetlerini düşürür.
 
 Renkli ve ışıklı görsellerle desteklendiği için daha fazla müşteri çeker.
 
-### Menü Türleri Nelerdir?
+## Menü Türleri Nelerdir?
 
 Klasik ve modern olmak üzere iki farklı yaklaşıma göre hazırlanan menüler, daha çok restoranlarda kullanılır. 
 

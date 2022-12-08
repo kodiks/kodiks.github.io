@@ -12,12 +12,12 @@ Lezzet tutkunları bir yemekten keyif alabilmek için sadece menünün kalitesin
 
 
 
-### Fransız Servisi Nedir?
+## Fransız Servisi Nedir?
 
 Zarafetin doğal bir sunumu olan Fransız servisi hem Fransa’da hem de dünyanın birçok yerinde yaygın olarak kullanılan bir servis şeklidir. Fransız servisi, resmi davetlerde, özel yemeklerde, pahalı ve lüks restoranlarda kullanılan klasik bir servistir ve Fransız geleneklerine göre Gueridon (Geridon) usulü ile gerçekleştirilir. Fransız usulu servise karar verdiğinizde, misafir masasının yanına getirilen tekerlekli Gueridon servis sehpası üzerinde, masa kenarı pişirme, sos hazırlama ve içecek ikramı gibi görsel sunumlar yapabilirsiniz. Bu sayede müşterilerinize servis kısmında da ne kadar hünerli olduğunuzu gösterebilirsiniz.
 
 
-### Fransız Servisinde Masa Düzeni Nasıl Olmalıdır?
+## Fransız Servisinde Masa Düzeni Nasıl Olmalıdır?
 
 Fransız servisinde masa düzenini oluşturabilmek için belirli bir sırayı takip etmeniz gerekir. Kuver (servis takımı) önceden hazırlanır ve misafirler yemekleri servis tabağından yemek tabağına kendileri alır. Geleneksel bir sunum için çok fazla hazırlık ve zaman harcamak gerektiği için masa ve misafir sayısı normalden daha azdır. 
 
@@ -30,7 +30,7 @@ Uzaktan bakıldığında karmaşık görünse de Fransız servisini hazırlamak 
 Yemeği hazırladıktan sonra sıra servise geldi. Sunuma başlarken ilk olarak tüm servis kaplarının servis masasında bulunup bulunmadığı yani bir eksik olup olmadığı kontrol edilmelidir, çünkü sosun eklenmesi ve salatanın süslenmesi gibi son detaylar, misafirlerin önünde, Geridonda gerçekleştirilir. Aynı anda ikinci bir garson tepside getirdiği içki ve ekmeği, sağdan masaya bırakılacak şekilde servis edebilir. Fransız servisinde şarabın çok özel bir yeri vardır. Servis yapan personel, sol ayağı önde ve sağ eli arkada olacak şekilde hafifçe öne eğilerek yemekleri takdim eder. Servis kapları sol elde ve mutlaka servis peçetesi üzerinde taşınır. Konuklar servis kabı üzerine konan maşa yardımıyla arzu ettikleri kadar yemek alabilirler veya isterlerse servisin garson tarafından yapılmasını rica edebilirler.
 
 
-### Fransız Servisi Yaparken Nelere Dikkat Edilmelidir?
+## Fransız Servisi Yaparken Nelere Dikkat Edilmelidir?
 
 Yemeklerin en uygun zamanda mutfaktan getirilmesi, misafir sayısına ve masa düzenine göre takdim edilmesi ve servis sırasını bozmadan geridondan masaya taşınması, Fransız servisi yaparken dikkat etmeniz gereken en temel konuların başında gelir. Fransız servisinde ilk olarak kadınlara, ardından da erkeklere servis yapılır. Tabaklar, bardakların sağına soldan kaldırılarak bırakılmalı ve yemeklerin misafire takdimi sırasında yaşanan en ufak bir aksiliğin bütün servisi bozabileceği unutulmamalıdır. Bu nedenle personelin çok deneyimli ve hünerli olması beklenir.
 Menüyü; özel aperatifler, sıcak yemekler, garnitür çeşitleri ve en sonda da tatlılar gelecek şekilde düzenleyebilirsiniz. Aynı süreç, içecekler için de geçerlidir. İlk olarak su, daha sonrasında şarap çeşitleri, ardından tatlılar ve son olarak da tatlıya ya da ekmek çeşitlerine eşlik edecek şampanya ikramı yapabilirsiniz. Geleneksel veya çok resmi bir Fransız servisinde ekmek ve ekmek tabağını menüye dahil etmeyebilirsiniz. Ayrıca kahve ve tatlıları tercihe göre yemeğin başında ya da sonunda servis edebilirsiniz.

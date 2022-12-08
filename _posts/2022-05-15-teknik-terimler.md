@@ -10,11 +10,11 @@ tags: [Lezzet, Yemek, Sanat, Yöntem]
 ---
 Yemek yapmak, sektör profesyonelleri için sadece iş değil, aynı zamanda bir sanat. Bu sanat da farklı teknikleri içeriyor. Hangi ürünü ne şekilde pişireceğinizi bilirseniz, restoran menünüzü de buna göre düzenleyebilirsiniz. Pişirme tekniklerini doğru kullanmak ve bu tekniklerde ustalaşmak elbette zaman ve emek istiyor. Peki yolu mutfaktan geçen herkesin mutlaka bilmesi gereken yemek pişirme teknikleri hangileri? İşte aşçıların çok sık kullandığı pişirme yöntemleri.
 
-### Yağda Kızartma
+## Yağda Kızartma
 
 Yağda kızartma mutfak pişirme teknikleri listesinin ilk sıralarında yer alıyor. Frying de denen bu yöntemin farklı şekilleri bulunuyor. Deep fry, derin yağın içerisinde kızartma anlamına geliyor. Deep fry tekniği daha çok patates kızartması yaparken kullanılıyor. Stir fry, ise karıştırarak kızartma yöntemi oluyor. Bu teknikte yağa attığınız ürünü karıştırmanız gerekiyor. Yağda kızartmanın diğer bir çeşidi ise pan fry. Pan fry, tavaya ince bir tabaka halinde yağ ekleyip, kızartmayı da bu az yağda yapmayı ifade ediyor. Bu teknikte mümkün olan en az yağ miktarı kullanılıyor.
 
-### Su İçinde Pişirme Teknikleri
+## Su İçinde Pişirme Teknikleri
 
 Su içinde pişirme tekniklerinin başında haşlama geliyor. Boiling de denen haşlama tekniğinde, su 100 derecede kaynatılıyor ve ürünler de kaynar suya atılarak pişiriliyor. Kök sebze, bakliyat ya da makarna gibi ürünlerde haşlama tekniği kullanılıyor.
 
@@ -24,13 +24,13 @@ Suda pişirme çeşitleri olarak sayılabilecek diğer bir yöntem ise poaching.
 
 Ön pişirme yöntemi olarak blanching de bu grupta sayılabiliyor. Bu teknikte ürün kaynar suya atılıyor ve kısa bir süre kaynar suda haşlanıyor, daha sonra buzlu suya alınarak şoklanıyor. Sebzeler bu yöntemde hem daha parlak kalıyor hem de besin değerleri korunuyor.
 
-### Fırında Pişirme
+## Fırında Pişirme
 
 Pişirme teknikleri isimleri arasında fırında pişirme de yer alıyor. Hangi fırını kullandığınıza bağlı olarak değişse de bu pişirme tekniğinde genellikle 220 dereceye kadar olan sıcaklık seviyeleri kullanılıyor. Fırınların özelliği her yere eşit ısı vermesi olduğundan, burada pişen ürün de eşit ısı alıyor. Un ve unlu mamuller fırında pişirme yönteminin tercih edildiği en popüler yiyecekler oluyor.
 
 Roasting de, fırında yemek yapma teknikleri içinde gruplanabiliyor. Kuru ısı içinde pişirme yöntemi olarak bilinen roasting’de ürünler her yönden eşit ısı alıyor. Et, tavuk ya da sebzeleri fırında roasting yöntemi ile pişirebilirsiniz.
 
-### Izgarada Pişirme Yöntemi
+## Izgarada Pişirme Yöntemi
 
 Izgarada pişirme yöntemi daha çok et, balık gibi ürünlerin hazırlanmasında tercih ediliyor. Izgarada pişirme ya da grilling tekniğinde ısı sabit bir şekilde alt taraftan geliyor ve bu sayede ürünler hızlıca pişiyor.
 

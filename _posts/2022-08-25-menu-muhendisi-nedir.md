@@ -14,7 +14,7 @@ Menü mühendisliği, başka bir deyişle ciroya ve özellikle brüt kar marjın
 
 
 
-### Menü Mühendisliği Misyonu
+## Menü Mühendisliği Misyonu
 
 Menü mühendisliği menünüzü popülerlik ve karlılık arasında dengelemek için etkili, ölçeklenebilir bir süreçtir. Amaç, maliyetlendirme ve fiyatlandırma bilgilerini restoran hedefleriniz ve markanızla uyumlu hale getirmektir. Menü mühendisliği de hedeflerinize ulaşmanız için fiyat ve menü arasındaki dengeyi kurmanıza ve yüksek kar elde etmenize yardımcı olur. 
 
@@ -23,7 +23,7 @@ Restoranların yanı sıra catering firmaları da zengin bir menü oluşturarak 
 Menü mühendisliği sayesinde yemeklerinizin nasıl performans gösterdiğine dair fikir sahibi olursunuz, menünüzü buna göre ayarlayarak mümkün olduğunca fazla kar elde edebilirsiniz. Karlı olmayan yemekleri belirleyebileceğiniz için tariflerde değişiklikler yapmanız ya da bazı yemekleri tamamen kaldırmanız gerekebilir. Ancak bu tarifler yerine yenileri için stratejiler oluşturabilir ve birkaç malzeme değişikliğine giderek hem maliyet azaltabilir hem de lezzet yönüyle görselliği vurgulayabilirsiniz. Bu nedenle menü mühendisliği restoranınızın geleceği için oldukça önemlidir.
 
 
-### Menü Mühendisliğinde Ürün Sınıflandırılması Nasıldır?
+## Menü Mühendisliğinde Ürün Sınıflandırılması Nasıldır?
 
 Menü mühendisliği süreci, menüdeki tüm yemeklerin maliyetinin hesaplanması, satış fiyatlarının hesaplanması, brüt kar marjının hesaplanması ve satış analizi olmak üzere dört adımdan oluşur. Bu değerler hesaplandığında karlılık hesaplanır ve müşteri memnuniyeti göz önünde bulundurularak yeteri kadar ilgi görmeyen ve kar oranını düşürüp maliyeti artıran yemeklere alternatifler seçilebilir. Tüm bunlar hesaplanırken ürün sınıflandırılmasından da yararlanılır. Ürünler sınıflandırılırken "Stars" (yıldızlar), "Puzzles" (bulmacalar ya da sorunlular), "Plowhorses" (önderler) ve "Dogs" (kaybedenler) olarak dört gruba ayrılır.
 
@@ -37,7 +37,7 @@ Kaybedenler: Bu grup ise yapımı oldukça maliyetli yemekleri ve müşteriler t
 
 
 
-### Menü Mühendisliği Neden Bu Kadar Önemli?
+## Menü Mühendisliği Neden Bu Kadar Önemli?
 
 Menü mühendisliği profesyonel bir analiz ve işleyiş içerdiğinden işletmenizde müşteri başına ortalama kârınızı artırmanın en iyi yoludur. Aynı zamanda geri dönüşü artırmak çeşitli şekillerde mümkündür çünkü menü mühendisliği ile iyi düşünülmüş kararlar verebilirsiniz. Yeni menünüz tamamen sezgiye değil, gerçek verilere dayalı hazırlanır.
 

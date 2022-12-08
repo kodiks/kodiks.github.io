@@ -14,7 +14,7 @@ ve sürdürülebilir iş modellerinden biridir. Bağımsız ruhun ve ekonomik ö
 
 fikriyle buluşması olarak da görülen yemek kamyonlarında, dondurmadan fast food’a, sıcak içeceklerden taze meyvelere kadar geniş bir yelpazede pek çok yiyecek ve içecek satılabilir. Hatta kimi kamyonlar küçük birer kafe gibi çalışmaktadır. Bir yemek kamyonu açmak için gereken şartlara geçmeden önce, yemek kamyonu nedir sorusuna cevap verelim.
 
-### Yemek Kamyonu Nedir?
+## Yemek Kamyonu Nedir?
 
 Gıda sektöründe hizmet vermek için tasarlanmış ve bu amaca yönelik olarak donatılmış
 
@@ -22,7 +22,7 @@ araçlara yemek kamyonu ya da gıda kamyonu denir. Yapılacak işin içeriğine 
 
 yemek kamyonları farklı ekipman ve donanımlara sahip olabilir ancak hemen hepsi; hazırlama, pişirme, servis etme, temizleme ve depolama gibi temel bölümlere sahiptir. Bu bölümlerin karmaşık olmasına gerek yoktur, genellikle işlevsel ve minimal olarak tasarlanmıştır. Dikkat edilmesi gereken en önemli nokta ise gıda yönetmeliğine ve hijyen kurallarına uygun olmasıdır.
 
-### Yemek Kamyonu Başlatmak İçin Neler Gerekir?
+## Yemek Kamyonu Başlatmak İçin Neler Gerekir?
 
 Yemek kamyonu hazırlıklarına başlamadan önce, sunacağınız hizmete tam karar vermeli ve
 
@@ -30,7 +30,7 @@ bu hizmetin gereklilikleri hakkında bilgi sahibi olmalısınız. İşe başlama
 
 gereken bir diğer konu da piyasa koşulları, rakiplerin durumu ve nihai tüketicinin talepleridir.
 
-### Koşulları İnceleyin
+## Koşulları İnceleyin
 
 ● Yemek kamyonu ile hangi alanda hizmet vereceğinizden emin olun.
 
@@ -52,7 +52,7 @@ kahve, piyasa fiyatını araştırın. Yalnızca karlılığı değil, güvenili
 
 ● Tutarlı ve sürdürülebilir bir planı yapın.
 
-### Konsepti ve İhtiyaçları Belirleyin
+## Konsepti ve İhtiyaçları Belirleyin
 
 Sizi diğer yemek kamyonlarından ayıran iki önemli nokta konseptiniz ve yemeklerinizin
 
@@ -66,7 +66,7 @@ durun.
 
 ● Az malzeme ve düşük maliyetle çalışmaya özen gösterin. Örneğin soslarla farklılaştırabileceğiniz sandviç, köfte, ızgara gibi yemeklere yönelin.
 
-### Bütçenizi Planlayın
+## Bütçenizi Planlayın
 
 Bütçe planlaması yapmak için farklı değişkenleri göz önünde bulundurmalısınız. Örneğin
 
@@ -85,7 +85,7 @@ kendinize şu soruları sorabilirsiniz:
 ● Ödemeniz gereken vergiler ve almanız gereken yasal izinlerin maliyeti ne kadar olacak?
 
 
-### Yemek Kamyonuna Sahip Olmanın Avantajları
+## Yemek Kamyonuna Sahip Olmanın Avantajları
 
 Yemek kamyonu Türkiye şartlarında, diğer restoran ve kafelere göre çok daha az maliyetlidir.
 

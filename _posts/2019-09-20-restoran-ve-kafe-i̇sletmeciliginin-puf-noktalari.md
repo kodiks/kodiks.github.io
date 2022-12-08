@@ -12,17 +12,17 @@ tags: [Dijital Pazarlama, Sosyal Medya, Restorant, Kafe, Adisyon]
 
 Bir restoran/ kafe sahibi veya işletmecisi misiniz? Yeme-içme sektörüne yatırım yapmayı mı planlıyorsunuz? Yalnızca mutfakta değil, mekanın farklı alanlarında mı görev yapıyorsunuz? Yoksa iyi bir hizmet bekleyen daimi müşterilerden misiniz? Aşağıdaki tavsiyeler, bu soruların herhangi birine “evet” cevabı verenler için…
 
-### Ticari ve Hukuki Boyutlarını İyi Araştırın
+## Ticari ve Hukuki Boyutlarını İyi Araştırın
 
 Giderlerinizi ve lokasyonu iyi belirleyin. İşletmenizi operasyona açabilmek için hukuki önceliklerinizi araştırın. İhtiyacınız olan sigortadan izinler ve lisanslara, satış vergilerini yapılandırmaktan sağlık lisansları için yeterlilik göstermeye kadar her konuda bilgi sahibi olun. Muhasebe, maaş bordro ve raporlama işlemleri için uzmanlardan yardım alın. “Güvenlik”i asla atlamayın. ERP ve CRM gibi yazılımlar ile satışlarınızı artırabilmek adına pek çok işi otomatik hale getirebileceğinizi unutmayın. Ama tüm bu süreçleri kendiniz yürütecekseniz, ona göre bir “eylem planı” hazırlayın.
 
-### Mutfak ve Tema Seçiminin Önemi
+## Mutfak ve Tema Seçiminin Önemi
 
 Sporla ilgili bir konsept mi kulüp tarzında bir mekan mı? Lokal olarak hizmet verecek bir restoran mı gurme restoran mı? İş yemekleri mi günlük yemek mi?
 
 Mutfak ve tema seçimini aceleye getirmeyin, ilk belirleyeceğiniz konulardan biri olmalı. Ayrıca farklı fiyatlardaki ürünleri, sağlıklı menüleri ve daimi müşteriler için sunulacak özel öğünleri ihmal etmeyin. Uluslararası, ulusal ve lokal yeme-içme trendlerini takip edin, yerel tedarikçilerle çalışmayı tercih edin. Rakiplerinizi de takip edin, mekanınıza özel lezzetler sunmaya çalışın.
 
-### Servis ve Mutfak Personeli Nasıl Olmalı?
+## Servis ve Mutfak Personeli Nasıl Olmalı?
 
 İyi bir işletmeci, personel seçiminde hassas olmalı. Yemekleri hazırlayan ekipten müşterilerle ilişkileri yöneten personele, öncelikle emir-komuta zincirini sağlam bir şekilde belirleyin. Çalışanların ihtiyaçlarını, haklarını, özel günleri de es geçmeyin. Cirodan personele prim verebileceğiniz bir sistem oluşturmayı deneyin. Personelin eğitimine dikkat edin, güler yüzlü olmanın önemini hatırlatın. Servis personeli, gurme olmasa da menüye hakim olmalı. Merak edilen soruları büyük bir güvenle yanıtlayabilmeli. Karşılama, servis ve uğurlamada zamanlamaya dikkat edilmeli; hesap isteyen bir müşteri asla bekletilmemeli.
 
@@ -30,7 +30,7 @@ O gün kötü çıkan yemek, aksayan servis, kirli tuvalet gibi problemlere heme
 
 Ayrıca bordro düzenlemeleri, vardiyalar ve işveren yükümlülükleri konularında yerel restoranlar birliğinden bilgi alabilirsiniz.
 
-### Başarılı Envanter Yönetimi
+## Başarılı Envanter Yönetimi
 
 Envanter kontrolü, artıkları hesaplama, hırsızlığı önleme, porsiyon büyüklüklerini doğru planlama… Kar etmek istiyorsanız, süreklilik gösteren bir organizasyon planı oluşturun. Gerektiğinde fiyatlarınızı güncelleyin, malzemeye göre fiyatlandırma yapın.
 

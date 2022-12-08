@@ -3,7 +3,7 @@ layout: post
 title: Su Şefi (Sous Şef) Nedir?
 summary: Profesyonel mutfaklar ekip çalışmasının en büyük örneklerindendir. Hiyerarşik bir düzen vardır ve herkes pek çok önemli görevden sorumludur. 
 date: 2022-10-20 09:00:00
-image: "/assets/img/blog/blog-45.png"
+image: "/assets/img/blog/blog-45.webp"
 author: "Su Şefir Nedir?"
 categories: ["Su Şefi Nedir?"]
 tags: [Sous Şef,Yetenekler,Görevler]
@@ -15,7 +15,7 @@ Su şef, kimine göre yardımcı şeftir, kimine göre ise şeften sonra gelen e
 
 
 
-### Su Şefi Nedir ve Yetenekleri Nelerdir?
+## Su Şefi Nedir ve Yetenekleri Nelerdir?
 
 Bir su şefi mutfakta çalışır ve şef gibi pek çok denetimden sorumludur. Sous şef, şefin asistanı gibi çalışır ve yokluğunda şefin yerini alır. Bu nedenle bir asistan veya yardımcı değil, şeften sonra gelen ikinci şeftir. Ayrıca su şefi, daha büyük ve daha profesyonel mutfaklarda bulunur. Bu, örneğin bir restoran, otel veya konferans merkezinin mutfağı olabilir. Aşçı bulunduğunda, su şefi ve şef birlikte diğer mutfak personelini yönetir. Çok sayıda personelin bulunduğu büyük mutfaklarda, şef daha fazla organizasyon çalışması yaparken su şefi esas olarak üretim alanında görevlidir. Bu nedenle önemli bir görevi mutfak ekibini yönetmektir. Su şef, şefle birlikte mutfaktaki işlerin gidişatından ve işin devamından sorumludur. Mutfak personelinin çalışmalarının kalitesini ve ilerlemesini izler.
 
@@ -23,7 +23,7 @@ Bir restoran, aksaklık olmadan her şeyin zamanında ve düzenli yapılması ge
 
 
 
-### Su Şefinin Görevleri
+## Su Şefinin Görevleri
 
 Su şef, genel olarak aşçıların ve diğer mutfak personelinin işlerini koordine eder ve organize eder. Ürün satın almaktan, servis yapmadan önce yemekleri kontrol etmekten sorumludur ve ayrıca menülerin ve yeni tariflerin geliştirilmesine de yardımcı olur. Her yemeğin yüksek kaliteli malzemelerle nasıl hazırlanacağını bilir ve sağlıklı, hijyenik bir yemekle müşteriye en iyisini sunmayı hedefler.
 

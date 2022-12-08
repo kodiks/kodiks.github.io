@@ -10,13 +10,13 @@ tags: [Dijital Pazarlama, Sosyal Medya, Restorant, Kafe, Adisyon]
 
 ---
 
-### Kafe ve Restoranların Dijital Pazarlama Stratejilerinde Dikkat Edilmesi Gereken Hususlar
+## Kafe ve Restoranların Dijital Pazarlama Stratejilerinde Dikkat Edilmesi Gereken Hususlar
 
 Bir işletmeci ya da kafe/ restoran sahibi, dijital alanda var olmanın önemini bilir. Dijital pazarlama stratejisi, günümüzde her işletme için vazgeçilmez… Nelere dikkat edilmeli? Nasıl bir yol izlenmeli? Kafe ve restoranlar, sosyal medya platformlarını nasıl kullanmalı? Merak edilen tüm soruların yanıtları bu yazıda!
 
 Günümüzde küçük ölçekli işletmelerden büyük markalara, dijital pazarlama stratejisi olmadan oyuna “1–0” yenik başlanıyor. Dijital pazarlamanın önemini erken kavrayan, bu konuya yatırım yapan, trendleri takip eden işletmeler rakipleri arasından sıyrılıyor.
 
-### Geleneksel Reklam Bütçesinden Hesaplı
+## Geleneksel Reklam Bütçesinden Hesaplı
 
 Dijital pazarlamaya ayrılan bütçe, geleneksel reklam bütçelerine göre daha az. Web sitesi, bir işletmenin aynası. Hedef kitleye e-mail (e-posta) ile ulaşmak, sosyal medya platformlarında yer almak, büyük kitleler ile daha az masrafla iletişim kurmak demek. Müşteri memnun kaldıysa, sadık müşterilerin gün geçtikçe arttığını görmek kaçınılmaz. Sosyal medya platformlarının, sınırları kaldırarak yeme-içme meraklılarını işletmenize çekmesi büyük kolaylık! Üstelik kriz yönetiminin doğru uygulandığı takdirde sorunları çözmek açısından da büyük önem taşıdığı bir gerçek.
 
@@ -24,7 +24,7 @@ Akıllı cihazların kullanımının/ mobil iletişimin ışık hızıyla geliş
 
 Geleceğe hazırlayan, trendleri takip etmenizi sağlayan, işletmeleri büyüten dijital pazarlama stratejileri, hem “zaman” kazandırır, hem de “nakit”! Profesyonel destek alınmaktan da çekinilmemeli. Gerekirse web sitesi ve sosyal medya yönetimi uzman ellere bırakılmalı.
 
-### Sosyal Medya Yönetiminin Püf Noktaları
+## Sosyal Medya Yönetiminin Püf Noktaları
 
 Yalnızca web sitesini aktif bir şekilde kullanmak, e-mail yoluyla müşterilere ulaşmak dijital pazarlamanın “eksik” olduğunu gösterir çünkü sosyal medya platformlarını da etkin ve “doğru” bir şekilde kullanmak büyük önem taşır. Sosyal medya yönetiminde dikkat edilmesi gereken kuralları şöyle sıralamak mümkün:
 
@@ -34,7 +34,7 @@ Yalnızca web sitesini aktif bir şekilde kullanmak, e-mail yoluyla müşteriler
 
 • Sosyal medya platformları sayesinde farkındalığınızı artırabilir, hediye ve kampanyalarla daha çok ilgi çekebilirsiniz.
 
-### Yeni Projelerinizi Sosyal Medyadan Duyurun
+## Yeni Projelerinizi Sosyal Medyadan Duyurun
 
 • Açılışlar, tadilatlar, şubeler… Yeni projelerinizi Facebook, Twitter ve Instagram’dan duyurabilirsiniz.
 
@@ -46,7 +46,7 @@ Yalnızca web sitesini aktif bir şekilde kullanmak, e-mail yoluyla müşteriler
 
 • Alışveriş sitelerinde yer alarak paket servis hacminizi artırabilirsiniz. Dükkanınız boş kalsa da online siparişler cironuzu artıracak.
 
-### Arama Motorlarında İlk Sırada Mısınız?
+## Arama Motorlarında İlk Sırada Mısınız?
 
 • Sosyal medya hesaplarınız haricinde arama motorlarında da isminizle çıktığınızdan emin olun. Arama motorlarına işletmenizin adı yazıldığında ilk sırada siz mi yer alıyorsunuz? Adres, iletişim bilgisi gibi bilgilere ihtiyaç duyan müşterileriniz, web sitenize hemen ulaşabilmeli.
 

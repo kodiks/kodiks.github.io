@@ -3,22 +3,22 @@ layout: post
 title:  Cost Control Nedir? Cost Control Nasıl Hesaplanır?
 summary: Cost control, yapılan eylemlerin işletme üzerindeki etkilerini değerlendiren faydalı bir uygulamadır.
 date: 2022-03-17 09:00:00
-image: "/assets/img/blog/blog-22.png"
+image: "/assets/img/blog/blog-22.webp"
 author: "Adisyon"
 categories: ["Yeme-içme sektöründe sürdürülebilirlik"]
 tags: [Adisyon, Maliyet, Hedef, CostControl, Adisyo]
 ---
 Cost control, yapılan eylemlerin işletme üzerindeki etkilerini değerlendiren faydalı bir uygulamadır. Böylelikle cost controller ne demek sorusunun da cevabı verilebilir. Cost control sayesinde işletme genelinde tüm ayrıntılara dikkat edilerek önemli ölçüde tasarruf sağlayabilirsiniz. Maliyet kontrolünün belirli kuralları vardır ve bu nedenle uygulamayı, artan gelir hedefiyle birlikte kullanmalısınız. Cost control ve cost controller hakkındaki diğer bilgilere gelin birlikte göze atalım.
 
-### Cost Control Nedir?
+## Cost Control Nedir?
 
 Restoranlarda cost control yöntemini uygulamak için beklenen maliyet ve gerçek maliyet arasında karşılaştırma yapabilirsiniz. Maliyet kontrolü yaparken iki ölçüm arasındaki farka neden olan faktörleri ortadan kaldırılarak kar elde edebilirsiniz. Eğer gerçek maliyetleriniz, planlanan maliyetlerden daha yüksek ise düşürmek için diğer hammadde sağlayıcılarından destek alabilirsiniz. Maliyet kontrolü yani cost control yaparak kar oranını koruyabilir ve işletmenizi büyütebilirsiniz. Maliyetleri kontrol edebilmek için dış kaynak kullanımını da tercih edebilirsiniz. Cost control için önceden belirlenen adımları atmak, işletmenizin uzun vadeli karlılığını önemli oranda etkiler.
 
-### Cost Controller Ne İş Yapar?
+## Cost Controller Ne İş Yapar?
 
 Cost controller, işletmelerin amaçlarına uygun olarak tüm malzemelerin etkin bir şekilde kullanımını sağlar. Peki, işletmenizde çalışan cost controller ne iş yapar? Cost controller’lar, işletme tarafından satın alınan tüm mal ve hizmetlerin işletmenin standartlarına uygun olup olmadığını denetler. Stok takibini düzenli olarak yapmak ve gerektiğinde eksik olan malzemelerin siparişini vermek, cost controller’ın sorumlulukları arasında yer alır. İşletmelerin tüm departmanlarında maliyet kontrolü gerçekleştirmek ve uygun olmayan maliyetleri size ve üstlerine bildirmek de cost controller’ın görevleri arasındadır. Aylık ve yıllık olarak cost control yani maliyet kontrolü raporunu hazırlamak ve şirketinizin ilgili birimlerine iletmek de maliyet kontrolörünün yaptığı işlerdendir. Ayrıca görevlendirdiğiniz cost controller, işletmenin satın aldığı hammaddelerde oluşan fiyat dalgalanmalarını düzenli olarak izler ve bu konuda piyasa araştırması yapar. Tüm bunların yanı sıra cost controller’ın görevleri arasında günlük olarak işletmenizin ambar giriş çıkışlarını takip etmek de bulunur.
 
-### Cost Control Nasıl Hesaplanır?
+## Cost Control Nasıl Hesaplanır?
 
 Peki, cost control nasıl hesaplanır? Cost control hesabı yaparken işletmenizin gerçek maliyetinin hedeflenen maliyetine denk olmasını sağlamalısınız. Eğer işletmenizin gerçek maliyeti, ideal maliyetin çok üzerinde ise birtakım önlemler ile maliyeti düşürebilirsiniz. Öte yandan direkt olarak maliyet karşılaştırması yapmanın dışında, işletmenin stoklarını karşılaştırarak da cost control hesabını daha faydalı hale getirebilirsiniz.
 

@@ -3,7 +3,7 @@ layout: post
 title: Demi Glace (Demiglas) Sos Nedir?
 summary: Demi-glace, Fransız mutfağındaki diğer pek çok sosun temeli olan zengin, yapışkan kahverengi bir sostur.
 date: 2022-11-09 09:00:00
-image: "/assets/img/blog/47.png"
+image: "/assets/img/blog/47.webp"
 author: "Demiglas?"
 categories: ["Demiglas"]
 tags: [Lezzet,Adisyo,Demiglas,Sos]
@@ -17,7 +17,7 @@ Mutfak yaratıcılığın zirve yaptığı bir yerdir ve mükemmel karışımlar
 
 
 
-### Demi Glace Sos Nasıl Yapılır?
+## Demi Glace Sos Nasıl Yapılır?
 
 Çok eskiden uzun pişirme süreleri dünyanın en normal teknikleri olarak biliniyordu. Tam da bu sıralarda ortaya çıkan demi glace sos hala aynı şekilde yapılır. Çünkü lezzeti bu uzun süren pişirme tekniğinden gelir. Demi glace sos aslında yoğunlaştırılmış kemik suyudur. Bu nedenle yapımında kullanılan ana malzeme dana kemiğidir. Dana kemiğine isteğe göre çeşitli sebzeler, domates püresi, biraz taze baharat ve su eklenir. Asıl önemli olan nokta ise tabii ki pişme süresidir. Demi glace sosun, bazı oluşana kadar 8 saat pişmelidir. Yaklaşık olarak 4 saat sonra ideal kıvama gelir, ancak asıl lezzeti sekiz saat sonra elde edersiniz.
 
@@ -26,7 +26,7 @@ Stok, daha sonra gerçek kahverengi ve kıvamlı yapısına ulaşana kadar bazı
 
 
 
-### Demi Glace Sos Hangi Yemeklerde ve Nasıl Kullanılır?
+## Demi Glace Sos Hangi Yemeklerde ve Nasıl Kullanılır?
 
 Aşçılık öğrencileri için demi-glace gastronomi 101'dir. Soğan, kereviz, havuç, kemik, sığır eti, dana eti ve kemiği dışında hiçbir özel malzeme gerektirmeyen zaman alıcı bir işlemdir. En iyi tariflerden biri de bir miktar Espagnole sosunu, yarıya indirilmiş ve süzülmüş kahverengi bir stok haline getirmektir.
 

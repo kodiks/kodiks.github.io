@@ -3,7 +3,7 @@ layout: post
 title:  Restoran Açmak için Gerekli Belgeler    
 summary: Girişimcilik faaliyetinde bulunmak isteyenler için popüler sektörler devamlı olarak değişiyor.  
 date: 2022-02-27 09:00:00
-image: "/assets/img/blog/blog-19.png"
+image: "/assets/img/blog/blog-19.webp"
 author: "Girişimcilik"
 categories: ["Yeme-içme sektöründe sürdürülebilirlik"]
 tags: [Lezzet, Girişimcilik, Müdavim, Restoran]
@@ -11,7 +11,7 @@ tags: [Lezzet, Girişimcilik, Müdavim, Restoran]
 Girişimcilik faaliyetinde bulunmak isteyenler için popüler sektörler devamlı olarak değişiyor. Bir dönem popüler olan yatırımlar zaman geçtikçe yerini farklı sektörlere bırakabiliyor. Fakat ne kadar zaman geçerse geçsin önemi asla azalmayan bir sektör var: Yeme- içme sektörü. İnsanlar arkadaşlarıyla vakit geçirmek, dinlenmek ve sosyalleşmek gibi amaçlarla yeme-içme sektörüne her daim ihtiyaç duyuyorlar. Bu nedenle yatırımcıların önemli bir kısmı için restoran açmak popülerliğini koruyor. Peki restoran açmak için neler gerekli?
 
 
-### Lokanta Açmak için Gerekli Belgeler
+## Lokanta Açmak için Gerekli Belgeler
 
 Öncelikle belirtelim ki restoran ve lokanta kelimeleri aslında aynı kavramı ifade ediyor. Fakat bu iki kelime insanlarda genelde farklı çağrışımlar yaratıyor. Bu da işletmeniz için kullandığınız sermaye miktarının yarattığı bir fark olarak karşınıza çıkıyor.
 Şöyle ki yeme- içme üzerine açtığınız işletmeniz için lüks kabul edilen bir konsept belirlemişseniz, işletmeniz restoran olarak tanımlanıyor. Elbette ki bu konsepti yakalamak için ayırmanız gereken bütçe oldukça fazla. Öte yandan lüks konseptinden uzak ve daha çok yerel profile hitap eden bir tarzı benimsediğinizde işletmeniz lokanta olarak kabul ediliyor. Fakat işletmeyi açmak için hazırlamanız gereken resmi evraklar ve takip etmeniz gereken süreç açısından aralarında herhangi bir fark bulunmuyor.

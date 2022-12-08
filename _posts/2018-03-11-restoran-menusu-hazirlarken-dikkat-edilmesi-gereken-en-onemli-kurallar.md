@@ -8,7 +8,7 @@ author: "Adisyo"
 categories: ["Sosyal Medya"]
 tags: [Dijital Pazarlama, Sosyal Medya, Restorant, Kafe, Adisyon]
 ---
-### Başarılı Menü Tasarımı Nasıl Yapılır? Bu Tüyolardan Yararlanın
+## Başarılı Menü Tasarımı Nasıl Yapılır? Bu Tüyolardan Yararlanın
 
 Yemekler ile fiyatlarını listelemenin haricinde bir işletmenin kimliğini ve 
 markasını da yansıtan “menü”yü tasarlarken belli başlı kurallara uymak şart. 
@@ -20,7 +20,7 @@ ama anlamlı, inandırıcı olmalıdır. Belirli bir müşteri grubu hedeflenmel
 başarılı bir menünün, çok iyi bir pazarlama aracı olduğu da unutulmamalıdır. 
 Müşteri memnuniyetini ve işletmenin kazancını da olumlu yönde etkiler.
 
-### Restoran/ Kafe Menüsü Hazırlarken Uymanız Gereken 8 Kural
+## Restoran/ Kafe Menüsü Hazırlarken Uymanız Gereken 8 Kural
 
 **Müşterinin Bilgi Kaynağı Olmalı**
 
@@ -55,7 +55,7 @@ boğmayın. Ayrıca bazı yemekler de “kutu” içinde menüde yer bulabilir.
 Makarna ve pilav gibi kar marjı yüksek olan yemeklerde çoğu zaman bu 
 tüyoya başvurulur.
 
-### “Yıldız Yemekler”i Ön Plana Çıkarın
+## “Yıldız Yemekler”i Ön Plana Çıkarın
 
 Eğer restoranınızda rakiplerinizden farklı olarak bir yemek/ içecek var ise 
 menüde ön planda olmalı. Böylelikle müşterinize direkt olarak farklılığınızı ve 

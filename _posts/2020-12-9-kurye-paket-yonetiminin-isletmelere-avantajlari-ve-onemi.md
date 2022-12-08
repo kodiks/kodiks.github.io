@@ -14,23 +14,23 @@ Cafe, restoran ve benzeri yerler hala yoğun biçimde çalışıyor ancak sadece
 
 Peki, kurye paket yönetimi nasıl olmalı? Bu iş sandığınızdan daha kolay. Adisyo’nun kurye paket yönetimi sistemlerini kullanarak bu süreci müthiş verimli geçirebilir, performansı yükseltebilir, müşteri sayısını artırabilirsiniz. Kurye paket sistemi kullanmanın işletmelere kazandıracağı avantajlar şöyledir; 
 
-### Ödeme Kolaylığı
+## Ödeme Kolaylığı
 
 Kurye paket yönetimi ile müşterilerin nakit, kart veya online ödeme seçeneklerinden hangisini tercih ettiğini önceden bilme imkanına sahip olursunuz. Ödemelerin hızlı ve sistemli olması zamandan tasarruf kazandırıyor. 
 
-### Sipariş takip kontrolü  
+## Sipariş takip kontrolü  
 
 Sisteme düşen siparişler kayıtlı ve sıralı bir şekilde kalarak işletmenin sipariş esnasında yaşayacağı kargaşayı ortadan kaldırıyor. Sistemin amacı kurye paket yönetimini disipline şekilde yürütmektir. İşletmeler her siparişi ekrana düştüğü gibi işleme koyabiliyor, işletmedeki süreci disipline edebiliyor. Bu sistemli işleyiş paket teslim hızına da yansıyor, müşteri memnuniyetini destekliyor. 
 
-### Sipariş ciro analizi 
+## Sipariş ciro analizi 
 
 Kurye paket yönetimi ile günlük, haftalık ve aylık olarak siparişlerden elde edilen ciroya kolayca ulaşılabiliyor. Böylelikle ticari hedefler anbean takip edilebiliyor. Ciroları anlık takip edebilmek işletme motivasyonunu olumlu etkiliyor.  
 
-### Müşteri memnuniyeti
+## Müşteri memnuniyeti
 
 Paket yönetim kullanıldığı takdirde siparişler hızlı ve sorunsuz bir şekilde müşterilere ulaşacağından olumlu geri dönüşler kaçınılmaz olacaktır. Paket servis sisteminde müşterileri memnun etmek çok zor, farkındayız. En ufak bir gecikme, aksaklık ya da sipariş karışıklığı müşterilerden olumsuz yorumlar almaya sebep oluyor. Kurye paket yönetimi bu durumu ortadan kaldırıyor, mutlu müşteriler kazanmanızı sağlıyor.
 
-### İşletme yönetim konforu
+## İşletme yönetim konforu
 
 Kurye paket yönetimi kullanan işletmeler sadece pandemi ile birlikte ortaya çıkan yoğun sipariş sürecini değil tüm zamanlarda hem işletme içerisindeki akışı hem de sipariş akışını büyük bir konforla yönetebiliyor. Eski usul yöntemlerle sipariş almak, sipariş hazırlanmasını, gönderilmesini sağlamak zaman alırken ve sıklıkla hatalara zemin hazırlarken, kurye paket sistemleri ile her şey dijital olduğundan hatasız sipariş takibi yapılabiliyor. Bu sistem kafe ve restoranların tam kapasite çalıştığı dönemlerde dahi başarı getiriyor, strese yer bırakmadan işletmelere konfor kazandırıyor. 
 

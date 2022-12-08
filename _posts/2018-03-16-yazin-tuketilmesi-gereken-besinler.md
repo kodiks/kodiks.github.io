@@ -8,7 +8,7 @@ author: "Adisyo"
 categories: ["Sosyal Medya"]
 tags: [Dijital Pazarlama, Sosyal Medya, Restorant, Kafe, Adisyon]
 ---
-### Restoran ve Kafe Menülerinde de Bu Yiyecekleri Sorunuz! İşte Yazın Tüketilmesi Gereken Besinler
+## Restoran ve Kafe Menülerinde de Bu Yiyecekleri Sorunuz! İşte Yazın Tüketilmesi Gereken Besinler
 
 Yumurta, yulaf, ceviz, hurma, karpuz… Sıcak havaların yol açtığı su kaybı ve 
 bitkinliğe karşı iyi gelen besinleri tüketerek yaz mevsimini rahat bir şekilde 
@@ -19,7 +19,7 @@ Bir yandan sıcak hava, yüksek nem oranı diğer yandan ofislerde ve araçlarda
 sürekli açık olan klimalar… Beslenme rutininize dikkat ederek yaz mevsimini 
 rahat bir şekilde geçirebilirsiniz. Peki neler tüketilmeli, nasıl tüketilmeli?
 
-### CEVİZ
+## CEVİZ
 
 En az balık kadar omega 3 kaynağı olan ceviz, konsantrasyon eksikliğine karşı 
 bire bir. Üstelik tok tutar, iştahınızı dengelemenize yardımcı olur. Yaz 
@@ -28,7 +28,7 @@ günde 3–4 tane ceviz tüketmeniz yeterli. Ayrıca iş yerinde, öğle arasın
 tulum peynirli/ cevizli bir salataya ne dersiniz? Yanında asitli içecekler 
 tüketmeden gönül rahatlığıyla yiyebilirsiniz.
 
-### SÜT VE YOĞURT
+## SÜT VE YOĞURT
 
 Su kaybı yaşamamak için süt, yoğurt, ayran gibi proteinli, kalsiyumlu 
 besinlere ağırlık verin. Ana yemeğin yanında ayran içebileceğiniz gibi cacık da 
@@ -47,7 +47,7 @@ da büyük bir parantez açalım. Süte ve yoğurda çok yakışan tarçını
 mutfağınızdan eksik etmeyin. Kafe ve restoranlarda yalnızca sahlep içerken 
 aklınıza gelmesin, garsonunuzdan ısrarla isteyiniz!
 
-### MEYVELER
+## MEYVELER
 
 Sanırız, sevmeyen yoktur! Yaz aylarının en lezzetli meyvesi, karpuz… Ayrıca 
 yeşil erik ve yeşil elma da uzmanların tavsiye ettiği meyveler arasında. 
@@ -61,14 +61,14 @@ Protein kaynağı olan yumurta, yaz sofralarından eksik olmamalı. İster
 kahvaltıda ister omlet ya da menemen olarak öğle veya akşam yemeklerinde 
 tüketin! Kendinizi uzun süre tok hissedeceksiniz.
 
-### HURMA
+## HURMA
 
 Çöl sıcaklarını hatırlayın… Çölde susuzluğu gidermek için en önemli besin: 
 Hurma. Biz neden tüketmeyelim! Kan şekerini dengeliyor; potasyum, 
 magnezyum, demir açısından da zengin. Kahvenin yanında tatlı değil de iki 
 adet hurma yemeyi deneyin. Tatlı isteğinizi bastıracak.
 
-### SALATALIK
+## SALATALIK
 
 Yaz aylarında bolca su içilmeli. Bu kuralı 7’den 70’e herkes öğrendi. Yoğun su 
 içeren sebzeler de çok yararlı. Bunların başında salatalık ve semizotu geliyor. 
@@ -77,7 +77,7 @@ sebzeler… Özellikle et yemeklerinin yanına cacık sipariş edebilirsiniz. He
 semizotu! Başlı başına bir öğün. Yemeğini tercih etmeyenler, yoğurtlu 
 semizotunu denemeli.
 
-### ÇÖREK OTU
+## ÇÖREK OTU
 
 Hazımsızlığa karşı önerilen çörek otu; demir, potasyum, magnezyum, 
 selenyum, çinko ve fosfor gibi vitamin ve minerallerden zengin… Kan şekerini 
