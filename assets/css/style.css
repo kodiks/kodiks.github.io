@@ -6072,11 +6072,21 @@ sub {
 
 .price_content {
     display: grid;
-    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    grid-template-columns: repeat(4, minmax(275px, 1fr));
     grid-column-gap: 48px;
     justify-items: center;
     align-items: end;
     margin-bottom: 30px;
+}
+
+.package_features .packet{
+    display: grid;
+    grid-template-columns: repeat(5, minmax(242px, 1fr));
+    grid-column-gap: 3px;
+    align-items: center;
+    justify-items: center;
+    border-bottom: 1px solid #e7e7e7;
+    min-height: 75px;
 }
 
 .show_other_package .price_content {
@@ -6350,7 +6360,7 @@ p.populer_text:before {
 
 .package_features .package_feature_item {
     display: grid;
-    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    grid-template-columns: repeat(4, minmax(275px, 1fr));
     grid-column-gap: 48px;
     align-items: center;
     justify-items: center;
@@ -13431,3 +13441,22 @@ input+label:before {
         display: none;
     }
 }
+
+.selection_price{
+    color: #cb2c2e;
+    background: white;
+    border: 1px solid #cb2c2e;
+    width: 108px;
+    border-radius: 9px;
+    cursor: pointer;
+    padding: 8px;
+    margin-left: 20px;
+}
+
+.selection_price:hover{
+    background: #cb2c2e;
+    color: white;
+    border: none;
+}
+
+
