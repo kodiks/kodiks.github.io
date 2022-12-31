@@ -215,34 +215,34 @@ function onChangePricePackage(packageId) {
 
     const { standart, lite, pro } = {
         standart: {
-            month: 100,
-            monthTotal: 1000,
-            month3: 200,
-            month3Total: 2000,
-            month6: 300,
-            month6Total: 3000,
-            month12: 400,
-            month12Total: 4000
+            month: 295,
+            monthTotal: 348,
+            month3: 795,
+            month3Total: 938,
+            month6: 1595,
+            month6Total: 1882,
+            month12: 2490,
+            month12Total: 2938
         },
         lite: {
-            month: 200,
-            monthTotal: 1200,
-            month3: 400,
-            month3Total: 2400,
-            month6: 500,
-            month6Total: 3500,
-            month12: 600,
-            month12Total: 4600
+            month: 195,
+            monthTotal: 230,
+            month3: 545,
+            month3Total: 643,
+            month6: 995,
+            month6Total: 1174,
+            month12: 1750,
+            month12Total: 2065
         },
         pro: {
-            month: 800,
-            monthTotal: 1600,
-            month3: 1500,
-            month3Total: 2500,
-            month6: 5300,
-            month6Total: 4600,
-            month12: 3400,
-            month12Total: 4500
+            month: 395,
+            monthTotal: 466,
+            month3: 1125,
+            month3Total: 1327,
+            month6: 2095,
+            month6Total: 2472,
+            month12: 3290,
+            month12Total: 3882
         },
     }
 
@@ -256,6 +256,8 @@ function onChangePricePackage(packageId) {
 function setPackage(packageName, priceValue, packageId) {
     const price = document.getElementById(packageName + '-price');
     const totalPrice = document.getElementById(packageName + '-total-price');
+
+    if(!price) return;
 
     switch (packageId) {
         case 1:
