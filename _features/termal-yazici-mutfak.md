@@ -20,7 +20,6 @@ descriptions:
             <li><i class="ti-check"></i>Abonelik sistemi</li>
             <li><i class="ti-check"></i>Kullandığınız kadar ödersiniz</li>
             <li><i class="ti-check"></i>Yıllık lisans ücreti ödemezsiniz</li>
-            <li><i class="ti-check"></i>Sınırsız kullanıcı ekleyebilirsiniz</li>
           </ul>
     image: /assets/img/home/features/mutfak-ekrani02.png
 

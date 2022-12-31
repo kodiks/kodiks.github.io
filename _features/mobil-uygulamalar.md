@@ -28,7 +28,6 @@ descriptions:
             <li><i class="ti-check"></i>Abonelik sistemi</li>
             <li><i class="ti-check"></i>Kullandığınız kadar ödersiniz</li>
             <li><i class="ti-check"></i>Yıllık lisans ücreti ödemezsiniz</li>
-            <li><i class="ti-check"></i>Sınırsız kullanıcı ekleyebilirsiniz</li>
           </ul>
           <span style="Font-size:12px;Font-weight:bold">Mobil uygulamamızı ücretsiz denemek için aşağıdaki butonları kullanabilirsiniz.</span></p>
           <a href="https://play.google.com/store/apps/details?id=com.adisyo.mobile&hl=tr&gl=US" target="_blank"><img src="/assets/img/google-play-badge.svg" class="mobile-store-icons"></a>

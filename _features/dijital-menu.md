@@ -36,8 +36,8 @@ descriptions:
                         <li><i style="color: #cc2f2f !important;" class="ti-gift"></i>Yıllık entegrasyon paketinde <b>20%</b> ek indirim.</li>
                     </ul>
                     <ul class="list-unstyled mb-30" style="margin-top:25px">
-                        <li><i class="ti-credit-card"></i><b>490,00 ₺</b>+ KDV / Yıl</li>
-                        <li><i class="ti-credit-card"></i><b>49,00 ₺</b>+ KDV / AY</li>
+                        <li><i class="ti-credit-card"></i><b>590,00 ₺</b>+ KDV / Yıl</li>
+                        <li><i class="ti-credit-card"></i><b>59,00 ₺</b>+ KDV / AY</li>
                     </ul>
           
     image: /assets/img/home/features/dijital1.png
