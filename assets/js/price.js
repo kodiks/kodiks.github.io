@@ -217,31 +217,31 @@ function onChangePricePackage(packageId) {
         standart: {
             month: 295,
             monthTotal: 348,
-            month3: 795,
+            month3: 265,
             month3Total: 938,
-            month6: 1595,
+            month6: 266,
             month6Total: 1882,
-            month12: 2490,
+            month12: 207,
             month12Total: 2938
         },
         lite: {
             month: 195,
             monthTotal: 230,
-            month3: 545,
+            month3: 182,
             month3Total: 643,
-            month6: 995,
+            month6: 166,
             month6Total: 1174,
-            month12: 1750,
+            month12: 146,
             month12Total: 2065
         },
         pro: {
             month: 395,
             monthTotal: 466,
-            month3: 1125,
+            month3: 375,
             month3Total: 1327,
-            month6: 2095,
+            month6: 349,
             month6Total: 2472,
-            month12: 3290,
+            month12: 274,
             month12Total: 3882
         },
     }
