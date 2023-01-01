@@ -10,11 +10,11 @@ layout: wrapper
 <section class="pricing_area">
     <div class="container">
         <div class="row">
-            <div style="margin-bottom: 75px;" class="col-12 text-center">
-                <button class="selection_price selection_price_active" id="price-12" onclick="onChangePricePackage(12)">12 Aylık</button>
-                <button class="selection_price" id="price-6" onclick="onChangePricePackage(6)">6 Aylık</button>
-                <button class="selection_price" id="price-3" onclick="onChangePricePackage(3)">3 Aylık</button>
+            <div style="margin-bottom: 75px;" class="col-12 text-center">    
                 <button class="selection_price" id="price-1" onclick="onChangePricePackage(1)">Aylık</button>
+                <button class="selection_price" id="price-3" onclick="onChangePricePackage(3)">3 Aylık</button>
+                <button class="selection_price" id="price-6" onclick="onChangePricePackage(6)">6 Aylık</button>
+                <button class="selection_price selection_price_active" id="price-12" onclick="onChangePricePackage(12)">12 Aylık</button>
             </div>
             <div class="price_content">
                 <div class="w-100">
@@ -28,6 +28,29 @@ layout: wrapper
 
                     <span class="switch_text">3 ve 6 aylık paketleri göster</span>
                 </span> -->
+                </div>
+                <div class="price_item">
+                    <b class="f_size_18">Lite</b>
+
+                    <div class="f_p f_size_38 f_600 t_color2 mb_10 price_content_value">
+                        <span class="d-flex">
+                            <span class="price_content_value_icon f_size_20">₺</span>
+                            <span class="price_content_value_price" id="lite-price">1750</span>
+                        </span>
+
+                        <span class="d-flex flex-column align-items-start pl-1">
+                            <span class="price_content_value_price_split">,00</span>
+
+                            <span class="f_400  price_content_value_tax">
+                                + KDV
+                            </span>
+                        </span>
+                    </div>
+                    <span style="font-size:12px;font-weight: bold;color: #7d8a7d;">Toplam ₺<span id="lite-total-price">2065</span>.00</span>
+                    <a href="https://pos.adisyo.com/#/signup" target="_blank" class="price_btn btn_hover">
+                        Ücretsiz Dene
+                    </a>
+                    <p class="color-red text-center discount_text">%25 İndirimli</p>
                 </div>
 
 
@@ -49,7 +72,7 @@ layout: wrapper
                             <span class="price_content_value_price_split">,00</span>
 
                             <span class="f_400 price_content_value_tax">
-                                + KDV / AY
+                                + KDV 
                             </span>
                         </span>
                     </div>
@@ -75,7 +98,7 @@ layout: wrapper
                             <span class="price_content_value_price_split">,00</span>
 
                             <span class="f_400 price_content_value_tax">
-                                + KDV / AY
+                                + KDV 
                             </span>
                         </span>
                     </div>
@@ -86,29 +109,6 @@ layout: wrapper
                     <p class="color-red text-center discount_text">%30 İndirimli</p>
                 </div>
 
-                <div class="price_item">
-                    <b class="f_size_18">Lite</b>
-
-                    <div class="f_p f_size_38 f_600 t_color2 mb_10 price_content_value">
-                        <span class="d-flex">
-                            <span class="price_content_value_icon f_size_20">₺</span>
-                            <span class="price_content_value_price" id="lite-price">1750</span>
-                        </span>
-
-                        <span class="d-flex flex-column align-items-start pl-1">
-                            <span class="price_content_value_price_split">,00</span>
-
-                            <span class="f_400  price_content_value_tax">
-                                + KDV / AY
-                            </span>
-                        </span>
-                    </div>
-                    <span style="font-size:12px;font-weight: bold;color: #7d8a7d;">Toplam ₺<span id="lite-total-price">2065</span>.00</span>
-                    <a href="https://pos.adisyo.com/#/signup" target="_blank" class="price_btn btn_hover">
-                        Ücretsiz Dene
-                    </a>
-                    <p class="color-red text-center discount_text">%25 İndirimli</p>
-                </div>
             </div>
 
             <p class="font-weight-bold">Temel Özellikler</p>
@@ -483,154 +483,6 @@ layout: wrapper
 
         <div class="tabs">
             <div class="tab">
-                <input type="radio" id="tab-1" name="tab-group-1" checked>
-                <label for="tab-1" class="m-0">Standart</label>
-                <div class="content package_features">
-                    <div class="mb-4 d-flex align-items-center justify-content-between">
-
-                        <div>
-                            
-
-                            <span class="d-flex flex-wrap">
-                                <span class="f_size_38 f_600">₺295,00</span>
-                                <span class="ml-2">+ KDV / AY</span>
-                            </span>
-                            <span style="font-size:12px;font-weight: bold;color: #7d8a7d;">Toplam ₺348.00</span>
-                        </div>
-                        
-                        <a href="https://pos.adisyo.com/#/signup" target="_blank"
-                            class="price_btn btn_hover price_btn_active">
-                            Ücretsiz Dene
-                        </a>
-                    </div>
-
-                    <div class="package_feature_item">
-                        <p class="w-100 m-0">Kullanıcı Sayısı</p>
-
-                        <span>
-                            <p>4 - 8 Kullanıcı</p>
-                        </span>
-                    </div>
-
-                    <div class="package_feature_item">
-                        <p class="w-100 m-0">İstediğiniz Cihaz İle Kullanın</p>
-
-                        <span>
-                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"
-                                fill="#000000">
-                                <path d="M0 0h24v24H0z" fill="none" />
-                                <path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z" />
-                            </svg>
-                        </span>
-                    </div>
-
-                    <div class="package_feature_item">
-                        <p class="w-100 m-0">Hızlı ve Kullanımı Kolay</p>
-
-                        <span>
-                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"
-                                fill="#000000">
-                                <path d="M0 0h24v24H0z" fill="none" />
-                                <path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z" />
-                            </svg>
-                        </span>
-                    </div>
-
-                    <div class="package_feature_item">
-                        <p class="w-100 m-0">Detaylı ve Kolay Anlaşılır, Anlık Raporlama</p>
-
-                        <span>
-                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"
-                                fill="#000000">
-                                <path d="M0 0h24v24H0z" fill="none" />
-                                <path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z" />
-                            </svg>
-                        </span>
-                    </div>
-
-                    <div class="package_feature_item">
-                        <p class="w-100 m-0">Tükenen veya Kritik Stoklar İçin Uyarı Sistemi</p>
-                        <span>
-                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"
-                                fill="#000000">
-                                <path d="M0 0h24v24H0z" fill="none" />
-                                <path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z" />
-                            </svg>
-                        </span>
-                    </div>
-
-                    <div class="package_feature_item">
-                        <p class="w-100 m-0">Mobil Uygulamalar (iOS & Android)</p>
-                        <span>
-                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"
-                                fill="#000000">
-                                <path d="M0 0h24v24H0z" fill="none" />
-                                <path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z" />
-                            </svg>
-                        </span>
-                    </div>
-
-                    <div class="package_feature_item pt-3 mt-3">
-                        <div class="w-100">
-                            <p class="font-weight-bold">Paket Sipariş Entegrasyonları</p>
-                            <p class="f_size_14">
-                                Yemek Sepeti, Getir, Trendyol ve daha birçok entegrasyon ile hem zamandan hem
-                                maliyetten
-                                tasarruf
-                                edin, tüm siparişlerinizi tek bir noktadan yönetin.
-                            </p>
-                        </div>
-
-                        <span class="text-center">
-                            <p class="f_size_18 font-weight-bold mb-0">₺49,00</p>
-                            <p class="fs-12">+ KDV / AY</p>
-                            <a href="https://pos.adisyo.com/#/signup" target="_blank" class="price_btn btn_hover">
-                                Satın Al
-                            </a>
-                        </span>
-                    </div>
-
-                    <div class="package_feature_item pt-3 mt-3">
-                        <div class="w-100">
-                            <p class="font-weight-bold">Hotel Entegrasyonları</p>
-                            <p class="f_size_14">
-                                HotelRunner, Hotelier ve HMS entegrasyonu ile otel restoranınızda sipariş ve ödeme
-                                süreçlerini
-                                kolayca yürütün.
-                            </p>
-                        </div>
-
-                        <span class="text-center">
-                            <p class="f_size_18 font-weight-bold mb-0">59,00</p>
-                            <p class="fs-12">+ KDV / AY</p>
-                            <a href="https://pos.adisyo.com/#/signup" target="_blank" class="price_btn btn_hover">
-                                Satın Al
-                            </a>
-                        </span>
-                    </div>
-
-                    <div class="package_feature_item pt-3 mt-3 border-0">
-                        <div class="w-100">
-                            <p class="font-weight-bold">QR Menü Entegrasyonu</p>
-
-                            <p class="f_size_14">
-                                Adisyo Dijital Menü ile hizmet kalitenizi geliştirin, müşterilerinizi memnun ederek,
-                                gelirinizi
-                                arttırın.
-                            </p>
-                        </div>
-
-                        <span class="text-center">
-                            <p class="f_size_18 font-weight-bold mb-0">59,00</p>
-                            <p class="fs-12">+ KDV / AY</p>
-                            <a href="https://pos.adisyo.com/#/signup" target="_blank" class="price_btn btn_hover">
-                                Satın Al
-                            </a>
-                        </span>
-                    </div>
-                </div>
-            </div>
-            <div class="tab">
                 <input type="radio" id="tab-2" name="tab-group-1">
                 <label for="tab-2">Lite</label>
                 <div class="content package_features">
@@ -640,7 +492,7 @@ layout: wrapper
 
                           <span class="d-flex flex-wrap">
                                 <span class="f_size_38 f_600">₺195,00</span>
-                                <span class="ml-2">+ KDV / AY</span>
+                                <span class="ml-2">+ KDV</span>
                             </span>
                             <span style="font-size:12px;font-weight: bold;color: #7d8a7d;">Toplam ₺230.00</span>
                         </div>
@@ -778,6 +630,155 @@ layout: wrapper
                 </div>
             </div>
             <div class="tab">
+                <input type="radio" id="tab-1" name="tab-group-1" checked>
+                <label for="tab-1" class="m-0">Standart</label>
+                <div class="content package_features">
+                    <div class="mb-4 d-flex align-items-center justify-content-between">
+
+                        <div>
+                            
+
+                            <span class="d-flex flex-wrap">
+                                <span class="f_size_38 f_600">₺295,00</span>
+                                <span class="ml-2">+ KDV</span>
+                            </span>
+                            <span style="font-size:12px;font-weight: bold;color: #7d8a7d;">Toplam ₺348.00</span>
+                        </div>
+                        
+                        <a href="https://pos.adisyo.com/#/signup" target="_blank"
+                            class="price_btn btn_hover price_btn_active">
+                            Ücretsiz Dene
+                        </a>
+                    </div>
+
+                    <div class="package_feature_item">
+                        <p class="w-100 m-0">Kullanıcı Sayısı</p>
+
+                        <span>
+                            <p>4 - 8 Kullanıcı</p>
+                        </span>
+                    </div>
+
+                    <div class="package_feature_item">
+                        <p class="w-100 m-0">İstediğiniz Cihaz İle Kullanın</p>
+
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"
+                                fill="#000000">
+                                <path d="M0 0h24v24H0z" fill="none" />
+                                <path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z" />
+                            </svg>
+                        </span>
+                    </div>
+
+                    <div class="package_feature_item">
+                        <p class="w-100 m-0">Hızlı ve Kullanımı Kolay</p>
+
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"
+                                fill="#000000">
+                                <path d="M0 0h24v24H0z" fill="none" />
+                                <path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z" />
+                            </svg>
+                        </span>
+                    </div>
+
+                    <div class="package_feature_item">
+                        <p class="w-100 m-0">Detaylı ve Kolay Anlaşılır, Anlık Raporlama</p>
+
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"
+                                fill="#000000">
+                                <path d="M0 0h24v24H0z" fill="none" />
+                                <path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z" />
+                            </svg>
+                        </span>
+                    </div>
+
+                    <div class="package_feature_item">
+                        <p class="w-100 m-0">Tükenen veya Kritik Stoklar İçin Uyarı Sistemi</p>
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"
+                                fill="#000000">
+                                <path d="M0 0h24v24H0z" fill="none" />
+                                <path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z" />
+                            </svg>
+                        </span>
+                    </div>
+
+                    <div class="package_feature_item">
+                        <p class="w-100 m-0">Mobil Uygulamalar (iOS & Android)</p>
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"
+                                fill="#000000">
+                                <path d="M0 0h24v24H0z" fill="none" />
+                                <path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z" />
+                            </svg>
+                        </span>
+                    </div>
+
+                    <div class="package_feature_item pt-3 mt-3">
+                        <div class="w-100">
+                            <p class="font-weight-bold">Paket Sipariş Entegrasyonları</p>
+                            <p class="f_size_14">
+                                Yemek Sepeti, Getir, Trendyol ve daha birçok entegrasyon ile hem zamandan hem
+                                maliyetten
+                                tasarruf
+                                edin, tüm siparişlerinizi tek bir noktadan yönetin.
+                            </p>
+                        </div>
+
+                        <span class="text-center">
+                            <p class="f_size_18 font-weight-bold mb-0">₺49,00</p>
+                            <p class="fs-12">+ KDV / AY</p>
+                            <a href="https://pos.adisyo.com/#/signup" target="_blank" class="price_btn btn_hover">
+                                Satın Al
+                            </a>
+                        </span>
+                    </div>
+
+                    <div class="package_feature_item pt-3 mt-3">
+                        <div class="w-100">
+                            <p class="font-weight-bold">Hotel Entegrasyonları</p>
+                            <p class="f_size_14">
+                                HotelRunner, Hotelier ve HMS entegrasyonu ile otel restoranınızda sipariş ve ödeme
+                                süreçlerini
+                                kolayca yürütün.
+                            </p>
+                        </div>
+
+                        <span class="text-center">
+                            <p class="f_size_18 font-weight-bold mb-0">59,00</p>
+                            <p class="fs-12">+ KDV / AY</p>
+                            <a href="https://pos.adisyo.com/#/signup" target="_blank" class="price_btn btn_hover">
+                                Satın Al
+                            </a>
+                        </span>
+                    </div>
+
+                    <div class="package_feature_item pt-3 mt-3 border-0">
+                        <div class="w-100">
+                            <p class="font-weight-bold">QR Menü Entegrasyonu</p>
+
+                            <p class="f_size_14">
+                                Adisyo Dijital Menü ile hizmet kalitenizi geliştirin, müşterilerinizi memnun ederek,
+                                gelirinizi
+                                arttırın.
+                            </p>
+                        </div>
+
+                        <span class="text-center">
+                            <p class="f_size_18 font-weight-bold mb-0">59,00</p>
+                            <p class="fs-12">+ KDV / AY</p>
+                            <a href="https://pos.adisyo.com/#/signup" target="_blank" class="price_btn btn_hover">
+                                Satın Al
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+           
+            <div class="tab">
                 <input type="radio" id="tab-3" name="tab-group-1">
                 <label for="tab-3">Pro</label>
                 <div class="content package_features">
@@ -785,7 +786,7 @@ layout: wrapper
                         <div>
                             <span class="d-flex flex-wrap">
                                 <span class="f_size_38 f_600">₺395,00</span>
-                                <span class="ml-2">+ KDV / AY</span>
+                                <span class="ml-2">+ KDV</span>
                             </span>
                             <span style="font-size:12px;font-weight: bold;color: #7d8a7d;">Toplam ₺466.00</span>
                         </div>
