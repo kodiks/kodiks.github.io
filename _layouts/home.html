@@ -290,7 +290,7 @@ layout: wrapper
 
     <!--pricing-->
 
-    <!-- <section class="pricing_area home_page">
+    <section class="pricing_area home_page">
         <div class="container">
            
                 
@@ -299,6 +299,8 @@ layout: wrapper
                     <h1 class="mb-5">
                         Planlar & <br /> Fiyatlandırma
                     </h1>
+                    <button style="margin-left: 0px !important;" class="selection_price" id="price-1" onclick="onChangePricePackage(1)">Aylık</button>
+                    <button class="selection_price selection_price_active" id="price-12" onclick="onChangePricePackage(12)">12 Aylık</button>
                 </div>
                
                 <div class="price_item populer">
@@ -307,12 +309,12 @@ layout: wrapper
                         Popüler
                     </p> 
 
-                    <b class="f_size_18">12 Aylık</b>
+                    <b class="f_size_18">Standart</b>
 
                     <div class="f_p f_size_38 f_600 t_color2 mb_10 price_content_value">
                         <span class="d-flex">
                             <span class="price_content_value_icon f_size_20">₺</span>
-                            <span class="price_content_value_price">104</span>
+                            <span class="price_content_value_price" id="standart-price">207</span>
                         </span>
 
                         <span class="d-flex flex-column align-items-start pl-1">
@@ -323,7 +325,7 @@ layout: wrapper
                             </span>
                         </span>
                     </div>
-                    <span style="font-size:12px;font-weight: bold;color: #7d8a7d;">Toplam ₺1249.00 + KDV</span>
+                    <span style="font-size:12px;font-weight: bold;color: #7d8a7d;">Toplam ₺<span id="standart-total-price">2938</span>.00 + KDV</span>
                     <a href="https://pos.adisyo.com/#/signup" target="_blank"
                         class="price_btn btn_hover price_btn_active">
                         Ücretsiz Dene
@@ -381,12 +383,12 @@ layout: wrapper
                 </div>
 
                 <div class="price_item">
-                    <b class="f_size_18">Aylık</b>
+                    <b class="f_size_18">Lite</b>
 
                     <div class="f_p f_size_38 f_600 t_color2 mb_10 price_content_value">
                         <span class="d-flex">
                             <span class="price_content_value_icon f_size_20">₺</span>
-                            <span class="price_content_value_price">149</span>
+                            <span class="price_content_value_price" id="lite-price">146</span>
                         </span>
 
                         <span class="d-flex flex-column align-items-start pl-1">
@@ -397,7 +399,7 @@ layout: wrapper
                             </span>
                         </span>
                     </div>
-
+                    <span style="font-size:12px;font-weight: bold;color: #7d8a7d;">Toplam ₺<span id="lite-total-price">2065</span>.00 + KDV</span>
                     <a href="https://pos.adisyo.com/#/signup" target="_blank" class="price_btn btn_hover">
                         Ücretsiz Dene
                     </a>
@@ -409,14 +411,10 @@ layout: wrapper
 
             <div class="package_features mb-5">
                 <div class="package_feature_item">
-                    <p class="w-100 m-0">Sınırsız Kullanıcı, Tek Fiyat</p>
+                    <p class="w-100 m-0">Kullanıcı Sayısı</p>
 
                     <span>
-                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"
-                            fill="#000000">
-                            <path d="M0 0h24v24H0z" fill="none" />
-                            <path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z" />
-                        </svg>
+                        <p>4 - 8 Kullanıcı</p>
                     </span>
 
                     <span class="show_params">
@@ -435,11 +433,7 @@ layout: wrapper
                     </span>
 
                     <span>
-                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"
-                            fill="#000000">
-                            <path d="M0 0h24v24H0z" fill="none" />
-                            <path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z" />
-                        </svg>
+                        <p>1 - 3 Kullanıcı</p>
                     </span>
                 </div>
 
@@ -623,8 +617,8 @@ layout: wrapper
                     </div>
 
                     <span class="text-center">
-                        <p class="f_size_18 font-weight-bold mb-0">₺390,00</p>
-                        <p class="fs-12">+ KDV / Entegrasyon</p>
+                        <p class="f_size_18 font-weight-bold mb-0">₺490,00</p>
+                        <p class="fs-12">+ KDV / Yıl</p>
                         <a href="https://pos.adisyo.com/#/signup" target="_blank" class="price_btn btn_hover">
                             Satın Al
                         </a>
@@ -645,8 +639,8 @@ layout: wrapper
                     </span>
 
                     <span class="text-center">
-                        <p class="f_size_18 font-weight-bold mb-0">₺39,00</p>
-                        <p class="fs-12">+ KDV / Entegrasyon</p>
+                        <p class="f_size_18 font-weight-bold mb-0">₺49,00</p>
+                        <p class="fs-12">+ KDV / Ay</p>
                         <a href="https://pos.adisyo.com/#/signup" target="_blank" class="price_btn btn_hover">
                             Satın Al
                         </a>
@@ -666,8 +660,8 @@ layout: wrapper
                     </div>
 
                     <span class="text-center">
-                        <p class="f_size_18 font-weight-bold mb-0">₺490,00</p>
-                        <p class="fs-12">+ KDV / Entegrasyon</p>
+                        <p class="f_size_18 font-weight-bold mb-0">₺590,00</p>
+                        <p class="fs-12">+ KDV / Yıl</p>
                         <a href="https://pos.adisyo.com/#/signup" target="_blank" class="price_btn btn_hover">
                             Satın Al
                         </a>
@@ -688,8 +682,8 @@ layout: wrapper
                     </span>
 
                     <span class="text-center">
-                        <p class="f_size_18 font-weight-bold mb-0">₺49,00</p>
-                        <p class="fs-12">+ KDV / Entegrasyon</p>
+                        <p class="f_size_18 font-weight-bold mb-0">₺59,00</p>
+                        <p class="fs-12">+ KDV / Ay</p>
                         <a href="https://pos.adisyo.com/#/signup" target="_blank" class="price_btn btn_hover">
                             Satın Al
                         </a>
@@ -708,8 +702,8 @@ layout: wrapper
                     </div>
 
                     <span class="text-center">
-                        <p class="f_size_18 font-weight-bold mb-0">₺490,00</p>
-                        <p class="fs-12">+ KDV / Entegrasyon</p>
+                        <p class="f_size_18 font-weight-bold mb-0">₺590,00</p>
+                        <p class="fs-12">+ KDV / Yıl</p>
                         <a href="https://pos.adisyo.com/#/signup" target="_blank" class="price_btn btn_hover">
                             Satın Al
                         </a>
@@ -729,8 +723,8 @@ layout: wrapper
                         </a>
                     </span>
                     <span class="text-center">
-                        <p class="f_size_18 font-weight-bold mb-0">₺49,00</p>
-                        <p class="fs-12">+ KDV / Entegrasyon</p>
+                        <p class="f_size_18 font-weight-bold mb-0">₺59,00</p>
+                        <p class="fs-12">+ KDV / Ay</p>
                         <a href="https://pos.adisyo.com/#/signup" target="_blank" class="price_btn btn_hover">
                             Satın Al
                         </a>
@@ -750,8 +744,8 @@ layout: wrapper
                     </div>
 
                     <span class="text-center">
-                        <p class="f_size_18 font-weight-bold mb-0">₺490,00</p>
-                        <p class="fs-12">+ KDV / Entegrasyon</p>
+                        <p class="f_size_18 font-weight-bold mb-0">₺590,00</p>
+                        <p class="fs-12">+ KDV / Yıl</p>
                         <a href="https://pos.adisyo.com/#/signup" target="_blank" class="price_btn btn_hover">
                             Satın Al
                         </a>
@@ -771,8 +765,8 @@ layout: wrapper
                         </a>
                     </span>
                     <span class="text-center">
-                        <p class="f_size_18 font-weight-bold mb-0">₺49,00</p>
-                        <p class="fs-12">+ KDV / Entegrasyon</p>
+                        <p class="f_size_18 font-weight-bold mb-0">₺59,00</p>
+                        <p class="fs-12">+ KDV / Ay</p>
                         <a href="https://pos.adisyo.com/#/signup" target="_blank" class="price_btn btn_hover">
                             Satın Al
                         </a>
@@ -793,7 +787,7 @@ layout: wrapper
 
         <!-- ########## MOBILE ########## -->
 
-        <!-- <div class="container mobile_prices">
+         <div class="container mobile_prices">
             <h3 class="text-center mb-5">
                 Planlar & Fiyatlandırma
             </h3>
@@ -801,7 +795,7 @@ layout: wrapper
             <div class="tabs">
                 <div class="tab">
                     <input type="radio" id="tab-1" name="tab-group-1" checked>
-                    <label for="tab-1" class="m-0">12 Aylık</label>
+                    <label for="tab-1" class="m-0">Standart</label>
                     <div class="content package_features">
                         <div class="mb-4 d-flex align-items-center justify-content-between">
                         
@@ -809,7 +803,7 @@ layout: wrapper
                                 <p class="color-red mb-4">%30 İndirimli</p>
 
                                 <span class="d-flex flex-wrap">
-                                    <span class="f_size_38 f_600">₺104,00</span>
+                                    <span class="f_size_38 f_600">₺207,00</span>
                                     <span class="ml-2">+ KDV / AY</span>
                                 </span>
                             </div>
@@ -819,16 +813,11 @@ layout: wrapper
                                 Ücretsiz Dene
                             </a>
                         </div>
-                        <span style="font-size:12px;font-weight: bold;color: #7d8a7d;">Toplam ₺1249.00 + KDV</span>
                         <div class="package_feature_item">
-                            <p class="w-100 m-0">Sınırsız Kullanıcı, Tek Fiyat</p>
+                            <p class="w-100 m-0">Kullanıcı Sayısı</p>
 
                             <span>
-                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"
-                                    fill="#000000">
-                                    <path d="M0 0h24v24H0z" fill="none" />
-                                    <path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z" />
-                                </svg>
+                                <p>4 - 8 kullanıcı</p>
                             </span>
                         </div>
                         <div class="package_feature_item">
@@ -901,8 +890,8 @@ layout: wrapper
                             </div>
 
                             <span class="text-center">
-                                <p class="f_size_18 font-weight-bold mb-0">₺390,00</p>
-                                <p class="fs-12">+ KDV / Entegrasyon</p>
+                                <p class="f_size_18 font-weight-bold mb-0">49,00</p>
+                                <p class="fs-12">+ KDV / Ay</p>
                                 <a href="https://pos.adisyo.com/#/signup" target="_blank" class="price_btn btn_hover">
                                     Satın Al
                                 </a>
@@ -920,8 +909,8 @@ layout: wrapper
                             </div>
 
                             <span class="text-center">
-                                <p class="f_size_18 font-weight-bold mb-0">₺490,00</p>
-                                <p class="fs-12">+ KDV / Entegrasyon</p>
+                                <p class="f_size_18 font-weight-bold mb-0">₺59,00</p>
+                                <p class="fs-12">+ KDV / Ay</p>
                                 <a href="https://pos.adisyo.com/#/signup" target="_blank" class="price_btn btn_hover">
                                     Satın Al
                                 </a>
@@ -940,8 +929,8 @@ layout: wrapper
                             </div>
 
                             <span class="text-center">
-                                <p class="f_size_18 font-weight-bold mb-0">₺490,00</p>
-                                <p class="fs-12">+ KDV / Entegrasyon</p>
+                                <p class="f_size_18 font-weight-bold mb-0">₺59,00</p>
+                                <p class="fs-12">+ KDV / Ay</p>
                                 <a href="https://pos.adisyo.com/#/signup" target="_blank" class="price_btn btn_hover">
                                     Satın Al
                                 </a>
@@ -952,14 +941,14 @@ layout: wrapper
 
                 <div class="tab">
                     <input type="radio" id="tab-4" name="tab-group-1">
-                    <label for="tab-4">Aylık</label>
+                    <label for="tab-4">Lite</label>
                     <div class="content package_features">
                         <div class="mb-4 d-flex align-items-center justify-content-between">
                             <div>
                                 <p class="color-red m-0">15 Gün Ücretsiz</p>
 
                                 <span class="d-flex flex-wrap">
-                                    <span class="f_size_38 f_600">₺149,00</span>
+                                    <span class="f_size_38 f_600">₺146,00</span>
                                     <span class="ml-2">+ KDV / AY</span>
                                 </span>
                             </div>
@@ -970,14 +959,10 @@ layout: wrapper
                             </a>
                         </div>
                         <div class="package_feature_item">
-                            <p class="w-100 m-0">Sınırsız Kullanıcı, Tek Fiyat</p>
+                            <p class="w-100 m-0">Kullanıcı Sayısı</p>
 
                             <span>
-                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"
-                                    fill="#000000">
-                                    <path d="M0 0h24v24H0z" fill="none" />
-                                    <path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z" />
-                                </svg>
+                                <p>1 - 3 Kullanıcı</p>
                             </span>
                         </div>
                         <div class="package_feature_item">
@@ -1050,8 +1035,8 @@ layout: wrapper
                             </div>
 
                             <span class="text-center">
-                                <p class="f_size_18 font-weight-bold mb-0">₺39,00</p>
-                                <p class="fs-12">+ KDV / Entegrasyon</p>
+                                <p class="f_size_18 font-weight-bold mb-0">₺49,00</p>
+                                <p class="fs-12">+ KDV / Ay</p>
                                 <a href="https://pos.adisyo.com/#/signup" target="_blank" class="price_btn btn_hover">
                                     Satın Al
                                 </a>
@@ -1069,8 +1054,8 @@ layout: wrapper
                             </div>
 
                             <span class="text-center">
-                                <p class="f_size_18 font-weight-bold mb-0">₺49,00</p>
-                                <p class="fs-12">+ KDV / Entegrasyon</p>
+                                <p class="f_size_18 font-weight-bold mb-0">₺59,00</p>
+                                <p class="fs-12">+ KDV / Ay</p>
                                 <a href="https://pos.adisyo.com/#/signup" target="_blank" class="price_btn btn_hover">
                                     Satın Al
                                 </a>
@@ -1089,8 +1074,8 @@ layout: wrapper
                             </div>
 
                             <span class="text-center">
-                                <p class="f_size_18 font-weight-bold mb-0">₺49,00</p>
-                                <p class="fs-12">+ KDV / Entegrasyon</p>
+                                <p class="f_size_18 font-weight-bold mb-0">₺59,00</p>
+                                <p class="fs-12">+ KDV / Ay</p>
                                 <a href="https://pos.adisyo.com/#/signup" target="_blank" class="price_btn btn_hover">
                                     Satın Al
                                 </a>
