@@ -219,10 +219,15 @@ function onChangePricePackage(packageId) {
             monthTotal: 295,
             month3: 265,
             month3Total: 795,
-            month6: 257,
-            month6Total: 1545,
+            month6: 245,
+            month6Total: 1470,
             month12: 207,
-            month12Total: 2490
+            month12Total: 2490,
+            discount12: 30,
+            discount6: 10,
+            discount3: 5,
+            
+
         },
         lite: {
             month: 195,
@@ -232,7 +237,10 @@ function onChangePricePackage(packageId) {
             month6: 166,
             month6Total: 995,
             month12: 146,
-            month12Total: 1750
+            month12Total: 1750,
+            discount12: 25,
+            discount6: 10,
+            discount3: 5,
         },
         pro: {
             month: 395,
@@ -242,7 +250,10 @@ function onChangePricePackage(packageId) {
             month6: 349,
             month6Total: 2095,
             month12: 274,
-            month12Total: 3290
+            month12Total: 3290,
+            discount12: 30,
+            discount6: 10,
+            discount3: 5,
         },
     }
 
@@ -256,25 +267,36 @@ function onChangePricePackage(packageId) {
 function setPackage(packageName, priceValue, packageId) {
     const price = document.getElementById(packageName + '-price');
     const totalPrice = document.getElementById(packageName + '-total-price');
+    const totalPriceDiscount = document.getElementById(packageName + '-total-price-discount');
+    const discountText = document.querySelectorAll('.discount_text');
 
-    if(!price) return;
+    discountText.forEach(m => m.classList.remove('d-none'));
+
+
+    if (!price) return;
 
     switch (packageId) {
         case 1:
             price.innerHTML = priceValue.month;
             totalPrice.innerHTML = priceValue.monthTotal;
+            totalPriceDiscount.innerHTML = priceValue.discount;
+
+            discountText.forEach(m => m.classList.add('d-none'));
             break;
         case 3:
             price.innerHTML = priceValue.month3;
             totalPrice.innerHTML = priceValue.month3Total;
+            totalPriceDiscount.innerHTML = priceValue.discount3;
             break;
         case 6:
             price.innerHTML = priceValue.month6;
             totalPrice.innerHTML = priceValue.month6Total;
+            totalPriceDiscount.innerHTML = priceValue.discount6;
             break;
         case 12:
             price.innerHTML = priceValue.month12;
             totalPrice.innerHTML = priceValue.month12Total;
+            totalPriceDiscount.innerHTML = priceValue.discount12;
             break;
     }
 }
