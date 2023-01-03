@@ -219,8 +219,8 @@ function onChangePricePackage(packageId) {
             monthTotal: 295,
             month3: 265,
             month3Total: 795,
-            month6: 266,
-            month6Total: 1595,
+            month6: 257,
+            month6Total: 1545,
             month12: 207,
             month12Total: 2490
         },
