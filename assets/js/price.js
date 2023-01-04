@@ -226,8 +226,7 @@ function onChangePricePackage(packageId) {
             discount12: 30,
             discount6: 10,
             discount3: 5,
-            
-
+            discount: 0
         },
         lite: {
             month: 195,
@@ -241,6 +240,7 @@ function onChangePricePackage(packageId) {
             discount12: 25,
             discount6: 10,
             discount3: 5,
+            discount: 0
         },
         pro: {
             month: 395,
@@ -254,14 +254,15 @@ function onChangePricePackage(packageId) {
             discount12: 30,
             discount6: 10,
             discount3: 5,
+            discount: 0
         },
     }
 
     setPackage('lite', lite, packageId);
 
-    setPackage('pro', pro, packageId);
-
     setPackage('standart', standart, packageId);
+
+    setPackage('pro', pro, packageId);
 }
 
 function setPackage(packageName, priceValue, packageId) {
@@ -270,33 +271,45 @@ function setPackage(packageName, priceValue, packageId) {
     const totalPriceDiscount = document.getElementById(packageName + '-total-price-discount');
     const discountText = document.querySelectorAll('.discount_text');
 
-    discountText.forEach(m => m.classList.remove('d-none'));
-
-
     if (!price) return;
+
+    let value = {
+        month: 0,
+        monthTotal: 0,
+        discount: 0
+    };
 
     switch (packageId) {
         case 1:
-            price.innerHTML = priceValue.month;
-            totalPrice.innerHTML = priceValue.monthTotal;
-            totalPriceDiscount.innerHTML = priceValue.discount;
-
-            discountText.forEach(m => m.classList.add('d-none'));
+            value.month = priceValue.month;
+            value.monthTotal = priceValue.monthTotal;
+            value.discount = priceValue.discount;
             break;
         case 3:
-            price.innerHTML = priceValue.month3;
-            totalPrice.innerHTML = priceValue.month3Total;
-            totalPriceDiscount.innerHTML = priceValue.discount3;
+            value.month = priceValue.month3;
+            value.monthTotal = priceValue.month3Total;
+            value.discount = priceValue.discount3;
             break;
         case 6:
-            price.innerHTML = priceValue.month6;
-            totalPrice.innerHTML = priceValue.month6Total;
-            totalPriceDiscount.innerHTML = priceValue.discount6;
+            value.month = priceValue.month6;
+            value.monthTotal = priceValue.month6Total;
+            value.discount = priceValue.discount6;
             break;
         case 12:
-            price.innerHTML = priceValue.month12;
-            totalPrice.innerHTML = priceValue.month12Total;
-            totalPriceDiscount.innerHTML = priceValue.discount12;
+            value.month = priceValue.month12;
+            value.monthTotal = priceValue.month12Total;
+            value.discount = priceValue.discount12;
             break;
     }
+
+    price.innerHTML = value.month;
+    totalPrice.innerHTML = value.monthTotal;
+
+    if (totalPriceDiscount)
+        totalPriceDiscount.innerHTML = value.discount;
+
+    if (value.discount > 0)
+        discountText.forEach(m => m.classList.remove('d-none'));
+    else
+        discountText.forEach(m => m.classList.add('d-none'));
 }
