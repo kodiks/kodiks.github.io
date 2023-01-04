@@ -24,11 +24,11 @@ descriptions:
     desc: |
           <ul class="list-unstyled mb-30">
             <li><i class="ti-check"></i>QR kod tarama</li>
-            <p class="qr-menu-text">Menünüzü müşterilerinize hiç bir uygulama yükletmeden akıllı telefonların kamerasına, sizin için özel olarak tasarlanmış olan karekod’u okutarak hizmet kalitenizi geliştirin, müşterilerinizi memnun ederek, gelirinizi arttırın. </p>
+            <p style="font-size:13px;color:#898989;font-weight:500">Menünüzü müşterilerinize hiç bir uygulama yükletmeden akıllı telefonların kamerasına, sizin için özel olarak tasarlanmış olan karekod’u okutarak hizmet kalitenizi geliştirin, müşterilerinizi memnun ederek, gelirinizi arttırın. </p>
             <li><i class="ti-check"></i>Sipariş verme</li>
-            <p class="qr-menu-text">Dijital menü sayesinde ürünlerinizi müşterilerinize daha ayrıntılı şekilde tanıtarak, hızlı ve kolay sipariş vermelerini sağlayabilirsiniz.  </p>
+            <p style="font-size:13px;color:#898989;font-weight:500">Dijital menü sayesinde ürünlerinizi müşterilerinize daha ayrıntılı şekilde tanıtarak, hızlı ve kolay sipariş vermelerini sağlayabilirsiniz.  </p>
             <li><i class="ti-check"></i>Güncellik</li>
-            <p class="qr-menu-text">Dijital menüler, istenildiği anda güncellenir ve müşterilere en güncel ürünleri sunar.</p>
+            <p style="font-size:13px;color:#898989;font-weight:500">Dijital menüler, istenildiği anda güncellenir ve müşterilere en güncel ürünleri sunar.</p>
           </ul>
     image: /assets/img/home/features/1.png
 
@@ -36,13 +36,13 @@ descriptions:
     desc: |
           <ul class="list-unstyled mb-30">
             <li><i class="ti-check"></i>Hızlı ve kolay erişim</li>
-            <p class="qr-menu-text">
+            <p style="font-size:13px;color:#898989;font-weight:500">
             Adisyo QR menü ile, müşterilerinizin daha hızlı ve daha hijyenik bir sipariş verme deneyimi sunun. Müşterilerinizi memnun ederek, gelirinizi arttırın.
             </p>
             <li><i class="ti-check"></i>Daha hijyenik</li>
-            <p class="qr-menu-text">Dijital (karekod) menüler, müşterilerinizin klasik, fiziksel bir menüyü elle tutma ve okuma sürecini ortadan kaldırarak, daha hijyenik bir sipariş verme deneyimi sunar.</p>
+            <p style="font-size:13px;color:#898989;font-weight:500">Dijital (karekod) menüler, müşterilerinizin klasik, fiziksel bir menüyü elle tutma ve okuma sürecini ortadan kaldırarak, daha hijyenik bir sipariş verme deneyimi sunar.</p>
             <li><i class="ti-check"></i>Güncellenebilirlik</li>
-            <p class="qr-menu-text">QR menüler, istenildiği an güncellenebilir. Böylece müşterilerinize en güncel yiyecek ve içeceklerin menüsünü sunabilir, klasik menülere kıyasla çok daha iyi bir deneyim yaşatabilirsiniz. Çünkü klasik menüler genellikle haftalarca veya aylarca güncellenmez ve müşteriler yeni ürünleri ya da yeni fiyatları göremezler.</p>
+            <p style="font-size:13px;color:#898989;font-weight:500">QR menüler, istenildiği an güncellenebilir. Böylece müşterilerinize en güncel yiyecek ve içeceklerin menüsünü sunabilir, klasik menülere kıyasla çok daha iyi bir deneyim yaşatabilirsiniz. Çünkü klasik menüler genellikle haftalarca veya aylarca güncellenmez ve müşteriler yeni ürünleri ya da yeni fiyatları göremezler.</p>
           </ul>
     image: /assets/img/home/features/2.png
 
