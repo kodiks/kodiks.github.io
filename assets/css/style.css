@@ -13518,3 +13518,9 @@ input+label:before {
     color: white;
     border: none;
 }
+
+.qr-menu-text{
+    font-size: 13px;
+    color: #898989;
+    font-weight: 500;
+}
