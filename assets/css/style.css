@@ -13519,3 +13519,47 @@ input+label:before {
     border: none;
 }
 
+
+
+
+@media (max-width:499px) {
+    .cmp-pay {
+        margin: auto !important;
+    }
+    .cmp{
+        margin-top:-1000px !important;
+    }
+}
+
+
+@media (max-width:991px) {
+    .cmp-pay {
+        margin: auto !important;
+    }
+}
+
+ @media (max-width:1249px) {
+    .cmp-30-img {
+        position: relative !important;
+        left: 539px !important;
+        top: 41px !important;
+    }
+    .cmp-30{
+        position: absolute !important;
+        left: 591% !important;
+        top: 90%!important;
+    }
+}
+
+/* @media (min-width:1130px) {
+    .cmp-30 {
+        position: relative !important;
+        left: 485px !important;
+    }
+    .title_text{
+        position: absolute !important;
+        left: 535% !important;
+    }
+} 
+ */
+
