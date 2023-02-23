@@ -184,6 +184,8 @@ Bir hakkın tesisi, kullanılması veya korunması için veri işlemenin zorunlu
 **4.18** Kişisel verilerinizi talep etmeye yetkili olan diğer kamu kurum veya kuruluşlarıyla, yurtiçi ve/veya yurtdışında bulunan iştiraklerimizle, tedarikçilerimizle, iş ortaklarımızla, 
 anlaşmalı olduğumuz bankalarla ve ürün veya hizmet aldığımız üçüncü kişilerle paylaşılabilmektedir.
 
+**4.19** Adisyo, doğrudan yada pazaryeri üzerinden sunulan POS, Online Sipariş, QR Menü v.b. uygulama hizmetlerini sağlamak üzere bu hizmetlerin verilebilmesini gerektiren zorunluluk ölçüsünde müşteri verilerini iş ortakları ve entegrasyon ortaklarının erişimine açabilir. Veri paylaşımı KVKK kişisel veri gizliliğini koruma hükümlerine uygun şekilde gerçekleştirilir.
+
 
 #### Madde 5. ADİSYO KİŞİSEL VERİLERİNİZİ NASIL KORUYOR?
 
