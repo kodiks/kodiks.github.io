@@ -7,7 +7,7 @@ image: "/assets/img/blog/blog-19.webp"
 author: "Girişimcilik"
 categories: ["Yeme-içme sektöründe sürdürülebilirlik"]
 tags: []
-redirect_from: 
+redirect_from:
     - /blog/2022-02-27-restoran-acmak-icin-gerekli-belgeler/
 permalink: /blog/cafe-restoran-lokanta-acmak-icin-gerekli-belgeler
 

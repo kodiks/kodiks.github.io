@@ -32,3 +32,4 @@ gem 'jekyll-admin', group: :jekyll_plugins
 gem 'jekyll-archives'
 gem 'jekyll-redirect-from'
 gem 'jekyll-sitemap'
+gem 'jekyll-paginate'
