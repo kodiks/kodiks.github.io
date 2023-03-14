@@ -56,7 +56,7 @@ collections:
     permalink: /ozellikler/:name/
   posts:
     output: true
-    permalink: /blog/:name/
+    permalink: /blog/:title/
   release-notes:
     output: true
     permalink: /surum-notlari/:name/
