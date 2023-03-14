@@ -8,9 +8,8 @@ author: "Girişimcilik"
 categories: ["Yeme-içme sektöründe sürdürülebilirlik"]
 tags: []
 redirect_from: 
-    -  https://adisyo.com/blog/2022-02-27-restoran-acmak-icin-gerekli-belgeler/
-permalink:
-      https://adisyo.com/blog/cafe-restoran-lokanta-acmak-icin-gerekli-belgeler
+    - /blog/2022-02-27-restoran-acmak-icin-gerekli-belgeler/
+permalink: /blog/cafe-restoran-lokanta-acmak-icin-gerekli-belgeler
 
 ---
 İşletme sahibi olmak isteyen birçok kişi, cafe, lokanta veya restoran açmak ister. Tabi, bu işi yapabilmek için bazı belgelere sahip olmak gereklidir. İşletmenizi açmak için izin ve lisanslar gibi birçok resmi belgeye ihtiyacınız olabilir. Bu belgeleri almak için de belirli bir süreç ve prosedürü takip etmelisiniz. Bu yazıda, cafe, lokanta veya restoran açmak isteyenler için gerekli olan tüm belgeleri ve süreçleri detaylı bir şekilde ele alacağız. Böylece işletmenizi açmak için gerekli olan tüm belgeleri öğrenerek, işinize hızlı bir başlangıç yapabilirsiniz.
