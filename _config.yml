@@ -49,7 +49,6 @@ plugins:
   - jekyll-archives
   - jekyll-redirect-from
   - jekyll-sitemap
-  - jekyll-paginate
   
 collections:
   features:
