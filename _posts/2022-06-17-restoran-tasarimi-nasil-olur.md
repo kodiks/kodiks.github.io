@@ -9,7 +9,7 @@ categories: ["Restoran Tasarımı Nasıl Olmalı"]
 tags: []
 redirect_from:
     - /blog/2022-06-17-restoran-tasarimi-nasil-olur/
-permalink: /blog/cafe-tasarimlari-konsept-cafe-restoran-tasarımlari/
+permalink: /blog/cafe-tasarimlari-konsept-cafe-restoran-tasarimlari/
 ---
 # Cafe Restoran Tasarımları Nasıl Olmalı? Konsept, Nostalji Cafe Tasarım İpuçları
 
