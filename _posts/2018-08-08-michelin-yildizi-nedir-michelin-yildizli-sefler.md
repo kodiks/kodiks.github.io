@@ -40,7 +40,7 @@ Peki neler baz alınıyor? Bu değerlendirmede sadece yemekler değil; işletmen
 
 Dünya genelinde “Michelin Yıldızı”na sahip 2817 restoran bulunmaktadır. Bu restoranlar arasında tek yıldızlı olanlar 2290, iki yıldızlılar 414 ve üç yıldızlı olan restoranların sayısı 113’dür. Ülkeler arasında 600 yıldızla Fransa birinci sırada. Tokyo ise 217 Michelin yıldızına sahip restoranlar ile dikkat çekiyor. İtalya, Almanya ve ABD ise bu yarışın diğer iddialı ülkeleri. 
 
-## Michelin Yıldızlı Restoranlar Michelin Yıldızlı restoranlar
+## Michelin Yıldızlı Restoranlar 
 
 yüksek kaliteli yemekleri ve hizmeti olan işletmeler olarak kabul ediliyor. İşte bu restoranlardan bazıları:
 
@@ -55,7 +55,7 @@ yüksek kaliteli yemekleri ve hizmeti olan işletmeler olarak kabul ediliyor. İ
 *Restaurant Gordon Ramsay, televizyon ekranlarından da tanınan Şef Gordon Ramsay’in sahip olduğu bir işletme. Ünlü şefin 14 restoranı var.<br>*Londra’da Fransız mutfağı meraklılarını ağırlıyor.<br>
 ABD’nin 3 Michelin Yıldızlı restoranlarından biri olan Alinea.
 
-## Michelin Yıldızlı Şefler	Michelin Yıldızlı şefler
+## Michelin Yıldızlı Şefler
 
 yemek pişirmeyi bir sanat haline getirmiş ustalar. Bu şefler, yalnızca yemeklerinde kullanacakları malzemeleri seçmekle kalmıyorlar, aynı zamanda yemek sunumunda da büyük bir özen gösteriyorlar. Lezzet, görünüm ve aroma gibi unsurların tümü, Michelin Yıldızlı Şeflerin yemeklerinin başarısını belirliyor. 
 
