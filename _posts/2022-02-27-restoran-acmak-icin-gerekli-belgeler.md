@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Restoran Açmak için Gerekli Belgeler    
+title:  Cafe, Restoran, Lokanta Açmak için Gerekli Belgeler    
 summary: Girişimcilik faaliyetinde bulunmak isteyenler için popüler sektörler devamlı olarak değişiyor.  
 date: 2022-02-27 09:00:00
 image: "/assets/img/blog/blog-19.webp"
